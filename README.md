@@ -1,2 +1,2 @@
-# goethe
-deutsch lernen
+# wcmini-goethe
+Deutsch lernen
