@@ -1,0 +1,53 @@
+<view class="container">
+  <!-- 记单词 Section -->
+  <view class="section">
+    <view class="section-header">
+      <view class="section-title">
+        <view class="title-bar"></view>
+        <text class="title">记单词</text>
+        <text class="subtitle">学得快 记得牢</text>
+      </view>
+    </view>
+
+    <view class="grid">
+      <block wx:for="{{sections.vocabulary}}" wx:key="title">
+        <view class="grid-item {{item.bgColor}}" bindtap="handleCardTap" data-section="vocabulary" data-index="{{index}}">
+          <view class="item-content">
+            <view class="item-title">{{item.title}}</view>
+            <view class="item-subtitle">{{item.subtitle}}</view>
+            <image class="item-icon" mode="aspectFit" src="/pages/images/{{item.icon}}.png"></image>
+          </view>
+        </view>
+      </block>
+    </view>
+
+    <!-- User Count -->
+    <view class="user-count">
+      <image class="location-icon" src="/pages/images/location.png"></image>
+      <text>您身边有{{userCount}}个学习达人</text>
+    </view>
+  </view>
+
+  <!-- 学课文 Section -->
+  <view class="section">
+    <view class="section-header">
+      <view class="section-title">
+        <view class="title-bar"></view>
+        <text class="title">学课文</text>
+        <text class="subtitle">读得好 记得准</text>
+      </view>
+    </view>
+
+    <view class="grid">
+      <block wx:for="{{sections.reading}}" wx:key="title">
+        <view class="grid-item {{item.bgColor}} {{item.fullWidth ? 'blue-long' : ''}}" bindtap="handleCardTap" data-section="reading" data-index="{{index}}">
+          <view class="item-content">
+            <view class="item-title">{{item.title}}</view>
+            <view class="item-subtitle">{{item.subtitle}}</view>
+            <image class="item-icon" mode="aspectFit" src="/pages/images/{{item.icon}}.png"></image>
+          </view>
+        </view>
+      </block>
+    </view>
+  </view>
+</view>
