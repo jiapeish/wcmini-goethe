@@ -1,19 +1,10 @@
 {
   "pages": [
     "pages/index/index",
-    "pages/recommend/recommend",
-    "pages/profile/profile"
+    "pages/profile/profile",
+    "pages/recommend/recommend"
   ],
-  "window": {
-    "backgroundTextStyle": "light",
-    "navigationBarBackgroundColor": "#fff",
-    "navigationBarTitleText": "歌德助手-喵呜学德语",
-    "navigationBarTextStyle": "black"
-  },
   "tabBar": {
-    "color": "#999999",
-    "selectedColor": "#3cc51f",
-    "backgroundColor": "#ffffff",
     "list": [
       {
         "pagePath": "pages/index/index",
@@ -29,10 +20,16 @@
       },
       {
         "pagePath": "pages/profile/profile",
-        "text": "个人中心",
+        "text": "我的",
         "iconPath": "pages/images/user.png",
         "selectedIconPath": "pages/images/user_selected.png"
       }
     ]
+  },
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#fff",
+    "navigationBarTitleText": "闪电德语-喵呜学德语",
+    "navigationBarTextStyle": "black"
   }
 }

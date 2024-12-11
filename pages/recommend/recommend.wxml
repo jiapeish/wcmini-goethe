@@ -1,3 +1,5 @@
-<view class="container">
-  <text>推荐页面</text>
+<view>
+  <input type="text" bindinput="handleInput" value="{{userInput}}" placeholder="Enter your message" />
+  <button bindtap="sendMessage">Send</button>
+  <text>{{apiResponse}}</text>
 </view>
