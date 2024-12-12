@@ -1,5 +1,32 @@
-<view>
-  <input type="text" bindinput="handleInput" value="{{userInput}}" placeholder="Enter your message" />
-  <button bindtap="sendMessage">Send</button>
-  <text>{{apiResponse}}</text>
+<view class="page">
+  <view class="header">
+    <text class="title">闪电德语AI助手</text>
+  </view>
+
+  <scroll-view scroll-y="true" class="chat-area" scroll-into-view="{{scrollToView}}" scroll-with-animation="true" enhanced="true" show-scrollbar="false">
+    <view class="message-list">
+      <block wx:for="{{messages}}" wx:key="index">
+        <!-- AI Message -->
+        <view class="message-row {{item.type === 'ai' ? 'ai-row' : 'user-row'}}" id="msg-{{index}}" wx:if="{{item.type === 'ai'}}">
+          <view class="avatar">
+            <image src="/pages/images/ai-rabbit.png" mode="aspectFit"></image>
+          </view>
+          <view class="message ai">
+            <text decode="true">{{item.content}}</text>
+          </view>
+        </view>
+        <!-- User Message -->
+        <view class="message-row {{item.type === 'ai' ? 'ai-row' : 'user-row'}}" id="msg-{{index}}" wx:else>
+          <view class="message user">
+            <text decode="true">{{item.content}}</text>
+          </view>
+        </view>
+      </block>
+    </view>
+  </scroll-view>
+
+  <view class="input-container">
+    <input class="message-input" type="text" bindinput="handleInput" value="{{userInput}}" placeholder="请输入您的问题" confirm-type="send" bindconfirm="sendMessage" />
+    <button class="send-button" bindtap="sendMessage" type="primary">发送</button>
+  </view>
 </view>

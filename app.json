@@ -29,7 +29,10 @@
   "window": {
     "backgroundTextStyle": "light",
     "navigationBarBackgroundColor": "#fff",
-    "navigationBarTitleText": "闪电德语-喵呜学德语",
+    "navigationBarTitleText": "WeChat",
     "navigationBarTextStyle": "black"
+  },
+  "request": {
+    "domain": ["https://api.openrouter.ai"]
   }
 }
