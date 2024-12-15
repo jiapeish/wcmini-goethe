@@ -1,0 +1,160 @@
+.container {
+  padding: 20rpx;
+  background-color: #f5f5f5;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.loading {
+  text-align: center;
+  padding: 40rpx;
+  color: #999;
+}
+
+.word-card {
+  width: 90%;
+  background: white;
+  border-radius: 20rpx;
+  box-shadow: 0 4rpx 20rpx rgba(0, 0, 0, 0.1);
+  padding: 30rpx;
+  margin-top: 40rpx;
+}
+
+.progress {
+  text-align: center;
+  color: #666;
+  font-size: 28rpx;
+  margin-bottom: 30rpx;
+}
+
+.card-content {
+  min-height: 600rpx;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.word-section {
+  text-align: center;
+  margin-bottom: 40rpx;
+}
+
+.word {
+  font-size: 48rpx;
+  font-weight: bold;
+  color: #333;
+  display: block;
+  margin-bottom: 10rpx;
+}
+
+.type {
+  font-size: 28rpx;
+  color: #666;
+  display: block;
+}
+
+.example-section {
+  padding: 20rpx;
+  background: #f8f8f8;
+  border-radius: 10rpx;
+  margin: 20rpx 0;
+}
+
+.example {
+  font-size: 30rpx;
+  color: #444;
+  line-height: 1.6;
+}
+
+.meaning-section {
+  text-align: center;
+  padding: 20rpx;
+  margin: 20rpx 0;
+  opacity: 0;
+  transform: translateY(20rpx);
+  transition: all 0.3s ease;
+}
+
+.meaning-section.show {
+  opacity: 1;
+  transform: translateY(0);
+}
+
+.meaning {
+  font-size: 32rpx;
+  color: #e74c3c;
+  font-weight: bold;
+}
+
+.verb-forms {
+  margin-top: 20rpx;
+  padding: 20rpx;
+  background: #f8f8f8;
+  border-radius: 10rpx;
+}
+
+.verb-forms text {
+  display: block;
+  font-size: 28rpx;
+  color: #666;
+  margin: 10rpx 0;
+}
+
+.controls {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 40rpx;
+  padding-top: 20rpx;
+  border-top: 2rpx solid #eee;
+}
+
+.control-btn {
+  flex: 1;
+  margin: 0 10rpx;
+  height: 80rpx;
+  line-height: 80rpx;
+  font-size: 28rpx;
+  border-radius: 40rpx;
+  background: #f0f0f0;
+  color: #333;
+  border: none;
+  padding: 0;
+}
+
+.control-btn::after {
+  border: none;
+}
+
+.control-btn[disabled] {
+  background: #f5f5f5;
+  color: #999;
+}
+
+.show-btn {
+  background: #4a90e2;
+  color: white;
+}
+
+.show-btn:active {
+  background: #357abd;
+}
+
+/* 添加卡片翻转动画 */
+@keyframes cardFlip {
+  0% {
+    transform: perspective(1000rpx) rotateY(0deg);
+  }
+  100% {
+    transform: perspective(1000rpx) rotateY(180deg);
+  }
+}
+
+.card-content {
+  transition: transform 0.3s ease;
+}
+
+.card-content:active {
+  transform: scale(0.98);
+}

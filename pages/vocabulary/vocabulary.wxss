@@ -1,0 +1,89 @@
+.container {
+  padding: 20rpx;
+  background-color: #f5f5f5;
+  min-height: 100vh;
+}
+
+.header {
+  padding: 30rpx 20rpx;
+  margin-bottom: 30rpx;
+}
+
+.title {
+  font-size: 40rpx;
+  font-weight: bold;
+  color: #333;
+  display: block;
+  margin-bottom: 10rpx;
+}
+
+.subtitle {
+  font-size: 28rpx;
+  color: #666;
+}
+
+.loading {
+  text-align: center;
+  padding: 40rpx;
+  color: #999;
+}
+
+.card-grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 20rpx;
+  padding: 10rpx;
+}
+
+.card {
+  background: white;
+  border-radius: 16rpx;
+  box-shadow: 0 2rpx 10rpx rgba(0, 0, 0, 0.1);
+  overflow: hidden;
+  transition: transform 0.2s;
+  position: relative;
+  height: 200rpx;
+}
+
+.card:active {
+  transform: scale(0.98);
+}
+
+.card-content {
+  padding: 20rpx;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.card-title {
+  font-size: 32rpx;
+  font-weight: bold;
+  color: #333;
+  margin-bottom: 10rpx;
+}
+
+.card-info {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.word-count {
+  font-size: 24rpx;
+  color: #666;
+  background: #f0f0f0;
+  padding: 4rpx 12rpx;
+  border-radius: 20rpx;
+}
+
+/* 为每张卡片添加不同的渐变背景色 */
+.card:nth-child(1) { background: linear-gradient(135deg, #FFE4B5, #FFA07A); }
+.card:nth-child(2) { background: linear-gradient(135deg, #E0FFFF, #87CEEB); }
+.card:nth-child(3) { background: linear-gradient(135deg, #DDA0DD, #BA55D3); }
+.card:nth-child(4) { background: linear-gradient(135deg, #98FB98, #3CB371); }
+.card:nth-child(5) { background: linear-gradient(135deg, #FFC0CB, #FF69B4); }
+.card:nth-child(6) { background: linear-gradient(135deg, #F0E68C, #DAA520); }
+.card:nth-child(7) { background: linear-gradient(135deg, #B0E0E6, #4682B4); }
+.card:nth-child(8) { background: linear-gradient(135deg, #D3D3D3, #A9A9A9); }

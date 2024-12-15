@@ -1,0 +1,52 @@
+<view class="container">
+  <view class="loading" wx:if="{{loading}}">
+    <text>加载中...</text>
+  </view>
+
+  <view class="word-card" wx:else>
+    <view class="progress">
+      <text>{{currentIndex + 1}} / {{wordList.length}}</text>
+    </view>
+
+    <view class="card-content" bindtap="toggleMeaning">
+      <!-- 单词部分 -->
+      <view class="word-section">
+        <text class="word">{{wordList[currentIndex].word}}</text>
+        <text class="type" wx:if="{{wordList[currentIndex].type === 'noun'}}">
+          {{wordList[currentIndex].article}} {{wordList[currentIndex].plural ? '(-' + wordList[currentIndex].plural + ')' : ''}}
+        </text>
+        <text class="type" wx:elif="{{wordList[currentIndex].type === 'verb'}}">
+          {{wordList[currentIndex].forms.infinitive}}
+        </text>
+        <text class="type" wx:else>
+          {{wordList[currentIndex].type}}
+        </text>
+      </view>
+
+      <!-- 例句部分 -->
+      <view class="example-section">
+        <text class="example">{{wordList[currentIndex].example}}</text>
+      </view>
+
+      <!-- 中文含义部分 -->
+      <view class="meaning-section {{showMeaning ? 'show' : ''}}">
+        <text class="meaning">{{wordList[currentIndex].meaning}}</text>
+      </view>
+
+      <!-- 动词变位信息 -->
+      <view class="verb-forms" wx:if="{{wordList[currentIndex].type === 'verb' || wordList[currentIndex].type === 'reflexive_verb'}}">
+        <text>现在时：{{wordList[currentIndex].forms.present}}</text>
+        <text>完成时：{{wordList[currentIndex].forms.perfect}}</text>
+      </view>
+    </view>
+
+    <!-- 控制按钮 -->
+    <view class="controls">
+      <button class="control-btn" bindtap="prevWord" disabled="{{currentIndex === 0}}">上一个</button>
+      <button class="control-btn show-btn" bindtap="toggleMeaning">
+        {{showMeaning ? '隐藏含义' : '显示含义'}}
+      </button>
+      <button class="control-btn" bindtap="nextWord" disabled="{{currentIndex === wordList.length - 1}}">下一个</button>
+    </view>
+  </view>
+</view>

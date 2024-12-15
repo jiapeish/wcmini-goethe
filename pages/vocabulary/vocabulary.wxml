@@ -1,0 +1,23 @@
+<view class="container">
+  <view class="header">
+    <text class="title">单元词汇</text>
+    <text class="subtitle">选择要学习的单词组</text>
+  </view>
+
+  <view class="loading" wx:if="{{loading}}">
+    <text>加载中...</text>
+  </view>
+
+  <view class="card-grid" wx:else>
+    <block wx:for="{{wordLists}}" wx:key="id">
+      <view class="card" bindtap="handleCardTap" data-index="{{index}}">
+        <view class="card-content">
+          <view class="card-title">{{item.title}}</view>
+          <view class="card-info">
+            <text class="word-count">{{item.total}}个单词</text>
+          </view>
+        </view>
+      </view>
+    </block>
+  </view>
+</view>

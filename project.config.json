@@ -4,7 +4,12 @@
   "libVersion": "3.7.1",
   "packOptions": {
     "ignore": [],
-    "include": []
+    "include": [
+      {
+        "value": "data/**/*.json",
+        "type": "glob"
+      }
+    ]
   },
   "setting": {
     "coverView": true,

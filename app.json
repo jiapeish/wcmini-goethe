@@ -2,7 +2,9 @@
   "pages": [
     "pages/index/index",
     "pages/profile/profile",
-    "pages/recommend/recommend"
+    "pages/recommend/recommend",
+    "pages/vocabulary/vocabulary",
+    "pages/word-list/word-list"
   ],
   "tabBar": {
     "list": [

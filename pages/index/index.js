@@ -43,6 +43,16 @@ Page({
   handleCardTap(e) {
     const { section, index } = e.currentTarget.dataset;
     const item = this.data.sections[section][index];
+    
+    // 处理单元词汇点击
+    if (section === 'vocabulary' && index === 0) {
+      wx.navigateTo({
+        url: '/pages/vocabulary/vocabulary'
+      });
+      return;
+    }
+
+    // 其他功能显示开发中
     wx.showToast({
       title: `${item.title}功能开发中`,
       icon: 'none',
