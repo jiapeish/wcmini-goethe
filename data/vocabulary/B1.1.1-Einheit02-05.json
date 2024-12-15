@@ -1,0 +1,205 @@
+{
+  "code": 0,
+  "msg": "success",
+  "data": {
+    "total": 22,
+    "words": [
+      {
+        "id": 1,
+        "type": "verb",
+        "forms": {
+          "infinitive": "voranbringen",
+          "present": "er bringt voran",
+          "perfect": "er hat vorangebracht"
+        },
+        "meaning": "推动，促进",
+        "example": "Das hat mich vorangebracht."
+      },
+      {
+        "id": 2,
+        "type": "adjective",
+        "word": "langfristig",
+        "meaning": "长期的，长远的",
+        "example": "Langfristig war das aber nicht gut."
+      },
+      {
+        "id": 3,
+        "type": "verb",
+        "forms": {
+          "infinitive": "verschieben",
+          "present": "er verschiebt",
+          "perfect": "er hat verschoben"
+        },
+        "meaning": "推迟，延期",
+        "example": "Arzttermine habe ich verschoben, abends saß ich über wichtigen Bauplänen."
+      },
+      {
+        "id": 4,
+        "type": "noun",
+        "article": "der",
+        "word": "Bauplan",
+        "plural": "-ä-e",
+        "meaning": "建筑图纸",
+        "example": "Arzttermine habe ich verschoben, abends saß ich über wichtigen Bauplänen."
+      },
+      {
+        "id": 5,
+        "type": "noun",
+        "article": "die",
+        "word": "Absage",
+        "plural": "-n",
+        "meaning": "拒绝，回绝",
+        "example": "Freunde haben sich nach der fünften Absage nicht mehr gemeldet."
+      },
+      {
+        "id": 6,
+        "type": "verb",
+        "forms": {
+          "infinitive": "wachrütteln",
+          "present": "er rüttelt wach",
+          "perfect": "er hat wachgerüttelt"
+        },
+        "meaning": "使醒悟",
+        "example": "Das hat mich wachgerüttelt."
+      },
+      {
+        "id": 7,
+        "type": "adjective",
+        "word": "mittlerweile",
+        "meaning": "在这期间",
+        "example": "Mittlerweile arbeite ich in einem großen Architektenbüro."
+      },
+      {
+        "id": 8,
+        "type": "noun",
+        "article": "das",
+        "word": "Architektenbüro",
+        "plural": "-s",
+        "meaning": "建筑设计师事务所",
+        "example": "Mittlerweile arbeite ich in einem großen Architektenbüro."
+      },
+      {
+        "id": 9,
+        "type": "noun",
+        "article": "die",
+        "word": "Kinderkrankenschwester",
+        "plural": "-n",
+        "meaning": "儿童女护士",
+        "example": "Die Arbeit als Kinderkrankenschwester ist nicht immer leicht."
+      },
+      {
+        "id": 10,
+        "type": "noun",
+        "article": "die",
+        "word": "Kinderklinik",
+        "plural": "-en",
+        "meaning": "儿童医院",
+        "example": "Meine Arbeit in der Kinderklinik ist nicht immer leicht."
+      },
+      {
+        "id": 11,
+        "type": "noun",
+        "article": "der",
+        "word": "Nachtdienst",
+        "plural": "-e",
+        "meaning": "夜班",
+        "example": "Ich habe oft Nachtdienst."
+      },
+      {
+        "id": 12,
+        "type": "reflexive_verb",
+        "forms": {
+          "infinitive": "sich konzentrieren",
+          "present": "er konzentriert sich",
+          "perfect": "er hat sich konzentriert"
+        },
+        "meaning": "集中思想，专心于",
+        "example": "Ich muss mich konzentrieren, denn es dürfen keine Fehler passieren."
+      },
+      {
+        "id": 13,
+        "type": "adjective",
+        "word": "körperlich",
+        "meaning": "身体的，体力的",
+        "example": "Es ist körperlich und manchmal auch psychisch schwere Arbeit."
+      },
+      {
+        "id": 14,
+        "type": "adjective",
+        "word": "psychisch",
+        "meaning": "心理的，精神上的",
+        "example": "Es ist körperlich und manchmal auch psychisch schwere Arbeit."
+      },
+      {
+        "id": 15,
+        "type": "adjective",
+        "word": "tief",
+        "meaning": "深刻的",
+        "example": "Das gibt meinem Leben einen tieferen Sinn."
+      },
+      {
+        "id": 16,
+        "type": "noun",
+        "article": "der",
+        "word": "Ausgleich",
+        "plural": "-e",
+        "meaning": "平衡",
+        "example": "Nach der Arbeit brauche ich einen Ausgleich."
+      },
+      {
+        "id": 17,
+        "type": "verb",
+        "forms": {
+          "infinitive": "guttun",
+          "present": "es tut gut",
+          "perfect": "es hat gutgetan"
+        },
+        "meaning": "对...有好处",
+        "example": "Yoga tut mir gut."
+      },
+      {
+        "id": 18,
+        "type": "noun",
+        "article": "die",
+        "word": "Work-Life-Balance",
+        "plural": "Sg.",
+        "meaning": "工作与生活的平衡",
+        "example": "Ich habe eine ziemlich gute Work-Life-Balance."
+      },
+      {
+        "id": 19,
+        "type": "noun",
+        "article": "der",
+        "word": "Stressfaktor",
+        "plural": "-en",
+        "meaning": "精神压力的因素",
+        "example": "Zu viel Arbeit ist ein Stressfaktor."
+      },
+      {
+        "id": 20,
+        "type": "noun",
+        "article": "der",
+        "word": "Feierabend",
+        "plural": "-e",
+        "meaning": "下班，收工",
+        "example": "Na dann, einen schönen Feierabend!"
+      },
+      {
+        "id": 21,
+        "type": "noun",
+        "article": "das",
+        "word": "letzte Mal",
+        "plural": "-",
+        "meaning": "最后一次",
+        "example": "Das letzte Mal war ich richtig gestresst, als ich zwei Stunden im Stau gestanden habe."
+      },
+      {
+        "id": 22,
+        "type": "adjective",
+        "word": "gestresst",
+        "meaning": "压力的，紧张的",
+        "example": "Das letzte Mal war ich richtig gestresst, als ich zwei Stunden im Stau gestanden habe."
+      }
+    ]
+  }
+}

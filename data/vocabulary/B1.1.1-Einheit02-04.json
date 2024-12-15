@@ -1,0 +1,197 @@
+{
+  "code": 0,
+  "msg": "success",
+  "data": {
+    "total": 20,
+    "words": [
+      {
+        "id": 1,
+        "type": "adjective",
+        "word": "polizeilich",
+        "meaning": "警方的，公安的",
+        "example": "Sie bekommen noch eine Kopie der polizeilichen Anzeige."
+      },
+      {
+        "id": 2,
+        "type": "noun",
+        "article": "der",
+        "word": "Ausweis",
+        "plural": "-e",
+        "meaning": "证件",
+        "example": "Ich habe meinen Ausweis verlegt, deshalb habe ich ein Problem."
+      },
+      {
+        "id": 3,
+        "type": "verb",
+        "forms": {
+          "infinitive": "verlegen",
+          "present": "er verlegt",
+          "perfect": "er hat verlegt"
+        },
+        "meaning": "把...放错不到了，把...不知道放到哪里去了",
+        "example": "Ich habe meinen Ausweis verlegt, deshalb habe ich ein Problem."
+      },
+      {
+        "id": 4,
+        "type": "noun",
+        "article": "der",
+        "word": "Beamte",
+        "plural": "-n",
+        "meaning": "公务员，公职人员",
+        "example": "Sie begrüßen den Beamten."
+      },
+      {
+        "id": 5,
+        "type": "verb",
+        "forms": {
+          "infinitive": "fragen nach etw.",
+          "present": "er fragt nach etw.",
+          "perfect": "er hat nach etw. gefragt"
+        },
+        "meaning": "询问，打听",
+        "example": "Der Beamte fragt nach der Adresse des Mannes."
+      },
+      {
+        "id": 6,
+        "type": "noun",
+        "article": "das",
+        "word": "Detail",
+        "plural": "-s",
+        "meaning": "细节",
+        "example": "Der Beamte fragt nach weiteren Details."
+      },
+      {
+        "id": 7,
+        "type": "verb",
+        "forms": {
+          "infinitive": "bitten um etw.",
+          "present": "er bittet um etw.",
+          "perfect": "er hat um etw. gebeten"
+        },
+        "meaning": "(向...)请求",
+        "example": "Er bittet Sie um Ihre Unterschrift."
+      },
+      {
+        "id": 8,
+        "type": "verb",
+        "forms": {
+          "infinitive": "darstellen",
+          "present": "er stellt dar",
+          "perfect": "er hat dargestellt"
+        },
+        "meaning": "阐述，描述",
+        "example": "Sie müssen das Problem gut darstellen."
+      },
+      {
+        "id": 9,
+        "type": "noun",
+        "article": "das",
+        "word": "Anliegen",
+        "plural": "-",
+        "meaning": "请求，愿望",
+        "example": "Er erklärt dem Beamten sein Anliegen."
+      },
+      {
+        "id": 10,
+        "type": "noun",
+        "article": "der",
+        "word": "Diebstahl",
+        "plural": "-ä-e",
+        "meaning": "偷窃",
+        "example": "Sie gehen zur Polizei und zeigen den Diebstahl an."
+      },
+      {
+        "id": 11,
+        "type": "verb",
+        "forms": {
+          "infinitive": "auffressen",
+          "present": "es frisst auf",
+          "perfect": "es hat aufgefressen"
+        },
+        "meaning": "使心力交瘁",
+        "example": "Frisst Ihr Job Sie auf?"
+      },
+      {
+        "id": 12,
+        "type": "noun",
+        "article": "das",
+        "word": "Gewissen",
+        "plural": "-",
+        "meaning": "良心，良知",
+        "example": "Viele Menschen haben immer ein schlechtes Gewissen."
+      },
+      {
+        "id": 13,
+        "type": "noun",
+        "article": "der/die",
+        "word": "Werbetexter/in",
+        "plural": "-/-nen",
+        "meaning": "广告撰稿者",
+        "example": "Wiebke Staude ist Werbetexterin von Beruf."
+      },
+      {
+        "id": 14,
+        "type": "noun",
+        "article": "die",
+        "word": "Werbebranche",
+        "plural": "-n",
+        "meaning": "广告行业",
+        "example": "Sie arbeitet in der Werbebranche."
+      },
+      {
+        "id": 15,
+        "type": "adjective",
+        "word": "letzt-",
+        "meaning": "最近的",
+        "example": "Die Arbeitswelt hat sich in den letzten Jahren stark verändert."
+      },
+      {
+        "id": 16,
+        "type": "noun",
+        "article": "die",
+        "word": "Regel",
+        "plural": "-n",
+        "meaning": "规则，准则",
+        "example": "Ich habe drei Regeln, die mir helfen."
+      },
+      {
+        "id": 17,
+        "type": "noun",
+        "article": "das",
+        "word": "Sportstudio",
+        "plural": "-s",
+        "meaning": "健身中心",
+        "example": "Ich gehe mindestens zweimal pro Woche ins Sportstudio."
+      },
+      {
+        "id": 18,
+        "type": "noun",
+        "article": "der/die",
+        "word": "Architekt/in",
+        "plural": "-en/-nen",
+        "meaning": "建筑师",
+        "example": "Ich habe damals als Architekt mit eigenem Büro gearbeitet."
+      },
+      {
+        "id": 19,
+        "type": "noun",
+        "article": "der",
+        "word": "Auftrag",
+        "plural": "-ä-e",
+        "meaning": "任务",
+        "example": "Deswegen habe ich alle Aufträge angenommen."
+      },
+      {
+        "id": 20,
+        "type": "verb",
+        "forms": {
+          "infinitive": "annehmen",
+          "present": "er nimmt an",
+          "perfect": "er hat angenommen"
+        },
+        "meaning": "接受",
+        "example": "Deswegen habe ich alle Aufträge angenommen."
+      }
+    ]
+  }
+}

@@ -1,0 +1,72 @@
+{
+  "code": 0,
+  "msg": "success",
+  "data": {
+    "total": 7,
+    "words": [
+      {
+        "id": 1,
+        "type": "noun",
+        "article": "die",
+        "word": "Frisur",
+        "plural": "-en",
+        "meaning": "发型，发式",
+        "example": "Kommentare zur Frisur sind immer gefährlich."
+      },
+      {
+        "id": 2,
+        "type": "verb",
+        "forms": {
+          "infinitive": "einziehen",
+          "present": "er zieht ein",
+          "perfect": "er hat eingezogen"
+        },
+        "meaning": "收回，收进",
+        "example": "Der EC-Automat hat meine Karte eingezogen!"
+      },
+      {
+        "id": 3,
+        "type": "noun",
+        "article": "der",
+        "word": "Clown",
+        "plural": "-s",
+        "meaning": "小丑",
+        "example": "Die Clowns schenken Kindern ein Lachen."
+      },
+      {
+        "id": 4,
+        "type": "noun",
+        "article": "die",
+        "word": "Therapie",
+        "plural": "-n",
+        "meaning": "治疗",
+        "example": "Die Therapie ist vielleicht schmerzhaft."
+      },
+      {
+        "id": 5,
+        "type": "adjective",
+        "word": "schmerzhaft",
+        "meaning": "痛苦的，疼痛的",
+        "example": "Die Therapie ist vielleicht schmerzhaft."
+      },
+      {
+        "id": 6,
+        "type": "noun",
+        "article": "der",
+        "word": "Künstler",
+        "plural": "-",
+        "meaning": "艺术家",
+        "example": "Van Gogh ist ein faszinierender Künstler."
+      },
+      {
+        "id": 7,
+        "type": "noun",
+        "article": "die",
+        "word": "Kontodaten",
+        "plural": "Pl.",
+        "meaning": "账户资料",
+        "example": "Die Kontodaten finden Sie online."
+      }
+    ]
+  }
+}

@@ -1,0 +1,226 @@
+{
+  "code": 0,
+  "msg": "success",
+  "data": {
+    "total": 23,
+    "words": [
+      {
+        "id": 1,
+        "type": "verb",
+        "forms": {
+          "infinitive": "lächeln",
+          "present": "er lächelt",
+          "perfect": "er hat gelächelt"
+        },
+        "meaning": "笑，微笑",
+        "example": "Einmal lächeln macht zehn Jahre jünger."
+      },
+      {
+        "id": 2,
+        "type": "verb",
+        "forms": {
+          "infinitive": "verlängern",
+          "present": "er verlängert",
+          "perfect": "er hat verlängert"
+        },
+        "meaning": "延长",
+        "example": "Lachen verlängert das Leben."
+      },
+      {
+        "id": 3,
+        "type": "noun",
+        "article": "der",
+        "word": "Kreißsaal",
+        "plural": "-säle",
+        "meaning": "产房",
+        "example": "Fahren Sie bitte schnell zum Kreißsaal!"
+      },
+      {
+        "id": 4,
+        "type": "verb",
+        "forms": {
+          "infinitive": "anhalten",
+          "present": "er hält an",
+          "perfect": "er hat angehalten"
+        },
+        "meaning": "停住，停下来",
+        "example": "Sofort anhalten!"
+      },
+      {
+        "id": 5,
+        "type": "noun",
+        "article": "der",
+        "word": "Fahrradhändler",
+        "plural": "-",
+        "meaning": "自行车经销商",
+        "example": "Der Fahrradhändler kann mein Fahrrad reparieren."
+      },
+      {
+        "id": 6,
+        "type": "noun",
+        "article": "die",
+        "word": "Langeweile",
+        "plural": "Sg.",
+        "meaning": "无聊，枯燥",
+        "example": "Im Deutschunterricht habe ich nie Langeweile."
+      },
+      {
+        "id": 7,
+        "type": "verb",
+        "forms": {
+          "infinitive": "bemerken",
+          "present": "er bemerkt",
+          "perfect": "er hat bemerkt"
+        },
+        "meaning": "发觉，注意到",
+        "example": "Haben Sie denn vorher etwas bemerkt?"
+      },
+      {
+        "id": 8,
+        "type": "noun",
+        "article": "der",
+        "word": "Online-Dienst",
+        "plural": "-e",
+        "meaning": "在线服务，联机服务",
+        "example": "Ich sperre die EC-Karte mit einem Online-Dienst."
+      },
+      {
+        "id": 9,
+        "type": "verb",
+        "forms": {
+          "infinitive": "anstoßen",
+          "present": "er stößt an",
+          "perfect": "er hat angestoßen"
+        },
+        "meaning": "撞，碰",
+        "example": "Ich habe jemanden mit dem Fahrrad angestoßen."
+      },
+      {
+        "id": 10,
+        "type": "noun",
+        "article": "der",
+        "word": "Nerv",
+        "plural": "-en",
+        "meaning": "神经",
+        "example": "Sie hat abends wegen ihres Jobs kaum noch Nerven."
+      },
+      {
+        "id": 11,
+        "type": "noun",
+        "article": "der",
+        "word": "Stressreport",
+        "plural": "-s",
+        "meaning": "(关于)精神压力的报告",
+        "example": "Im Stressreport stehen die größten Stressfaktoren."
+      },
+      {
+        "id": 12,
+        "type": "noun",
+        "article": "der",
+        "word": "Erwartungsdruck",
+        "plural": "Sg.",
+        "meaning": "期待的压力",
+        "example": "Junge Menschen stehen unter einem hohen Erwartungsdruck."
+      },
+      {
+        "id": 13,
+        "type": "noun",
+        "article": "das",
+        "word": "Berufsfeld",
+        "plural": "-er",
+        "meaning": "职业领域",
+        "example": "In manchen Berufsfeld haben es junge Familien sehr schwer."
+      },
+      {
+        "id": 14,
+        "type": "noun",
+        "article": "der",
+        "word": "Termindruck",
+        "plural": "Sg.",
+        "meaning": "期限的压力",
+        "example": "In meinem Beruf ist Termindruck normal."
+      },
+      {
+        "id": 15,
+        "type": "noun",
+        "article": "der",
+        "word": "Wochenendienst",
+        "plural": "-e",
+        "meaning": "周末工作",
+        "example": "Ich habe Nacht- und Wochenenddienste."
+      },
+      {
+        "id": 16,
+        "type": "noun",
+        "article": "die",
+        "word": "Balance",
+        "plural": "Sg.",
+        "meaning": "平衡",
+        "example": "Die Balance zwischen Beruf und Privatleben ist schwierig."
+      },
+      {
+        "id": 17,
+        "type": "noun",
+        "article": "das",
+        "word": "Informationsblatt",
+        "plural": "-ä-er",
+        "meaning": "信息短报，单页情报资料",
+        "example": "Lesen Sie das Informationsblatt zur Stressbewältigung."
+      },
+      {
+        "id": 18,
+        "type": "noun",
+        "article": "die",
+        "word": "Stressbewältigung",
+        "plural": "Sg.",
+        "meaning": "战胜压力，摆脱压力",
+        "example": "Richtige Stressbewältigung ist wichtig für das Privatleben."
+      },
+      {
+        "id": 19,
+        "type": "noun",
+        "article": "das",
+        "word": "Stresssymptom",
+        "plural": "-e",
+        "meaning": "精神压力症状",
+        "example": "Manche Menschen zeigen Stresssymptome wie Bauchschmerzen."
+      },
+      {
+        "id": 20,
+        "type": "noun",
+        "article": "die",
+        "word": "Stärke",
+        "plural": "-n",
+        "meaning": "优点，强项",
+        "example": "Denken Sie an Ihre Erfolge und Stärken!"
+      },
+      {
+        "id": 21,
+        "type": "noun",
+        "article": "der",
+        "word": "Schreibtischstuhl",
+        "plural": "-ü-e",
+        "meaning": "写字台椅子",
+        "example": "Ich muss mir einen besseren Schreibtischstuhl kaufen."
+      },
+      {
+        "id": 22,
+        "type": "noun",
+        "article": "das",
+        "word": "Deo",
+        "plural": "-s",
+        "meaning": "除臭剂",
+        "example": "Kauf dir mal ein anderes Deo!"
+      },
+      {
+        "id": 23,
+        "type": "noun",
+        "article": "der",
+        "word": "Frauenzeitschrift-Artikel",
+        "plural": "-",
+        "meaning": "女性杂志文章",
+        "example": "Lesen Sie den Frauenzeitschrift-Artikel."
+      }
+    ]
+  }
+}

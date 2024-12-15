@@ -1,0 +1,178 @@
+{
+  "code": 0,
+  "msg": "success",
+  "data": {
+    "total": 17,
+    "words": [
+      {
+        "id": 1,
+        "type": "verb",
+        "forms": {
+          "infinitive": "nachsehen",
+          "present": "er sieht nach",
+          "perfect": "er hat nachgesehen"
+        },
+        "meaning": "查看，检查",
+        "example": "Einen Moment bitte, ich sehe mal nach."
+      },
+      {
+        "id": 2,
+        "type": "noun",
+        "article": "die",
+        "word": "EC-Karte",
+        "plural": "-n",
+        "meaning": "借记卡",
+        "example": "Oh je, meine EC-Karte ist gesperrt!"
+      },
+      {
+        "id": 3,
+        "type": "verb",
+        "forms": {
+          "infinitive": "sperren",
+          "present": "er sperrt",
+          "perfect": "er hat gesperrt"
+        },
+        "meaning": "冻结",
+        "example": "Oh je, meine EC-Karte ist gesperrt!"
+      },
+      {
+        "id": 4,
+        "type": "noun",
+        "article": "die",
+        "word": "Geheimzahl",
+        "plural": "-en",
+        "meaning": "密码",
+        "example": "Du hast sicher die Geheimzahl falsch eingegeben."
+      },
+      {
+        "id": 5,
+        "type": "noun",
+        "article": "die",
+        "word": "Politesse",
+        "plural": "-n",
+        "meaning": "女交警",
+        "example": "Die Politesse lässt den Falschparker fahren."
+      },
+      {
+        "id": 6,
+        "type": "noun",
+        "article": "der/die",
+        "word": "Falschparker/in",
+        "plural": "-/-nen",
+        "meaning": "违章停车者",
+        "example": "Die Politesse lässt den Falschparker fahren."
+      },
+      {
+        "id": 7,
+        "type": "noun",
+        "article": "die",
+        "word": "Strafe",
+        "plural": "-n",
+        "meaning": "罚款",
+        "example": "Er muss keine Strafe zahlen."
+      },
+      {
+        "id": 8,
+        "type": "adjective",
+        "word": "lautlos",
+        "meaning": "无声的，静音的",
+        "example": "Tanja hat ihr Handy auf lautlos gestellt."
+      },
+      {
+        "id": 9,
+        "type": "noun",
+        "article": "der",
+        "word": "Bankkunde",
+        "plural": "-n",
+        "meaning": "银行顾客",
+        "example": "Der Bankkunde empfiehlt, sich an das Personal der Bank zu wenden."
+      },
+      {
+        "id": 10,
+        "type": "noun",
+        "article": "das",
+        "word": "Personal",
+        "plural": "Sg.",
+        "meaning": "人员，职员",
+        "example": "Der Bankkunde empfiehlt, sich an das Personal der Bank zu wenden."
+      },
+      {
+        "id": 11,
+        "type": "reflexive_verb",
+        "forms": {
+          "infinitive": "sich wenden an jmdn.",
+          "present": "er wendet sich an jmdn.",
+          "perfect": "er hat sich an jmdn. gewandt"
+        },
+        "meaning": "找...帮忙，求助",
+        "example": "Der Bankkunde empfiehlt, sich an das Personal der Bank zu wenden."
+      },
+      {
+        "id": 12,
+        "type": "reflexive_verb",
+        "forms": {
+          "infinitive": "sich ärgern über etw.",
+          "present": "er ärgert sich über etw.",
+          "perfect": "er hat sich über etw. geärgert"
+        },
+        "meaning": "(对...)生气，发火",
+        "example": "Worüber ärgern Sie sich nicht?"
+      },
+      {
+        "id": 13,
+        "type": "verb",
+        "forms": {
+          "infinitive": "einparken",
+          "present": "er parkt ein",
+          "perfect": "er hat eingeparkt"
+        },
+        "meaning": "插空停车",
+        "example": "Meine Mutter kann besser einparken als mein Vater."
+      },
+      {
+        "id": 14,
+        "type": "verb",
+        "forms": {
+          "infinitive": "stören",
+          "present": "er stört",
+          "perfect": "er hat gestört"
+        },
+        "meaning": "(令人)反感",
+        "example": "Es stört mich, wenn jemand laut isst."
+      },
+      {
+        "id": 15,
+        "type": "verb",
+        "forms": {
+          "infinitive": "nervig finden",
+          "present": "er findet nervig",
+          "perfect": "er hat nervig gefunden"
+        },
+        "meaning": "感到讨厌/难受",
+        "example": "Ich finde es nervig, wenn es im Deutschkurs zu laut ist."
+      },
+      {
+        "id": 16,
+        "type": "verb",
+        "forms": {
+          "infinitive": "stressig finden",
+          "present": "er findet stressig",
+          "perfect": "er hat stressig gefunden"
+        },
+        "meaning": "感到有精神压力",
+        "example": "Ich finde es stressig, viel zu arbeiten."
+      },
+      {
+        "id": 17,
+        "type": "verb",
+        "forms": {
+          "infinitive": "tun für jmdn.",
+          "present": "er tut für jmdn.",
+          "perfect": "er hat für jmdn. getan"
+        },
+        "meaning": "干，做",
+        "example": "Was kann ich für Sie tun?"
+      }
+    ]
+  }
+}

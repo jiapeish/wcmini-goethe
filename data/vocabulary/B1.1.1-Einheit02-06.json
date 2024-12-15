@@ -1,0 +1,206 @@
+{
+  "code": 0,
+  "msg": "success",
+  "data": {
+    "total": 21,
+    "words": [
+      {
+        "id": 1,
+        "type": "noun",
+        "article": "die",
+        "word": "Kondition",
+        "plural": "Sg.",
+        "meaning": "(体力、精神)情况，状况",
+        "example": "Ich habe keine Kondition."
+      },
+      {
+        "id": 2,
+        "type": "verb",
+        "forms": {
+          "infinitive": "bestätigen",
+          "present": "er bestätigt",
+          "perfect": "er hat bestätigt"
+        },
+        "meaning": "证实，确认",
+        "example": "Wissenschaftler haben bestätigt, was wir schon immer vermutet haben."
+      },
+      {
+        "id": 3,
+        "type": "verb",
+        "forms": {
+          "infinitive": "vermuten",
+          "present": "er vermutet",
+          "perfect": "er hat vermutet"
+        },
+        "meaning": "猜测，猜想",
+        "example": "Wissenschaftler haben bestätigt, was wir schon immer vermutet haben."
+      },
+      {
+        "id": 4,
+        "type": "noun",
+        "article": "das",
+        "word": "Blut",
+        "plural": "Sg.",
+        "meaning": "血，血液",
+        "example": "\"Lachen macht gutes Blut\" ist ein italienisches Sprichwort."
+      },
+      {
+        "id": 5,
+        "type": "adjective",
+        "word": "nun",
+        "meaning": "现在",
+        "example": "Nun liefern Studien einen Beweis für die Theorie."
+      },
+      {
+        "id": 6,
+        "type": "verb",
+        "forms": {
+          "infinitive": "liefern",
+          "present": "er liefert",
+          "perfect": "er hat geliefert"
+        },
+        "meaning": "提供",
+        "example": "Nun liefern Studien einen Beweis für die Theorie."
+      },
+      {
+        "id": 7,
+        "type": "noun",
+        "article": "der",
+        "word": "Beweis",
+        "plural": "-e",
+        "meaning": "证明",
+        "example": "Der wissenschaftliche Beweis kommt aus einer neuen Studie."
+      },
+      {
+        "id": 8,
+        "type": "adjective",
+        "word": "menschlich",
+        "meaning": "人的，人类的",
+        "example": "Lachen löst im menschlichen Organismus biochemische Prozesse aus."
+      },
+      {
+        "id": 9,
+        "type": "noun",
+        "article": "der",
+        "word": "Organismus",
+        "plural": "Organismen",
+        "meaning": "有机体，生物体",
+        "example": "Lachen löst im menschlichen Organismus biochemische Prozesse aus."
+      },
+      {
+        "id": 10,
+        "type": "adjective",
+        "word": "biochemisch",
+        "meaning": "生物化学的，生化的",
+        "example": "Lachen löst im menschlichen Organismus biochemische Prozesse aus."
+      },
+      {
+        "id": 11,
+        "type": "verb",
+        "forms": {
+          "infinitive": "auslösen",
+          "present": "er löst aus",
+          "perfect": "er hat ausgelöst"
+        },
+        "meaning": "引起",
+        "example": "Lachen löst im menschlichen Organismus biochemische Prozesse aus."
+      },
+      {
+        "id": 12,
+        "type": "noun",
+        "article": "die",
+        "word": "Psyche",
+        "plural": "-n",
+        "meaning": "心理，精神",
+        "example": "Lachen beeinflusst den Körper und die Psyche positiv."
+      },
+      {
+        "id": 13,
+        "type": "verb",
+        "forms": {
+          "infinitive": "beeinflussen",
+          "present": "er beeinflusst",
+          "perfect": "er hat beeinflusst"
+        },
+        "meaning": "影响",
+        "example": "Lachen beeinflusst den Körper und die Psyche positiv."
+      },
+      {
+        "id": 14,
+        "type": "noun",
+        "article": "der",
+        "word": "Effekt",
+        "plural": "-e",
+        "meaning": "效果，作用",
+        "example": "Wenn man oft lacht, kommt es zu diesem Effekt."
+      },
+      {
+        "id": 15,
+        "type": "verb",
+        "forms": {
+          "infinitive": "bezeichnen",
+          "present": "er bezeichnet",
+          "perfect": "er hat bezeichnet"
+        },
+        "meaning": "含义是，表示",
+        "example": "Als \"Wissenschaftler\" bezeichnet man Personen, die forschen oder in der Wissenschaft tätig sind."
+      },
+      {
+        "id": 16,
+        "type": "verb",
+        "forms": {
+          "infinitive": "tätig sein",
+          "present": "er ist tätig",
+          "perfect": "er war tätig"
+        },
+        "meaning": "在...工作，任职",
+        "example": "Als \"Wissenschaftler\" bezeichnet man Personen, die forschen oder in der Wissenschaft tätig sind."
+      },
+      {
+        "id": 17,
+        "type": "noun",
+        "article": "die",
+        "word": "Darstellung",
+        "plural": "-en",
+        "meaning": "描述，阐述",
+        "example": "Ein Artikel ist eine kurze Darstellung zu einem Thema."
+      },
+      {
+        "id": 18,
+        "type": "noun",
+        "article": "das",
+        "word": "Lebewesen",
+        "plural": "-",
+        "meaning": "生物",
+        "example": "Organismus bedeutet Lebewesen."
+      },
+      {
+        "id": 19,
+        "type": "noun",
+        "article": "die",
+        "word": "Gesamtheit",
+        "plural": "-en",
+        "meaning": "全部，总体",
+        "example": "Die Psyche ist die Gesamtheit des menschlichen Fühlens, Empfindens und Denkens."
+      },
+      {
+        "id": 20,
+        "type": "noun",
+        "article": "das",
+        "word": "Empfinden",
+        "plural": "Sg.",
+        "meaning": "感觉，感受",
+        "example": "Die Psyche ist die Gesamtheit des menschlichen Fühlens, Empfindens und Denkens."
+      },
+      {
+        "id": 21,
+        "type": "noun",
+        "article": "die",
+        "word": "Reaktion",
+        "plural": "-en",
+        "meaning": "反应",
+        "example": "Ein Effekt ist eine Reaktion oder Folge."
+      }
+    ]
+  }
+}

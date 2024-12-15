@@ -1,0 +1,211 @@
+{
+  "code": 0,
+  "msg": "success",
+  "data": {
+    "total": 22,
+    "words": [
+      {
+        "id": 1,
+        "type": "adjective",
+        "word": "darum",
+        "meaning": "因此",
+        "example": "Ich habe meine EC-Karte verloren, darum möchte ich sie sperren."
+      },
+      {
+        "id": 2,
+        "type": "verb",
+        "forms": {
+          "infinitive": "beantragen",
+          "present": "er beantragt",
+          "perfect": "er hat beantragt"
+        },
+        "meaning": "申请",
+        "example": "Sie müssen eine neue Karte beantragen."
+      },
+      {
+        "id": 3,
+        "type": "verb",
+        "forms": {
+          "infinitive": "ausfüllen",
+          "present": "er füllt aus",
+          "perfect": "er hat ausgefüllt"
+        },
+        "meaning": "填写",
+        "example": "Bitte füllen Sie dieses Formular aus."
+      },
+      {
+        "id": 4,
+        "type": "noun",
+        "article": "das",
+        "word": "Formular",
+        "plural": "-e",
+        "meaning": "表格",
+        "example": "Bitte füllen Sie dieses Formular aus."
+      },
+      {
+        "id": 5,
+        "type": "verb",
+        "forms": {
+          "infinitive": "zuschicken",
+          "present": "er schickt zu",
+          "perfect": "er hat zugeschickt"
+        },
+        "meaning": "寄给",
+        "example": "Die neue Karte wird Ihnen zugeschickt."
+      },
+      {
+        "id": 6,
+        "type": "adjective",
+        "word": "wie lange",
+        "meaning": "多久",
+        "example": "Wie lange dauert es, bis ich die neue Karte erhalte?"
+      },
+      {
+        "id": 7,
+        "type": "noun",
+        "article": "die",
+        "word": "Quittung",
+        "plural": "-en",
+        "meaning": "发票，收据",
+        "example": "Füllen Sie bitte diese Quittung aus."
+      },
+      {
+        "id": 8,
+        "type": "noun",
+        "article": "der",
+        "word": "Personalausweis",
+        "plural": "-e",
+        "meaning": "身份证",
+        "example": "Haben Sie Ihren Personalausweis dabei?"
+      },
+      {
+        "id": 9,
+        "type": "verb",
+        "forms": {
+          "infinitive": "abheben",
+          "present": "er hebt ab",
+          "perfect": "er hat abgehoben"
+        },
+        "meaning": "提取（取钱）",
+        "example": "Ich möchte bitte 200 Euro abheben."
+      },
+      {
+        "id": 10,
+        "type": "noun",
+        "article": "die",
+        "word": "Anzeige",
+        "plural": "-n",
+        "meaning": "告发，报案",
+        "example": "Ich möchte Anzeige erstatten."
+      },
+      {
+        "id": 11,
+        "type": "verb",
+        "forms": {
+          "infinitive": "erstatten",
+          "present": "er erstattet",
+          "perfect": "er hat erstattet"
+        },
+        "meaning": "告发",
+        "example": "Ich möchte Anzeige erstatten."
+      },
+      {
+        "id": 12,
+        "type": "reflexive_verb",
+        "forms": {
+          "infinitive": "sich setzen",
+          "present": "er setzt sich",
+          "perfect": "er hat sich gesetzt"
+        },
+        "meaning": "坐下",
+        "example": "Setzen Sie sich bitte."
+      },
+      {
+        "id": 13,
+        "type": "adjective",
+        "word": "erst einmal",
+        "meaning": "首先",
+        "example": "Sie müssen erst einmal das Protokoll unterschreiben."
+      },
+      {
+        "id": 14,
+        "type": "verb",
+        "forms": {
+          "infinitive": "stehlen",
+          "present": "er stiehlt",
+          "perfect": "er hat gestohlen"
+        },
+        "meaning": "偷，偷窃",
+        "example": "Mein Handy wurde gerade gestohlen."
+      },
+      {
+        "id": 15,
+        "type": "noun",
+        "article": "das",
+        "word": "Geburtsdatum",
+        "plural": "Geburtsdaten",
+        "meaning": "出生日期",
+        "example": "Bitte nennen Sie mir Ihr Geburtsdatum, Ihren Geburtsort und Ihre Adresse."
+      },
+      {
+        "id": 16,
+        "type": "noun",
+        "article": "der",
+        "word": "Geburtsort",
+        "plural": "-e",
+        "meaning": "出生地点",
+        "example": "Bitte nennen Sie mir Ihr Geburtsdatum, Ihren Geburtsort und Ihre Adresse."
+      },
+      {
+        "id": 17,
+        "type": "noun",
+        "article": "das",
+        "word": "Überseekolleg",
+        "plural": "-s",
+        "meaning": "海外学院",
+        "example": "Ich wohne jetzt im Überseekolleg."
+      },
+      {
+        "id": 18,
+        "type": "adjective",
+        "word": "beteiligt",
+        "meaning": "参与的，有牵连的",
+        "example": "Wer war an diesem Überfall beteiligt?"
+      },
+      {
+        "id": 19,
+        "type": "noun",
+        "article": "die",
+        "word": "Buslinie",
+        "plural": "-n",
+        "meaning": "巴士线路",
+        "example": "Ich war in der Buslinie 232."
+      },
+      {
+        "id": 20,
+        "type": "adjective",
+        "word": "gekleidet",
+        "meaning": "穿着",
+        "example": "Der Mann war gut gekleidet."
+      },
+      {
+        "id": 21,
+        "type": "adjective",
+        "word": "deswegen",
+        "meaning": "所以",
+        "example": "Ich hatte ein komisches Gefühl. Deswegen habe ich mein Handy gesucht."
+      },
+      {
+        "id": 22,
+        "type": "verb",
+        "forms": {
+          "infinitive": "unterschreiben",
+          "present": "er unterschreibt",
+          "perfect": "er hat unterschrieben"
+        },
+        "meaning": "签名，签字",
+        "example": "Sie müssen das Protokoll unterschreiben."
+      }
+    ]
+  }
+}

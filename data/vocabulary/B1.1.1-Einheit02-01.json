@@ -1,0 +1,90 @@
+{
+  "code": 0,
+  "msg": "success",
+  "data": {
+    "total": 9,
+    "words": [
+      {
+        "id": 1,
+        "type": "noun",
+        "article": "der",
+        "word": "Haushalt",
+        "plural": "-e",
+        "meaning": "家务活",
+        "example": "In unserer WG müssen alle den Haushalt machen."
+      },
+      {
+        "id": 2,
+        "type": "noun",
+        "article": "der",
+        "word": "Streit",
+        "plural": "Sg.",
+        "meaning": "争吵，争执",
+        "example": "Mit meinen Eltern habe ich ziemlich oft Streit."
+      },
+      {
+        "id": 3,
+        "type": "noun",
+        "article": "der",
+        "word": "Platz",
+        "plural": "-ä-e",
+        "meaning": "名额，位子",
+        "example": "Gestern habe ich im Fitnessstudio keinen Platz im Aerobic-Kurs gefunden."
+      },
+      {
+        "id": 4,
+        "type": "noun",
+        "article": "die",
+        "word": "Überstunde",
+        "plural": "-n",
+        "meaning": "加班",
+        "example": "Mein Freund muss immer viele Überstunden machen."
+      },
+      {
+        "id": 5,
+        "type": "verb",
+        "forms": {
+          "infinitive": "ertragen",
+          "present": "er erträgt",
+          "perfect": "er hat ertragen"
+        },
+        "meaning": "忍受",
+        "example": "In der Nähe der Autobahn müssen die Bewohner viel Lärm ertragen."
+      },
+      {
+        "id": 6,
+        "type": "noun",
+        "article": "die",
+        "word": "Mama",
+        "plural": "-s",
+        "meaning": "妈妈",
+        "example": "Hallo Mama, sei nicht sauer, aber ich habe meinen Schlüssel verloren."
+      },
+      {
+        "id": 7,
+        "type": "noun",
+        "article": "der",
+        "word": "Strafzettel",
+        "plural": "-",
+        "meaning": "罚款单",
+        "example": "Ich habe gestern einen Strafzettel bekommen."
+      },
+      {
+        "id": 8,
+        "type": "adjective",
+        "word": "höchstens",
+        "meaning": "最多，至多",
+        "example": "Ich stehe höchstens seit zwei Minuten hier."
+      },
+      {
+        "id": 9,
+        "type": "noun",
+        "article": "der",
+        "word": "Anschlusszug",
+        "plural": "-ü-e",
+        "meaning": "衔接列车，联运列车",
+        "example": "Ich verpasse meinen Anschlusszug in Frankfurt."
+      }
+    ]
+  }
+}
