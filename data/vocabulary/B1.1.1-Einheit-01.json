@@ -1,47 +1,8 @@
 {
-  "total": 4,
-  "words": [
-    {
-      "id": 1,
-      "type": "noun",
-      "article": "die",
-      "word": "Geheimzahl",
-      "plural": "-en",
-      "meaning": "密码",
-      "example": "Du hast sicher die Geheimzahl falsch eingegeben."
-    },
-    {
-      "id": 2,
-      "type": "verb",
-      "forms": {
-        "infinitive": "sperren",
-        "present": "er sperrt",
-        "perfect": "er hat gesperrt"
-      },
-      "meaning": "冻结",
-      "example": "Oh je, meine EC_Karte ist gesperrt!"
-    },
-    {
-      "id": 3,
-      "type": "adjective",
-      "word": "lautlos",
-      "forms": {
-        "comparative": "lautloser",
-        "superlative": "am lautlosesten"
-      },
-      "meaning": "无声的，静音的",
-      "example": "Tanja hat ihr Handy auf lautlos gestellt."
-    },
-    {
-      "id": 4,
-      "type": "reflexive_verb",
-      "forms": {
-        "infinitive": "ärgern (sich über etw.)",
-        "present": "er ärgert sich über etw.",
-        "perfect": "er hat sich über etw. geärgert"
-      },
-      "meaning": "(对...)生气，发火",
-      "example": "Worüber ärgern Sie sich nicht?"
-    }
-  ]
+  "code": 0,
+  "msg": "success",
+  "data": {
+    "total": 0,
+    "words": []
+  }
 }
