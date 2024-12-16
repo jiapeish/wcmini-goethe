@@ -51,7 +51,7 @@ Page({
       // 加载Einheit02的8组单词
       for (let i = 1; i <= 8; i++) {
         const fileNum = i.toString().padStart(2, '0');
-        const filePath = `/data/vocabulary/B1.1.1-Einheit02-${fileNum}.json`;
+        const filePath = `/data/vocabulary/B1-1/Einheit02/B1.1.1-Einheit02-${fileNum}.json`;
         
         try {
           const res = fs.readFileSync(filePath, 'utf8');

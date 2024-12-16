@@ -54,7 +54,7 @@ Page({
   loadWordList(id) {
     try {
       const fileNum = id.toString().padStart(2, '0');
-      const filePath = `/data/vocabulary/B1.1.1-Einheit02-${fileNum}.json`;
+      const filePath = `/data/vocabulary/B1-1/Einheit02/B1.1.1-Einheit02-${fileNum}.json`;
       const fs = wx.getFileSystemManager();
       
       try {
