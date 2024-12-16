@@ -21,7 +21,6 @@ Page({
     const history = wx.getStorageSync('studyHistory') || [];
     const wordUnits = this.data.wordUnits.map(unit => {
       const lists = unit.lists.map(list => {
-        // 查找该组单词的学习记录
         const record = history.find(h => h.wordListId === list.id);
         return {
           ...list,
@@ -42,7 +41,42 @@ Page({
       const units = [];
       const fs = wx.getFileSystemManager();
       
-      // 目前只有Einheit02的数据
+      // 加载Einheit01的数据
+      const unit01 = {
+        title: 'Einheit01',
+        lists: []
+      };
+      
+      // 加载Einheit01的8组单词
+      for (let i = 1; i <= 8; i++) {
+        const fileNum = i.toString().padStart(2, '0');
+        const filePath = `/data/vocabulary/B1-1/Einheit01/B1.1.1-Einheit01-${fileNum}.json`;
+        
+        try {
+          const res = fs.readFileSync(filePath, 'utf8');
+          const data = JSON.parse(res);
+          unit01.lists.push({
+            id: i,
+            title: `第${i}组单词`,
+            total: data.data.total,
+            words: data.data.words,
+            progress: 0,  // 初始进度为0
+            bgColor: this.getBackgroundColor(i)
+          });
+        } catch (err) {
+          console.error(`Failed to load file ${filePath}:`, err);
+          wx.showToast({
+            title: `加载第${i}组单词失败`,
+            icon: 'none'
+          });
+        }
+      }
+
+      if (unit01.lists.length > 0) {
+        units.push(unit01);
+      }
+
+      // 加载Einheit02的数据
       const unit02 = {
         title: 'Einheit02',
         lists: []
@@ -57,7 +91,7 @@ Page({
           const res = fs.readFileSync(filePath, 'utf8');
           const data = JSON.parse(res);
           unit02.lists.push({
-            id: i,
+            id: i + 8, // Einheit02的ID从9开始，避免与Einheit01冲突
             title: `第${i}组单词`,
             total: data.data.total,
             words: data.data.words,

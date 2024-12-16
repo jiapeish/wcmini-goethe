@@ -53,8 +53,11 @@ Page({
 
   loadWordList(id) {
     try {
-      const fileNum = id.toString().padStart(2, '0');
-      const filePath = `/data/vocabulary/B1-1/Einheit02/B1.1.1-Einheit02-${fileNum}.json`;
+      // 确定是哪个单元的单词列表
+      const einheitNum = parseInt(id) <= 8 ? '01' : '02';
+      // 如果是Einheit02，需要将ID减8来获取正确的文件编号
+      const fileNum = (parseInt(id) <= 8 ? id : (id - 8)).toString().padStart(2, '0');
+      const filePath = `/data/vocabulary/B1-1/Einheit${einheitNum}/B1.1.1-Einheit${einheitNum}-${fileNum}.json`;
       const fs = wx.getFileSystemManager();
       
       try {
@@ -64,7 +67,7 @@ Page({
           wordList: data.data.words,
           loading: false
         }, () => {
-          // 在数据加载完成后再初始化进度
+          // 初始化进度
           this.initProgress();
           this.checkFavoriteStatus();
         });
@@ -84,7 +87,6 @@ Page({
     }
   },
 
-  // 初始化进度
   initProgress() {
     try {
       const history = wx.getStorageSync('studyHistory') || [];
