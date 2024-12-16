@@ -1,6 +1,5 @@
 Page({
   data: {
-    userCount: 1748227,
     sections: {
       vocabulary: [
         {
@@ -17,13 +16,6 @@ Page({
         }
       ],
       reading: [
-        {
-          title: 'AI互动学英语场景互动',
-          subtitle: '实时反馈 学得快',
-          icon: 'ai-rabbit',
-          bgColor: 'blue',
-          fullWidth: true
-        },
         {
           title: '课文评测',
           subtitle: '纠正语法',
