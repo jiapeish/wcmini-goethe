@@ -1,0 +1,100 @@
+{
+  "code": 0,
+  "msg": "success",
+  "data": {
+    "total": 11,
+    "words": [
+      {
+        "id": 1,
+        "type": "noun",
+        "article": "der",
+        "word": "Ostteil",
+        "plural": "-e",
+        "meaning": "东部",
+        "example": "Der Ostteil von Berlin wurde von der Berliner Mauer vom Westteil getrennt."
+      },
+      {
+        "id": 2,
+        "type": "noun",
+        "article": "der",
+        "word": "Westteil",
+        "plural": "-e",
+        "meaning": "西部",
+        "example": "Der Ostteil von Berlin wurde von der Berliner Mauer vom Westteil getrennt."
+      },
+      {
+        "id": 3,
+        "type": "noun",
+        "article": "der",
+        "word": "Ost-Berliner",
+        "plural": "-",
+        "meaning": "东柏林人",
+        "example": "Ost-Berliner durften nicht mehr nach West-Berlin einreisen."
+      },
+      {
+        "id": 4,
+        "type": "noun",
+        "article": "das",
+        "word": "Symbol",
+        "plural": "-e",
+        "meaning": "象征",
+        "example": "Das Brandenburger Tor ist ein Symbol für den Kalten Krieg."
+      },
+      {
+        "id": 5,
+        "type": "noun",
+        "article": "der",
+        "word": "Krieg",
+        "plural": "-e",
+        "meaning": "战争",
+        "example": "Am 8. Mai 1945 war der Krieg beendet."
+      },
+      {
+        "id": 6,
+        "type": "abbreviation",
+        "word": "d. h. (= das heißt)",
+        "meaning": "这是指...，这是说...",
+        "example": "Das Brandenburger Tor ist ein Symbol für den Kalten Krieg, d. h. die Auseinandersetzung zwischen USA und der UdSSR."
+      },
+      {
+        "id": 7,
+        "type": "noun",
+        "article": "die",
+        "word": "Auseinandersetzung",
+        "plural": "-en",
+        "meaning": "冲突，争斗",
+        "example": "Der Kalte Krieg war die Auseinandersetzung zwischen den USA und der UdSSR."
+      },
+      {
+        "id": 8,
+        "type": "noun",
+        "word": "Ost (Osten)",
+        "meaning": "东部",
+        "example": "Deutschland wurde in Ost und West geteilt."
+      },
+      {
+        "id": 9,
+        "type": "noun",
+        "word": "West (Westen)",
+        "meaning": "西部",
+        "example": "Deutschland wurde in Ost und West geteilt."
+      },
+      {
+        "id": 10,
+        "type": "noun",
+        "article": "die",
+        "word": "Großmacht",
+        "plural": "-ä-e",
+        "meaning": "大国，强国",
+        "example": "Die USA sind eine Großmacht."
+      },
+      {
+        "id": 11,
+        "type": "adjective",
+        "word": "hunderttausend",
+        "meaning": "几十万",
+        "example": "1989 fiel die Mauer und hunderttausende Berliner feierten."
+      }
+    ]
+  }
+}

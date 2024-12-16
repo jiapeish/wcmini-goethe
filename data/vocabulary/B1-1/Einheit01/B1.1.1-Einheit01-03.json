@@ -1,0 +1,97 @@
+{
+  "code": 0,
+  "msg": "success",
+  "data": {
+    "total": 10,
+    "words": [
+      {
+        "id": 1,
+        "type": "verb",
+        "forms": {
+          "infinitive": "ahnen",
+          "present": "er ahnt",
+          "perfect": "er hat geahnt"
+        },
+        "meaning": "预知，料到",
+        "example": "Wir haben geahnt, dass wir viel Zeit für die Arbeit verwenden."
+      },
+      {
+        "id": 2,
+        "type": "noun",
+        "article": "der",
+        "word": "Liebling",
+        "plural": "-e",
+        "meaning": "...的红人，...最喜欢的人",
+        "example": "Auch dem Liebling der Deutschen, dem Auto, wird viel Zeit geschenkt."
+      },
+      {
+        "id": 3,
+        "type": "adjective",
+        "word": "durchschnittlich",
+        "meaning": "平均的",
+        "example": "Zwei Jahre und sechs Monate sitzen wir in unserem Leben durchschnittlich in einem Auto."
+      },
+      {
+        "id": 4,
+        "type": "adjective",
+        "word": "dieselbe",
+        "meaning": "同一的，同样的",
+        "example": "Dieselbe Zeit brauchen wir zum Waschen und Bügeln."
+      },
+      {
+        "id": 5,
+        "type": "adjective",
+        "word": "deutlich",
+        "meaning": "显然(少得多)",
+        "example": "Deutlich weniger Zeit bekommen unsere Kinder von uns."
+      },
+      {
+        "id": 6,
+        "type": "adjective",
+        "word": "all",
+        "meaning": "所有，一切，全部",
+        "example": "All die Wörter, die ich gelernt habe, sind sehr nützlich."
+      },
+      {
+        "id": 7,
+        "type": "noun",
+        "article": "die",
+        "word": "Arbeitspause",
+        "plural": "-n",
+        "meaning": "工间休息",
+        "example": "Die Arbeitspausen dauern acht Wochen."
+      },
+      {
+        "id": 8,
+        "type": "noun",
+        "article": "der/die",
+        "word": "Wissenschaftler/in",
+        "plural": "-/-nen",
+        "meaning": "科学家，科学工作者",
+        "example": "Wissenschaftler fragen, ob wir zu viel Zeit haben."
+      },
+      {
+        "id": 9,
+        "type": "verb",
+        "forms": {
+          "infinitive": "erstaunt sein",
+          "present": "er ist erstaunt",
+          "perfect": "er war erstaunt"
+        },
+        "meaning": "吃惊，惊奇",
+        "example": "Ich war erstaunt, dass wir so viel Zeit im Auto verbringen."
+      },
+      {
+        "id": 10,
+        "type": "verb",
+        "forms": {
+          "infinitive": "überrascht sein",
+          "present": "er ist überrascht",
+          "perfect": "er war überrascht"
+        },
+        "meaning": "感到意外的(对某事)",
+        "example": "Ich war überrascht, wie gut mein Deutsch schon ist."
+      }
+    ]
+  }
+}

@@ -1,0 +1,99 @@
+{
+  "code": 0,
+  "msg": "success",
+  "data": {
+    "total": 10,
+    "words": [
+      {
+        "id": 1,
+        "type": "noun",
+        "article": "die",
+        "word": "Dauer",
+        "plural": "Sg.",
+        "meaning": "持续时间",
+        "example": "Die Dauer eines Wimpernschlags ist 0,1 Sekunden."
+      },
+      {
+        "id": 2,
+        "type": "noun",
+        "article": "das",
+        "word": "Funksignal",
+        "plural": "-e",
+        "meaning": "无线电信号",
+        "example": "Das Funksignal vom Mars bis zur Erde braucht 19,4 Minuten."
+      },
+      {
+        "id": 3,
+        "type": "noun",
+        "article": "der",
+        "word": "Mars",
+        "plural": "Sg.",
+        "meaning": "火星",
+        "example": "Das Funksignal vom Mars bis zur Erde braucht 19,4 Minuten."
+      },
+      {
+        "id": 4,
+        "type": "noun",
+        "article": "die",
+        "word": "Nanosekunde",
+        "plural": "-n",
+        "meaning": "毫微秒，纳秒",
+        "example": "Die Dauer eines Rechenschritts am Computer ist 0,4 Nanosekunden."
+      },
+      {
+        "id": 5,
+        "type": "noun",
+        "article": "die",
+        "word": "Pulsdauer",
+        "plural": "Sg.",
+        "meaning": "脉搏(跳的)持续时间",
+        "example": "Die typische Pulsdauer eines Menschen ist 1 Sekunde."
+      },
+      {
+        "id": 6,
+        "type": "noun",
+        "article": "der",
+        "word": "Rechenschritt",
+        "plural": "-e",
+        "meaning": "计算步骤/运算",
+        "example": "Die Dauer eines Rechenschritts am Computer ist 0,4 Nanosekunden."
+      },
+      {
+        "id": 7,
+        "type": "noun",
+        "article": "der",
+        "word": "Wimpernschlag",
+        "plural": "-ä-e",
+        "meaning": "眨眼",
+        "example": "Die Dauer eines Wimpernschlags ist 0,1 Sekunden."
+      },
+      {
+        "id": 8,
+        "type": "noun",
+        "article": "die",
+        "word": "Eintagsfliege",
+        "plural": "-n",
+        "meaning": "蜉蝣目昆虫",
+        "example": "Die Eintagsfliege lebt 1-3 Tage."
+      },
+      {
+        "id": 9,
+        "type": "noun",
+        "article": "die",
+        "word": "Lebenserwartung",
+        "plural": "-en",
+        "meaning": "平均寿命",
+        "example": "Die Lebenserwartung eines Deutschen ist 80 Jahre."
+      },
+      {
+        "id": 10,
+        "type": "noun",
+        "article": "die",
+        "word": "Taschenmaus",
+        "plural": "-äu-e",
+        "meaning": "囊鼠，小袋鼠",
+        "example": "Die Taschenmaus schläft 20 Stunden am Tag."
+      }
+    ]
+  }
+}

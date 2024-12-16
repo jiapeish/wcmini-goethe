@@ -1,0 +1,101 @@
+{
+  "code": 0,
+  "msg": "success",
+  "data": {
+    "total": 10,
+    "words": [
+      {
+        "id": 1,
+        "type": "noun",
+        "article": "das",
+        "word": "Tattoostudio",
+        "plural": "-s",
+        "meaning": "纹身工作室",
+        "example": "Frau Neitzel arbeitet in einem Tattoostudio."
+      },
+      {
+        "id": 2,
+        "type": "verb",
+        "forms": {
+          "infinitive": "zelten",
+          "present": "er zeltet",
+          "perfect": "er hat gezeltet"
+        },
+        "meaning": "露营，在帐篷中过夜",
+        "example": "Wir wollen am Wochenende zusammen zelten."
+      },
+      {
+        "id": 3,
+        "type": "noun",
+        "article": "das",
+        "word": "Lieblingslied",
+        "plural": "-er",
+        "meaning": "最喜爱的歌曲",
+        "example": "Mein Lieblingslied ist von einer amerikanischen Band."
+      },
+      {
+        "id": 4,
+        "type": "noun",
+        "article": "die",
+        "word": "Sauna",
+        "plural": "Saunen",
+        "meaning": "桑拿浴",
+        "example": "Wenn ich in der Sauna sitze, denke ich nach."
+      },
+      {
+        "id": 5,
+        "type": "noun",
+        "article": "das",
+        "word": "Plakat",
+        "plural": "-e",
+        "meaning": "广告，招贴，宣传画",
+        "example": "Viele hatten Plakate dabei."
+      },
+      {
+        "id": 6,
+        "type": "noun",
+        "article": "die",
+        "word": "Reisefreiheit",
+        "plural": "Sg.",
+        "meaning": "旅游自由",
+        "example": "Wir hörten, dass es jetzt Reisefreiheit gibt."
+      },
+      {
+        "id": 7,
+        "type": "noun",
+        "article": "die",
+        "word": "Karaoke-Bar",
+        "plural": "-s",
+        "meaning": "卡拉OK吧",
+        "example": "Wir trafen uns in einer Karaoke-Bar."
+      },
+      {
+        "id": 8,
+        "type": "noun",
+        "article": "der",
+        "word": "Winterschlaf",
+        "plural": "Sg.",
+        "meaning": "冬眠",
+        "example": "Wie lange hält der Igel Winterschlaf?"
+      },
+      {
+        "id": 9,
+        "type": "noun",
+        "article": "der",
+        "word": "Igel",
+        "plural": "-",
+        "meaning": "刺猬",
+        "example": "Wie lange hält der Igel Winterschlaf?"
+      },
+      {
+        "id": 10,
+        "type": "noun",
+        "article": "der",
+        "word": "Floh",
+        "plural": "-ö-e",
+        "meaning": "跳蚤",
+        "example": "Wie lange dauert das Leben eines Flohs?"
+      }
+    ]
+  }
+}

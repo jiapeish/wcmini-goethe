@@ -1,0 +1,101 @@
+{
+  "code": 0,
+  "msg": "success",
+  "data": {
+    "total": 10,
+    "words": [
+      {
+        "id": 1,
+        "type": "noun",
+        "article": "die",
+        "word": "Wartezeit",
+        "plural": "-en",
+        "meaning": "等候时间",
+        "example": "In der Wartezeit am Bahnhof lese ich ein Buch und trinke Kaffee."
+      },
+      {
+        "id": 2,
+        "type": "noun",
+        "article": "das",
+        "word": "Zeitdokument",
+        "plural": "-e",
+        "meaning": "时代文献",
+        "example": "Der Bericht ist ein wichtiges und emotionales Zeitdokument."
+      },
+      {
+        "id": 3,
+        "type": "noun",
+        "article": "der",
+        "word": "Zeitdruck",
+        "plural": "Sg.",
+        "meaning": "时间压力",
+        "example": "Vor meinen Prüfungen habe ich jedes Mal großen Zeitdruck."
+      },
+      {
+        "id": 4,
+        "type": "noun",
+        "article": "der",
+        "word": "S-Bahnhof",
+        "plural": "-ö-e",
+        "meaning": "轨交枢纽站",
+        "example": "Ich mag das Foto vom S-Bahnhof, weil es sehr dynamisch aussieht."
+      },
+      {
+        "id": 5,
+        "type": "verb",
+        "forms": {
+          "infinitive": "merken",
+          "present": "er merkt",
+          "perfect": "er hat gemerkt"
+        },
+        "meaning": "发觉，觉察到",
+        "example": "Wenn ich mit Patienten arbeite, merke ich die Zeit kaum."
+      },
+      {
+        "id": 6,
+        "type": "adverb",
+        "word": "sobald",
+        "meaning": "一...就",
+        "example": "Sobald ich von der Arbeit nach Hause komme, ändert sich mein Zeitgefühl."
+      },
+      {
+        "id": 7,
+        "type": "noun",
+        "article": "das",
+        "word": "Zeitgefühl",
+        "plural": "Sg.",
+        "meaning": "对时间的感觉",
+        "example": "Sobald ich von der Arbeit nach Hause komme, ändert sich mein Zeitgefühl."
+      },
+      {
+        "id": 8,
+        "type": "verb",
+        "forms": {
+          "infinitive": "dahinschleichen",
+          "present": "er schleicht dahin",
+          "perfect": "er ist dahingeschlichen"
+        },
+        "meaning": "(时间)今人难熬地过去",
+        "example": "Wenn es langweilig ist, schleicht die Zeit dahin."
+      },
+      {
+        "id": 9,
+        "type": "verb",
+        "forms": {
+          "infinitive": "stillstehen",
+          "present": "er steht still",
+          "perfect": "er hat stillgestanden"
+        },
+        "meaning": "停止，停顿",
+        "example": "Im Matheunterricht habe ich das Gefühl, dass die Zeit stillsteht."
+      },
+      {
+        "id": 10,
+        "type": "phrase",
+        "word": "wie im Flug",
+        "meaning": "过得飞快，飞快地消逝",
+        "example": "Mit meinen Freunden vergeht die Zeit wie im Flug."
+      }
+    ]
+  }
+}

@@ -1,0 +1,104 @@
+{
+  "code": 0,
+  "msg": "success",
+  "data": {
+    "total": 11,
+    "words": [
+      {
+        "id": 1,
+        "type": "noun",
+        "article": "die",
+        "word": "Toncollage",
+        "plural": "-n",
+        "meaning": "录音剪辑",
+        "example": "Hören Sie die Toncollage."
+      },
+      {
+        "id": 2,
+        "type": "adjective",
+        "word": "berufstätig",
+        "meaning": "在职的，有职业的",
+        "example": "Meine Mutter ist berufstätig."
+      },
+      {
+        "id": 3,
+        "type": "noun",
+        "article": "das",
+        "word": "Zeitproblem",
+        "plural": "-e",
+        "meaning": "时间问题",
+        "example": "Ich habe nicht erwartet, Zeitprobleme zu bekommen."
+      },
+      {
+        "id": 4,
+        "type": "adjective",
+        "word": "zeitlos",
+        "meaning": "不受时代限制的",
+        "example": "Richtig gute Bücher sind zeitlos."
+      },
+      {
+        "id": 5,
+        "type": "noun",
+        "article": "das",
+        "word": "Zeitmanagement",
+        "plural": "Sg.",
+        "meaning": "时间管理",
+        "example": "Mein Zeitmanagement ist miserabel."
+      },
+      {
+        "id": 6,
+        "type": "noun",
+        "article": "die",
+        "word": "Umfrage",
+        "plural": "-n",
+        "meaning": "问卷调查",
+        "example": "Bitte machen Sie bei dieser Umfrage mit."
+      },
+      {
+        "id": 7,
+        "type": "verb",
+        "forms": {
+          "infinitive": "unterstützen",
+          "present": "er unterstützt",
+          "perfect": "er hat unterstützt"
+        },
+        "meaning": "支持；帮助",
+        "example": "Welches Foto unterstützt den Text?"
+      },
+      {
+        "id": 8,
+        "type": "noun",
+        "article": "das",
+        "word": "Tattoo",
+        "plural": "-s",
+        "meaning": "纹身",
+        "example": "Gestern habe ich mein Tattoo bekommen."
+      },
+      {
+        "id": 9,
+        "type": "noun",
+        "article": "der",
+        "word": "Berg",
+        "plural": "-e",
+        "meaning": "山",
+        "example": "Wenn ich auf dem Berg stehe, fühle ich mich gut."
+      },
+      {
+        "id": 10,
+        "type": "noun",
+        "article": "das",
+        "word": "Urlaubsziel",
+        "plural": "-e",
+        "meaning": "度假目的地",
+        "example": "Ich will endlich am Urlaubsziel ankommen."
+      },
+      {
+        "id": 11,
+        "type": "adjective",
+        "word": "unendlich",
+        "meaning": "非常，极其",
+        "example": "Elf Stunden im Flugzeug sind unendlich lang!"
+      }
+    ]
+  }
+}

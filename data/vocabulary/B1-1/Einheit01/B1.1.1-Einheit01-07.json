@@ -1,0 +1,107 @@
+{
+  "code": 0,
+  "msg": "success",
+  "data": {
+    "total": 11,
+    "words": [
+      {
+        "id": 1,
+        "type": "verb",
+        "forms": {
+          "infinitive": "wiedervereinigen",
+          "present": "er vereinigt wieder",
+          "perfect": "er hat wiedervereinigt"
+        },
+        "meaning": "重新统一",
+        "example": "Am 3. Oktober 1990 wurden die beiden deutschen Staaten wiedervereinigt."
+      },
+      {
+        "id": 2,
+        "type": "noun",
+        "article": "die",
+        "word": "1990er",
+        "meaning": "20世纪90年代",
+        "example": "In den 1990er Jahren feierten zum ersten Mal Technobegeisterte die Loveparade."
+      },
+      {
+        "id": 3,
+        "type": "noun",
+        "article": "der/die",
+        "word": "Technobegeisterte",
+        "plural": "-n",
+        "meaning": "热衷于电子摇滚乐的人",
+        "example": "In den 1990er Jahren feierten zum ersten Mal Technobegeisterte die Loveparade."
+      },
+      {
+        "id": 4,
+        "type": "noun",
+        "article": "die",
+        "word": "Loveparade",
+        "plural": "Sg.",
+        "meaning": "电子乐舞者狂欢游行(起源于柏林)",
+        "example": "In den 1990er Jahren feierten zum ersten Mal Technobegeisterte die Loveparade."
+      },
+      {
+        "id": 5,
+        "type": "noun",
+        "article": "die",
+        "word": "Fußballweltmeisterschaft",
+        "plural": "-en",
+        "meaning": "足球世界杯",
+        "example": "Die Fußballweltmeisterschaft 2006 war für Deutschland ein Höhepunkt."
+      },
+      {
+        "id": 6,
+        "type": "noun",
+        "article": "der",
+        "word": "Fußballfan",
+        "plural": "-s",
+        "meaning": "足球迷",
+        "example": "2006 trafen sich die Fußballfans am Brandenburger Tor."
+      },
+      {
+        "id": 7,
+        "type": "noun",
+        "article": "das",
+        "word": "Silvesterfeuerwerk",
+        "plural": "-e",
+        "meaning": "除夕夜礼花",
+        "example": "Der Höhepunkt ist jedes Jahr das Silvesterfeuerwerk am Brandenburger Tor."
+      },
+      {
+        "id": 8,
+        "type": "adjective",
+        "word": "preußisch",
+        "meaning": "普鲁士的",
+        "example": "Der preußische König war Friedrich Wilhelm II."
+      },
+      {
+        "id": 9,
+        "type": "noun",
+        "article": "das",
+        "word": "Synonym",
+        "plural": "-e",
+        "meaning": "同义词",
+        "example": "\"Monarch\" ist ein Synonym für \"König\"."
+      },
+      {
+        "id": 10,
+        "type": "noun",
+        "article": "der/die",
+        "word": "Monarch/in",
+        "plural": "-en/-nen",
+        "meaning": "君主",
+        "example": "König Friedrich Wilhelm II. war ein deutscher Monarch."
+      },
+      {
+        "id": 11,
+        "type": "noun",
+        "article": "die",
+        "word": "Teilung",
+        "plural": "-en",
+        "meaning": "分开，分裂",
+        "example": "Die Teilung Deutschlands war schwer für die Menschen."
+      }
+    ]
+  }
+}

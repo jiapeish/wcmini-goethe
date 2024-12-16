@@ -1,0 +1,172 @@
+{
+  "code": 0,
+  "msg": "success",
+  "data": {
+    "total": 17,
+    "words": [
+      {
+        "id": 1,
+        "type": "verb",
+        "forms": {
+          "infinitive": "klar sein",
+          "present": "es ist klar",
+          "perfect": "es war klar"
+        },
+        "meaning": "清楚的，了如指掌",
+        "example": "Es ist klar, dass mein großer Bruder schneller laufen kann als ich."
+      },
+      {
+        "id": 2,
+        "type": "noun",
+        "article": "das",
+        "word": "Zärtlichsein",
+        "plural": "Sg.",
+        "meaning": "温柔，柔情",
+        "example": "Man sollte sich Zeit zum Zärtlichsein nehmen."
+      },
+      {
+        "id": 3,
+        "type": "noun",
+        "article": "das",
+        "word": "Katzekitzeln",
+        "plural": "Sg.",
+        "meaning": "给猫挠痒痒",
+        "example": "Zeit zum Katzekitzeln!"
+      },
+      {
+        "id": 4,
+        "type": "adjective",
+        "word": "gleichzeitig",
+        "meaning": "同时(发生)的",
+        "example": "Ich kann nicht gleichzeitig lesen und Radio hören."
+      },
+      {
+        "id": 5,
+        "type": "verb",
+        "forms": {
+          "infinitive": "twittern",
+          "present": "er twittert",
+          "perfect": "er hat getwittert"
+        },
+        "meaning": "使用推特软件",
+        "example": "Meine Freundin twittert jeden Tag."
+      },
+      {
+        "id": 6,
+        "type": "noun",
+        "article": "das",
+        "word": "Instrument",
+        "plural": "-e",
+        "meaning": "乐器",
+        "example": "Ich spiele kein Instrument."
+      },
+      {
+        "id": 7,
+        "type": "verb",
+        "forms": {
+          "infinitive": "entdecken",
+          "present": "er entdeckt",
+          "perfect": "er hat entdeckt"
+        },
+        "meaning": "发现，发觉",
+        "example": "Wir wollen gemeinsam Berlin entdecken."
+      },
+      {
+        "id": 8,
+        "type": "noun",
+        "article": "das",
+        "word": "Wahrzeichen",
+        "plural": "-",
+        "meaning": "标志，象征",
+        "example": "Das Brandenburger Tor ist das wichtigste Wahrzeichen der Stadt."
+      },
+      {
+        "id": 9,
+        "type": "verb",
+        "forms": {
+          "infinitive": "regieren",
+          "present": "er regiert",
+          "perfect": "er hat regiert"
+        },
+        "meaning": "统治，管理",
+        "example": "König Friedrich Wilhelm II. regierte Preußen."
+      },
+      {
+        "id": 10,
+        "type": "noun",
+        "article": "der",
+        "word": "Reichskanzler",
+        "plural": "-",
+        "meaning": "帝国总理",
+        "example": "Am 30. Januar 1933 wurde Hitler Reichskanzler."
+      },
+      {
+        "id": 11,
+        "type": "verb",
+        "forms": {
+          "infinitive": "marschieren",
+          "present": "er marschiert",
+          "perfect": "er ist marschiert"
+        },
+        "meaning": "行步，行进，行军",
+        "example": "Die Nationalsozialisten marschierten nach ihrer Machtübernahme durch das Brandenburger Tor."
+      },
+      {
+        "id": 12,
+        "type": "noun",
+        "article": "die",
+        "word": "Machtübernahme",
+        "plural": "-n",
+        "meaning": "接管权力",
+        "example": "Die Nationalsozialisten marschierten nach ihrer Machtübernahme durch das Brandenburger Tor."
+      },
+      {
+        "id": 13,
+        "type": "noun",
+        "article": "der",
+        "word": "Zweite Weltkrieg",
+        "plural": "Sg.",
+        "meaning": "第二次世界大战",
+        "example": "Der Zweite Weltkrieg begann am 1. September 1939."
+      },
+      {
+        "id": 14,
+        "type": "noun",
+        "article": "der",
+        "word": "Überfall",
+        "plural": "-ä-e",
+        "meaning": "突袭，侵袭",
+        "example": "Der Zweite Weltkrieg begann am 1. September 1939 mit dem Überfall Deutschlands auf Polen."
+      },
+      {
+        "id": 15,
+        "type": "adjective",
+        "word": "stark",
+        "meaning": "严重的，强烈的",
+        "example": "Das Brandenburger Tor wurde im Krieg stark beschädigt."
+      },
+      {
+        "id": 16,
+        "type": "verb",
+        "forms": {
+          "infinitive": "besiegen",
+          "present": "er besiegt",
+          "perfect": "er hat besiegt"
+        },
+        "meaning": "战胜，击败",
+        "example": "Am 8. Mai 1945 wurden die Deutschen besiegt."
+      },
+      {
+        "id": 17,
+        "type": "verb",
+        "forms": {
+          "infinitive": "befreien",
+          "present": "er befreit",
+          "perfect": "er hat befreit"
+        },
+        "meaning": "解放",
+        "example": "Am 8. Mai 1945 wurden die Deutschen befreit."
+      }
+    ]
+  }
+}
