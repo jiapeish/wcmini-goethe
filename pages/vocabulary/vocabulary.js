@@ -1,19 +1,54 @@
 Page({
   data: {
     currentCardIndex: 0,
-    wordLists: [],
+    wordUnits: [],
     loading: true
   },
 
   onLoad() {
-    this.loadWordLists();
+    this.loadWordUnits();
   },
 
-  loadWordLists() {
+  onShow() {
+    // 每次显示页面时更新进度
+    if (this.data.wordUnits.length > 0) {
+      this.updateProgress();
+    }
+  },
+
+  // 更新学习进度
+  updateProgress() {
+    const history = wx.getStorageSync('studyHistory') || [];
+    const wordUnits = this.data.wordUnits.map(unit => {
+      const lists = unit.lists.map(list => {
+        // 查找该组单词的学习记录
+        const record = history.find(h => h.wordListId === list.id);
+        return {
+          ...list,
+          progress: record ? record.progress : 0
+        };
+      });
+      return {
+        ...unit,
+        lists
+      };
+    });
+
+    this.setData({ wordUnits });
+  },
+
+  loadWordUnits() {
     try {
-      const lists = [];
+      const units = [];
       const fs = wx.getFileSystemManager();
       
+      // 目前只有Einheit02的数据
+      const unit02 = {
+        title: 'Einheit02',
+        lists: []
+      };
+      
+      // 加载Einheit02的8组单词
       for (let i = 1; i <= 8; i++) {
         const fileNum = i.toString().padStart(2, '0');
         const filePath = `/data/vocabulary/B1.1.1-Einheit02-${fileNum}.json`;
@@ -21,11 +56,12 @@ Page({
         try {
           const res = fs.readFileSync(filePath, 'utf8');
           const data = JSON.parse(res);
-          lists.push({
+          unit02.lists.push({
             id: i,
             title: `第${i}组单词`,
             total: data.data.total,
             words: data.data.words,
+            progress: 0,  // 初始进度为0
             bgColor: this.getBackgroundColor(i)
           });
         } catch (err) {
@@ -37,10 +73,17 @@ Page({
         }
       }
 
-      if (lists.length > 0) {
+      if (unit02.lists.length > 0) {
+        units.push(unit02);
+      }
+
+      if (units.length > 0) {
         this.setData({
-          wordLists: lists,
+          wordUnits: units,
           loading: false
+        }, () => {
+          // 加载完数据后更新进度
+          this.updateProgress();
         });
       } else {
         throw new Error('No word lists loaded');
@@ -65,12 +108,12 @@ Page({
       "linear-gradient(135deg, #B0E0E6, #4682B4)",
       "linear-gradient(135deg, #D3D3D3, #A9A9A9)"
     ];
-    return colors[index - 1] || colors[0];
+    return colors[(index - 1) % colors.length];
   },
 
   handleCardTap(e) {
-    const { index } = e.currentTarget.dataset;
-    const wordList = this.data.wordLists[index];
+    const { unitIndex, listIndex } = e.currentTarget.dataset;
+    const wordList = this.data.wordUnits[unitIndex].lists[listIndex];
     wx.navigateTo({
       url: `/pages/word-list/word-list?id=${wordList.id}`
     });

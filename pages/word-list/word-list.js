@@ -11,7 +11,6 @@ Page({
       fontSize: 'medium',
       wordColor: '#333333'
     },
-    // 添加计算后的样式值
     computedStyles: {
       fontFamily: 'unset',
       fontSize: '48rpx'
@@ -25,7 +24,6 @@ Page({
     this.loadStyleSettings();
   },
 
-  // 计算实际使用的样式值
   computeStyles(settings) {
     const fontSize = settings.fontSize === 'small' ? '40' : 
                     settings.fontSize === 'medium' ? '48' : '56';
@@ -39,7 +37,6 @@ Page({
     });
   },
 
-  // 加载样式设置
   loadStyleSettings() {
     try {
       const settings = wx.getStorageSync('wordCardSettings');
@@ -66,9 +63,11 @@ Page({
         this.setData({
           wordList: data.data.words,
           loading: false
+        }, () => {
+          // 在数据加载完成后再初始化进度
+          this.initProgress();
+          this.checkFavoriteStatus();
         });
-        this.updateStudyHistory();
-        this.checkFavoriteStatus();
       } catch (err) {
         console.error(`Failed to load file ${filePath}:`, err);
         wx.showToast({
@@ -85,7 +84,22 @@ Page({
     }
   },
 
-  // 检查收藏状态
+  // 初始化进度
+  initProgress() {
+    try {
+      const history = wx.getStorageSync('studyHistory') || [];
+      const record = history.find(item => item.wordListId === parseInt(this.wordListId));
+      if (record) {
+        this.setData({
+          currentIndex: record.lastIndex || 0,
+          studyProgress: record.progress || 0
+        });
+      }
+    } catch (error) {
+      console.error('Failed to init progress:', error);
+    }
+  },
+
   checkFavoriteStatus() {
     try {
       const favorites = wx.getStorageSync('favoriteWords') || [];
@@ -100,7 +114,6 @@ Page({
     }
   },
 
-  // 切换收藏状态
   toggleFavorite() {
     try {
       const currentWord = this.data.wordList[this.data.currentIndex];
@@ -139,7 +152,6 @@ Page({
     }
   },
 
-  // 切换显示中文含义
   toggleMeaning() {
     this.setData({
       showMeaning: !this.data.showMeaning
@@ -147,7 +159,6 @@ Page({
     this.updateProgress();
   },
 
-  // 上一个单词
   prevWord() {
     if (this.data.currentIndex > 0) {
       this.setData({
@@ -159,7 +170,6 @@ Page({
     }
   },
 
-  // 下一个单词
   nextWord() {
     if (this.data.currentIndex < this.data.wordList.length - 1) {
       this.setData({
@@ -171,34 +181,35 @@ Page({
     }
   },
 
-  // 更新学习进度
   updateProgress() {
-    const progress = Math.round((this.data.currentIndex + 1) / this.data.wordList.length * 100);
+    // 计算进度：当前查看的单词数占总单词数的百分比
+    const progress = Math.round(((this.data.currentIndex + 1) / this.data.wordList.length) * 100);
+    
     this.setData({ studyProgress: progress });
-    this.updateStudyHistory();
-  },
-
-  // 更新学习历史
-  updateStudyHistory() {
+    
+    // 更新学习历史
     try {
       let history = wx.getStorageSync('studyHistory') || [];
-      
       const newRecord = {
-        wordListId: this.wordListId,
+        wordListId: parseInt(this.wordListId),
         totalWords: this.data.wordList.length,
-        progress: this.data.studyProgress,
+        progress: progress,
         timestamp: new Date().toLocaleString(),
         lastIndex: this.data.currentIndex
       };
 
-      const existingIndex = history.findIndex(item => item.wordListId === this.wordListId);
+      const existingIndex = history.findIndex(item => item.wordListId === parseInt(this.wordListId));
       
       if (existingIndex !== -1) {
-        history[existingIndex] = newRecord;
+        // 如果新进度大于旧进度，才更新
+        if (progress > history[existingIndex].progress) {
+          history[existingIndex] = newRecord;
+        }
       } else {
         history.push(newRecord);
       }
 
+      // 限制历史记录数量
       if (history.length > 20) {
         history = history.slice(-20);
       }
@@ -209,7 +220,6 @@ Page({
     }
   },
 
-  // 返回单词列表页面
   goBack() {
     wx.navigateBack();
   }

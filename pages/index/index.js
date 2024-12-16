@@ -3,7 +3,7 @@ Page({
     sections: {
       vocabulary: [
         {
-          title: '单元词汇',
+          title: 'B1.1词汇',
           subtitle: '查看更方便',
           icon: 'vocab',
           bgColor: 'yellow'

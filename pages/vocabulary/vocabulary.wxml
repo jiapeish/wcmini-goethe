@@ -1,23 +1,35 @@
 <view class="container">
-  <view class="header">
-    <text class="title">单元词汇</text>
-    <text class="subtitle">选择要学习的单词组</text>
-  </view>
-
   <view class="loading" wx:if="{{loading}}">
     <text>加载中...</text>
   </view>
 
-  <view class="card-grid" wx:else>
-    <block wx:for="{{wordLists}}" wx:key="id">
-      <view class="card" bindtap="handleCardTap" data-index="{{index}}">
-        <view class="card-content">
-          <view class="card-title">{{item.title}}</view>
-          <view class="card-info">
-            <text class="word-count">{{item.total}}个单词</text>
+  <block wx:else>
+    <block wx:for="{{wordUnits}}" wx:key="title" wx:for-item="unit" wx:for-index="unitIndex">
+      <!-- 单元标题 -->
+      <view class="unit-title">{{unit.title}}</view>
+
+      <!-- 单词卡片网格 -->
+      <view class="word-grid">
+        <block wx:for="{{unit.lists}}" wx:key="id" wx:for-item="list" wx:for-index="listIndex">
+          <view class="word-card" 
+                bindtap="handleCardTap" 
+                data-unit-index="{{unitIndex}}"
+                data-list-index="{{listIndex}}">
+            <view class="card-content" style="background: {{list.bgColor}}">
+              <view class="card-info">
+                <text class="title">{{list.title}}</text>
+                <text class="count">{{list.total}}个单词</text>
+              </view>
+              <view class="progress-bar">
+                <view class="progress" style="width: {{list.progress}}%"></view>
+              </view>
+            </view>
           </view>
-        </view>
+        </block>
       </view>
+
+      <!-- 分割线 (除了最后一个单元) -->
+      <view class="divider" wx:if="{{index < wordUnits.length - 1}}"></view>
     </block>
-  </view>
+  </block>
 </view>
