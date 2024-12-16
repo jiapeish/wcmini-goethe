@@ -1,8 +1,8 @@
-// pages/profile/profile.js
 Page({
   data: {
     userInfo: null,
-    points: 100  // Set default points to 100
+    points: 100,
+    favoriteCount: 0  // 添加收藏数量
   },
 
   onLoad() {
@@ -11,8 +11,24 @@ Page({
     if (userInfo) {
       this.setData({
         userInfo: userInfo,
-        points: 100  // Always show 100 points
+        points: 100
       });
+    }
+  },
+
+  onShow() {
+    // 更新收藏数量
+    this.updateFavoriteCount();
+  },
+
+  updateFavoriteCount() {
+    try {
+      const favorites = wx.getStorageSync('favoriteWords') || [];
+      this.setData({
+        favoriteCount: favorites.length
+      });
+    } catch (error) {
+      console.error('Failed to get favorite count:', error);
     }
   },
 
@@ -29,7 +45,7 @@ Page({
         // Update page state
         this.setData({
           userInfo: userInfo,
-          points: 100  // Set points to 100 after login
+          points: 100
         });
 
         // Show success toast
@@ -52,14 +68,37 @@ Page({
   handleMenuClick(e) {
     const menuText = e.currentTarget.dataset.menu;
     
-    if (menuText === '我的积分') {
-      if (!this.data.userInfo) {
+    if (!this.data.userInfo) {
+      wx.showToast({
+        title: '请先登录',
+        icon: 'none'
+      });
+      return;
+    }
+
+    switch (menuText) {
+      case '我的学习记录':
+        wx.navigateTo({
+          url: '/pages/study-history/study-history'
+        });
+        break;
+      case '我的收藏':
+        wx.navigateTo({
+          url: '/pages/favorites/favorites'
+        });
+        break;
+      case '我的积分':
         wx.showToast({
-          title: '请先登录',
+          title: '当前积分：' + this.data.points,
           icon: 'none'
         });
-        return;
-      }
+        break;
+      case '设置':
+        wx.showToast({
+          title: '功能开发中',
+          icon: 'none'
+        });
+        break;
     }
   }
 });

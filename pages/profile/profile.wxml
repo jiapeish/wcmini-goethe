@@ -26,6 +26,7 @@
     <view class="menu-item" bindtap="handleMenuClick" data-menu="我的收藏">
       <text class="menu-text">我的收藏</text>
       <view class="menu-right">
+        <text class="count" wx:if="{{favoriteCount > 0}}">{{favoriteCount}}</text>
         <text class="arrow">></text>
       </view>
     </view>

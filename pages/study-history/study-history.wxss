@@ -1,0 +1,92 @@
+.container {
+  min-height: 100vh;
+  background: #f7f7f7;
+  padding: 20rpx;
+}
+
+.loading {
+  text-align: center;
+  padding: 40rpx;
+  color: #999;
+}
+
+.empty-state {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 100rpx 0;
+}
+
+.empty-text {
+  font-size: 32rpx;
+  color: #666;
+  margin-bottom: 20rpx;
+}
+
+.empty-tip {
+  font-size: 28rpx;
+  color: #999;
+}
+
+.history-list {
+  padding: 10rpx;
+}
+
+.history-item {
+  background: white;
+  border-radius: 16rpx;
+  padding: 30rpx;
+  margin-bottom: 20rpx;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  box-shadow: 0 2rpx 10rpx rgba(0, 0, 0, 0.05);
+}
+
+.history-content {
+  flex: 1;
+}
+
+.history-title {
+  font-size: 32rpx;
+  font-weight: bold;
+  color: #333;
+  margin-bottom: 10rpx;
+}
+
+.history-info {
+  display: flex;
+  align-items: center;
+  margin-top: 10rpx;
+}
+
+.word-count {
+  font-size: 26rpx;
+  color: #666;
+  margin-right: 20rpx;
+  background: #f0f0f0;
+  padding: 4rpx 12rpx;
+  border-radius: 20rpx;
+}
+
+.study-progress {
+  font-size: 26rpx;
+  color: #4a90e2;
+}
+
+.history-time {
+  font-size: 24rpx;
+  color: #999;
+  margin-right: 20rpx;
+}
+
+.arrow {
+  color: #ccc;
+  font-size: 32rpx;
+}
+
+.history-item:active {
+  transform: scale(0.98);
+  transition: transform 0.2s;
+}

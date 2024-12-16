@@ -20,6 +20,7 @@
   box-shadow: 0 4rpx 20rpx rgba(0, 0, 0, 0.1);
   padding: 30rpx;
   margin-top: 40rpx;
+  position: relative;
 }
 
 .progress {
@@ -34,11 +35,37 @@
   display: flex;
   flex-direction: column;
   justify-content: space-between;
+  position: relative;
+}
+
+/* 收藏按钮样式 */
+.favorite-btn {
+  position: absolute;
+  top: 0;
+  right: 0;
+  padding: 20rpx;
+  z-index: 10;
+}
+
+.favorite-btn .star {
+  font-size: 48rpx;
+  color: #ddd;
+  transition: all 0.3s ease;
+}
+
+.favorite-btn.active .star {
+  color: #ffd700;
+  transform: scale(1.1);
+}
+
+.favorite-btn:active {
+  transform: scale(0.95);
 }
 
 .word-section {
   text-align: center;
   margin-bottom: 40rpx;
+  padding-top: 40rpx;
 }
 
 .word {

@@ -8,9 +8,14 @@
       <text>{{currentIndex + 1}} / {{wordList.length}}</text>
     </view>
 
-    <view class="card-content" bindtap="toggleMeaning">
+    <view class="card-content">
+      <!-- 收藏按钮 -->
+      <view class="favorite-btn {{isFavorite ? 'active' : ''}}" bindtap="toggleFavorite">
+        <text class="star">★</text>
+      </view>
+
       <!-- 单词部分 -->
-      <view class="word-section">
+      <view class="word-section" bindtap="toggleMeaning">
         <text class="word">{{wordList[currentIndex].word}}</text>
         <text class="type" wx:if="{{wordList[currentIndex].type === 'noun'}}">
           {{wordList[currentIndex].article}} {{wordList[currentIndex].plural ? '(-' + wordList[currentIndex].plural + ')' : ''}}
@@ -24,17 +29,17 @@
       </view>
 
       <!-- 例句部分 -->
-      <view class="example-section">
+      <view class="example-section" bindtap="toggleMeaning">
         <text class="example">{{wordList[currentIndex].example}}</text>
       </view>
 
       <!-- 中文含义部分 -->
-      <view class="meaning-section {{showMeaning ? 'show' : ''}}">
+      <view class="meaning-section {{showMeaning ? 'show' : ''}}" bindtap="toggleMeaning">
         <text class="meaning">{{wordList[currentIndex].meaning}}</text>
       </view>
 
       <!-- 动词变位信息 -->
-      <view class="verb-forms" wx:if="{{wordList[currentIndex].type === 'verb' || wordList[currentIndex].type === 'reflexive_verb'}}">
+      <view class="verb-forms" wx:if="{{wordList[currentIndex].type === 'verb' || wordList[currentIndex].type === 'reflexive_verb'}}" bindtap="toggleMeaning">
         <text>现在时：{{wordList[currentIndex].forms.present}}</text>
         <text>完成时：{{wordList[currentIndex].forms.perfect}}</text>
       </view>

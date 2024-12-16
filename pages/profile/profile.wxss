@@ -81,13 +81,22 @@
   align-items: center;
 }
 
-.points {
-  font-size: 30rpx;
+/* 统一数字显示样式 */
+.points, .count {
+  background: #f0f0f0;
+  padding: 4rpx 12rpx;
+  border-radius: 20rpx;
+  font-size: 24rpx;
   color: #666;
   margin-right: 10rpx;
+  box-shadow: 0 2rpx 4rpx rgba(0, 0, 0, 0.1);
 }
 
 .arrow {
   color: #ccc;
   font-size: 32rpx;
+}
+
+.menu-item:active {
+  background-color: #f9f9f9;
 }
