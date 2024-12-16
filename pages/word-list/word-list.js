@@ -5,13 +5,53 @@ Page({
     currentIndex: 0,
     showMeaning: false,
     studyProgress: 0,
-    isFavorite: false  // 当前单词的收藏状态
+    isFavorite: false,
+    styleSettings: {
+      fontFamily: 'default',
+      fontSize: 'medium',
+      wordColor: '#333333'
+    },
+    // 添加计算后的样式值
+    computedStyles: {
+      fontFamily: 'unset',
+      fontSize: '48rpx'
+    }
   },
 
   onLoad(options) {
     const { id } = options;
-    this.wordListId = id; // 保存单词列表ID
+    this.wordListId = id;
     this.loadWordList(id);
+    this.loadStyleSettings();
+  },
+
+  // 计算实际使用的样式值
+  computeStyles(settings) {
+    const fontSize = settings.fontSize === 'small' ? '40' : 
+                    settings.fontSize === 'medium' ? '48' : '56';
+    const fontFamily = settings.fontFamily === 'default' ? 'unset' : settings.fontFamily;
+
+    this.setData({
+      computedStyles: {
+        fontFamily,
+        fontSize: fontSize + 'rpx'
+      }
+    });
+  },
+
+  // 加载样式设置
+  loadStyleSettings() {
+    try {
+      const settings = wx.getStorageSync('wordCardSettings');
+      if (settings) {
+        this.setData({
+          styleSettings: settings
+        });
+        this.computeStyles(settings);
+      }
+    } catch (error) {
+      console.error('Failed to load style settings:', error);
+    }
   },
 
   loadWordList(id) {
@@ -45,7 +85,7 @@ Page({
     }
   },
 
-  // 检查当前单词的收藏状态
+  // 检查收藏状态
   checkFavoriteStatus() {
     try {
       const favorites = wx.getStorageSync('favoriteWords') || [];
@@ -71,7 +111,6 @@ Page({
       );
 
       if (wordIndex === -1) {
-        // 添加到收藏
         favorites.push({
           ...currentWord,
           wordListId: parseInt(this.wordListId),
@@ -82,7 +121,6 @@ Page({
           icon: 'success'
         });
       } else {
-        // 取消收藏
         favorites.splice(wordIndex, 1);
         wx.showToast({
           title: '已取消收藏',

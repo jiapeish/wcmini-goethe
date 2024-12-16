@@ -1,0 +1,59 @@
+<view class="container">
+  <view class="settings-group">
+    <view class="group-title">字体设置</view>
+    <view class="setting-item">
+      <text class="setting-label">字体</text>
+      <picker bindchange="handleFontFamilyChange" 
+              value="{{settings.fontFamily}}" 
+              range="{{fontFamilies}}" 
+              range-key="name">
+        <view class="picker-content">
+          <text>{{currentFontFamilyName}}</text>
+          <text class="arrow">></text>
+        </view>
+      </picker>
+    </view>
+
+    <view class="setting-item">
+      <text class="setting-label">字体大小</text>
+      <picker bindchange="handleFontSizeChange" 
+              value="{{settings.fontSize}}" 
+              range="{{fontSizes}}" 
+              range-key="name">
+        <view class="picker-content">
+          <text>{{currentFontSizeName}}</text>
+          <text class="arrow">></text>
+        </view>
+      </picker>
+    </view>
+
+    <view class="setting-item">
+      <text class="setting-label">字体颜色</text>
+      <picker bindchange="handleColorChange" 
+              value="{{settings.wordColor}}" 
+              range="{{colors}}" 
+              range-key="name">
+        <view class="picker-content">
+          <view class="color-preview" style="background-color: {{settings.wordColor}}"></view>
+          <text>{{currentColorName}}</text>
+          <text class="arrow">></text>
+        </view>
+      </picker>
+    </view>
+  </view>
+
+  <!-- 预览区域 -->
+  <view class="preview-section">
+    <view class="preview-title">预览效果</view>
+    <view class="preview-card">
+      <text class="preview-word" style="font-family: {{settings.fontFamily === 'default' ? 'unset' : settings.fontFamily}}; font-size: {{settings.fontSize === 'small' ? '32' : settings.fontSize === 'medium' ? '40' : '48'}}rpx; color: {{settings.wordColor}}">Beispiel</text>
+      <text class="preview-type">das (-e)</text>
+      <text class="preview-meaning">示例</text>
+    </view>
+  </view>
+
+  <!-- 重置按钮 -->
+  <view class="button-section">
+    <button class="reset-btn" bindtap="resetSettings">恢复默认设置</button>
+  </view>
+</view>

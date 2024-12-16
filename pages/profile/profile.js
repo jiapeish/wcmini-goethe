@@ -2,7 +2,7 @@ Page({
   data: {
     userInfo: null,
     points: 100,
-    favoriteCount: 0  // 添加收藏数量
+    favoriteCount: 0
   },
 
   onLoad() {
@@ -94,9 +94,8 @@ Page({
         });
         break;
       case '设置':
-        wx.showToast({
-          title: '功能开发中',
-          icon: 'none'
+        wx.navigateTo({
+          url: '/pages/settings/settings'
         });
         break;
     }

@@ -6,7 +6,8 @@
     "pages/vocabulary/vocabulary",
     "pages/word-list/word-list",
     "pages/study-history/study-history",
-    "pages/favorites/favorites"
+    "pages/favorites/favorites",
+    "pages/settings/settings"
   ],
   "tabBar": {
     "list": [
@@ -35,8 +36,5 @@
     "navigationBarBackgroundColor": "#fff",
     "navigationBarTitleText": "WeChat",
     "navigationBarTextStyle": "black"
-  },
-  "request": {
-    "domain": ["https://api.openrouter.ai"]
   }
 }
