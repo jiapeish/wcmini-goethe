@@ -1,6 +1,7 @@
 {
   "pages": [
     "pages/index/index",
+    "pages/ai/ai",
     "pages/profile/profile",
     "pages/recommend/recommend",
     "pages/vocabulary/vocabulary",
@@ -16,6 +17,12 @@
         "text": "首页",
         "iconPath": "pages/images/home.png",
         "selectedIconPath": "pages/images/home_selected.png"
+      },
+      {
+        "pagePath": "pages/ai/ai",
+        "text": "AI",
+        "iconPath": "pages/images/ai.png",
+        "selectedIconPath": "pages/images/ai_selected.png"
       },
       {
         "pagePath": "pages/recommend/recommend",
