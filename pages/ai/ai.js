@@ -94,6 +94,9 @@ Page({
     const messages = [...this.data.messages, {
       role: 'user',
       content: userMessage
+    }, {
+      role: 'assistant',
+      content: '请稍等，正在卖力思考中🤔...'
     }];
 
     this.setData({
@@ -109,18 +112,21 @@ Page({
       const res = await ai.bot.sendMessage({
         botId: this.data.botId,
         msg: userMessage,
-        history: this.data.messages
+        history: this.data.messages.slice(0, -1) // 不包含加载消息
       });
 
       let response = '';
       for await (let str of res.dataStream) {
         response += str.content;
         const cleanedResponse = this.cleanMarkdown(response);
+        // 更新最后一条消息（替换加载消息）
+        const updatedMessages = [...this.data.messages];
+        updatedMessages[updatedMessages.length - 1] = {
+          role: 'assistant',
+          content: cleanedResponse
+        };
         this.setData({
-          messages: [...messages, {
-            role: 'assistant',
-            content: cleanedResponse
-          }]
+          messages: updatedMessages
         });
       }
     } catch (error) {
@@ -129,9 +135,9 @@ Page({
         title: '发送失败',
         icon: 'error'
       });
-      // 移除失败的消息
+      // 移除加载消息和失败的消息
       this.setData({
-        messages: messages.slice(0, -1)
+        messages: this.data.messages.slice(0, -2)
       });
     } finally {
       this.setData({
