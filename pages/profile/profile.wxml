@@ -15,8 +15,10 @@
 
     <!-- 已登录状态 -->
     <block wx:else>
-      <image class="avatar" src="{{userInfo.avatarUrl}}"></image>
-      <text class="nickname">{{nickName}}</text>
+      <view class="profile-button" bindtap="handleLogout">
+        <image class="avatar" src="{{userInfo.avatarUrl}}"></image>
+        <text class="nickname">{{nickName}}</text>
+      </view>
     </block>
   </view>
 

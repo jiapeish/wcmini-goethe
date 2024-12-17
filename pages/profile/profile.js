@@ -6,31 +6,7 @@ Page({
   },
 
   onLoad() {
-    // 添加调试信息
-    console.log('当前登录状态：', this.data.isLogin);
-    
-    // 使用绝对路径测试图片
-    wx.getImageInfo({
-      src: '/pages/images/ai-rabbit.png',  // 先测试已知可用的图片
-      success: (res) => {
-        console.log('ai-rabbit 加载成功：', res);
-        
-        // 再测试 default-avatar
-        wx.getImageInfo({
-          src: '/pages/images/default-avatar.png',
-          success: (res2) => {
-            console.log('default-avatar 加载成功：', res2);
-          },
-          fail: (err) => {
-            console.log('default-avatar 加载失败：', err);
-          }
-        });
-      },
-      fail: (err) => {
-        console.log('ai-rabbit 加载失败：', err);
-      }
-    });
-
+    // 检查登录状态
     const userInfo = wx.getStorageSync('userInfo');
     if (userInfo) {
       this.setData({
@@ -41,59 +17,39 @@ Page({
     }
   },
 
-  onShow() {
-    // 更新收藏数量
-    this.updateFavoriteCount();
-  },
-
-  updateFavoriteCount() {
-    try {
-      const favorites = wx.getStorageSync('favoriteWords') || [];
-      this.setData({
-        favoriteCount: favorites.length
-      });
-    } catch (error) {
-      console.error('Failed to get favorite count:', error);
-    }
-  },
-
-  handleLogin() {
-    wx.getUserProfile({
-      desc: '用于完善用户资料',
+  // 处理登出
+  handleLogout() {
+    wx.showModal({
+      title: '提示',
+      content: '确定要退出登录吗？',
       success: (res) => {
-        console.log('Login success:', res);
-        const userInfo = res.userInfo;
-        
-        // Save user info to storage
-        wx.setStorageSync('userInfo', userInfo);
-        
-        // Update page state
-        this.setData({
-          userInfo: userInfo,
-          points: 100
-        });
+        if (res.confirm) {
+          // 清除存储的用户信息
+          wx.removeStorageSync('userInfo');
+          
+          // 更新全局数据
+          getApp().globalData.userInfo = null;
+          
+          // 更新页面状态
+          this.setData({
+            userInfo: null,
+            isLogin: false,
+            nickName: '微信用户'
+          });
 
-        // Show success toast
-        wx.showToast({
-          title: '登录成功',
-          icon: 'success'
-        });
-      },
-      fail: (err) => {
-        console.error('Login failed:', err);
-        wx.showToast({
-          title: '登录失败',
-          icon: 'none'
-        });
+          wx.showToast({
+            title: '已退出登录',
+            icon: 'success'
+          });
+        }
       }
     });
   },
 
-  // 处理头像选择
+  // 处理头像选择（登录）
   onChooseAvatar(e) {
     const { avatarUrl } = e.detail;
     
-    // 获取昵称
     wx.showModal({
       title: '请输入昵称',
       editable: true,
