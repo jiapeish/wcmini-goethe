@@ -31,5 +31,23 @@ App({
 
   onHide() {
     
+  },
+
+  // 添加用户登录方法
+  login() {
+    return new Promise((resolve, reject) => {
+      wx.getUserProfile({
+        desc: '用于完善用户资料',
+        success: (res) => {
+          const userInfo = res.userInfo;
+          this.globalData.userInfo = userInfo;
+          wx.setStorageSync('userInfo', userInfo);
+          resolve(userInfo);
+        },
+        fail: (err) => {
+          reject(err);
+        }
+      });
+    });
   }
 });

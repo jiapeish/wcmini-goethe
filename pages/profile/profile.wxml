@@ -1,21 +1,26 @@
 <view class="container">
-  <!-- Not logged in state -->
-  <view class="profile-section" wx:if="{{!userInfo}}">
-    <view class="avatar-wrapper">
-      <image class="default-avatar" src="/pages/images/user.png" mode="aspectFit"></image>
-    </view>
-    <button class="login-btn" type="primary" bindtap="handleLogin">微信登录</button>
+  <view class="profile-section">
+    <!-- 未登录状态 -->
+    <block wx:if="{{!isLogin}}">
+      <button 
+        class="profile-button"
+        open-type="chooseAvatar" 
+        bindchooseavatar="onChooseAvatar">
+        <view class="avatar">
+          <image src="/pages/images/default-avatar.png" mode="aspectFit"></image>
+        </view>
+        <text class="nickname">{{nickName}}</text>
+      </button>
+    </block>
+
+    <!-- 已登录状态 -->
+    <block wx:else>
+      <image class="avatar" src="{{userInfo.avatarUrl}}"></image>
+      <text class="nickname">{{nickName}}</text>
+    </block>
   </view>
 
-  <!-- Logged in state -->
-  <view class="profile-section" wx:else>
-    <view class="user-info">
-      <image class="avatar" src="{{userInfo.avatarUrl}}" mode="aspectFit"></image>
-      <text class="nickname">{{userInfo.nickName}}</text>
-    </view>
-  </view>
-
-  <!-- Menu items -->
+  <!-- 菜单列表 -->
   <view class="menu-list">
     <view class="menu-item" bindtap="handleMenuClick" data-menu="我的学习记录">
       <text class="menu-text">我的学习记录</text>
@@ -23,20 +28,23 @@
         <text class="arrow">></text>
       </view>
     </view>
+
     <view class="menu-item" bindtap="handleMenuClick" data-menu="我的收藏">
       <text class="menu-text">我的收藏</text>
       <view class="menu-right">
-        <text class="count" wx:if="{{favoriteCount > 0}}">{{favoriteCount}}</text>
+        <text class="count" wx:if="{{favoriteCount}}">{{favoriteCount}}</text>
         <text class="arrow">></text>
       </view>
     </view>
+
     <view class="menu-item" bindtap="handleMenuClick" data-menu="我的积分">
       <text class="menu-text">我的积分</text>
       <view class="menu-right">
-        <text class="points">{{points}}</text>
+        <text class="points" wx:if="{{points}}">{{points}}</text>
         <text class="arrow">></text>
       </view>
     </view>
+
     <view class="menu-item" bindtap="handleMenuClick" data-menu="设置">
       <text class="menu-text">设置</text>
       <view class="menu-right">
