@@ -1,8 +1,8 @@
 <view class="container">
   <!-- AI Info -->
   <view class="ai-info">
-    <image class="avatar" src="/pages/images/ai-rabbit.png" mode="aspectFill"></image>
-    <text class="ai-name">闪电德语AI助手</text>
+    <image class="avatar" src="/pages/images/assist.png" mode="aspectFill"></image>
+    <text class="ai-name">⚡️AI助手</text>
   </view>
 
   <!-- Chat Area -->
@@ -13,8 +13,8 @@
   >
     <!-- Welcome Message -->
     <view class="message assistant" wx:if="{{messages.length === 0}}">
-      <text user-select="true">你好，我是闪电德语AI助手。</text>
-      <button class="copy-btn" bindtap="copyMessage" data-text="你好，我是闪电德语AI助手。">
+      <text user-select="true">你好，我是AI助手。</text>
+      <button class="copy-btn" bindtap="copyMessage" data-text="你好，我是AI助手。">
         <text class="copy-icon">📋</text>
         <text>复制</text>
       </button>
