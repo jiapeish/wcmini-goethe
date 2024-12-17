@@ -57,7 +57,7 @@ Page({
       this.scrollToBottom();
     });
 
-    // Send to API
+    // Send to API with default timeout (20s)
     wx.cloud.callContainer({
       config: {
         env: 'prod-3gq9kpp7b8085f19'
@@ -74,26 +74,45 @@ Page({
     }).then(res => {
       console.log('Response:', res);
       if (res.statusCode === 200 && res.data.status === 'success') {
-        // Add AI response
-        const currentMessages = this.data.messages;
-        currentMessages.push({
-          type: 'ai',
-          content: res.data.content
-        });
-
-        this.setData({
-          messages: currentMessages
-        }, () => {
-          this.scrollToBottom();
-        });
+        if (!res.data.content || !res.data.content.trim()) {
+          // 处理空响应
+          const currentMessages = this.data.messages;
+          currentMessages.push({
+            type: 'ai',
+            content: '我遇到了一些网络问题，请稍后再试'
+          });
+          this.setData({
+            messages: currentMessages
+          }, () => {
+            this.scrollToBottom();
+          });
+        } else {
+          // 正常响应
+          const currentMessages = this.data.messages;
+          currentMessages.push({
+            type: 'ai',
+            content: res.data.content
+          });
+          this.setData({
+            messages: currentMessages
+          }, () => {
+            this.scrollToBottom();
+          });
+        }
       } else {
         throw new Error('API response not successful');
       }
     }).catch(err => {
       console.error('Error:', err);
-      wx.showToast({
-        title: '发送失败',
-        icon: 'none'
+      const currentMessages = this.data.messages;
+      currentMessages.push({
+        type: 'ai',
+        content: '我遇到了一些网络问题，请稍后再试'
+      });
+      this.setData({
+        messages: currentMessages
+      }, () => {
+        this.scrollToBottom();
       });
     });
   }
