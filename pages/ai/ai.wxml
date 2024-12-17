@@ -1,3 +1,35 @@
-<view class="container">
-  <text>AI Page</text>
+<view class="chat-container">
+  <scroll-view 
+    scroll-y="true" 
+    class="messages-container"
+    scroll-into-view="msg-{{messages.length-1}}"
+  >
+    <block wx:for="{{messages}}" wx:key="index">
+      <view 
+        id="msg-{{index}}"
+        class="message {{item.role === 'user' ? 'user-message' : 'assistant-message'}}"
+      >
+        <view class="message-content">{{item.content}}</view>
+      </view>
+    </block>
+  </scroll-view>
+  
+  <view class="input-container">
+    <input
+      class="message-input"
+      value="{{inputValue}}"
+      placeholder="输入消息..."
+      bindinput="handleInput"
+      bindconfirm="sendMessage"
+      confirm-type="send"
+      disabled="{{loading}}"
+    />
+    <button 
+      class="send-button" 
+      bindtap="sendMessage"
+      disabled="{{loading || !inputValue}}"
+    >
+      发送
+    </button>
+  </view>
 </view>
