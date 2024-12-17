@@ -1,3 +1,6 @@
 {
-  "navigationBarTitleText": "AI"
+  "navigationBarTitleText": "AI",
+  "usingComponents": {
+    "ai-component": "/components/dist/Ai/index"
+  }
 }

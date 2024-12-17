@@ -1,4 +1,13 @@
-//app.js
+import { init } from '@cloudbase/weda-client';
+
+// Initialize SDK
+init({
+  envID: 'prod-3gq9kpp7b8085f19', // Using the existing cloud env ID
+  appConfig: {
+    staticResourceDomain: 'undefined-1333030562.tcloudbaseapp.com',
+  }
+});
+
 App({
   globalData: {
     userInfo: null
