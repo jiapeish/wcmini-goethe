@@ -2,12 +2,21 @@
   "pages": [
     "pages/index/index",
     "pages/ai/ai",
-    "pages/profile/profile",
-    "pages/vocabulary/vocabulary",
-    "pages/word-list/word-list",
-    "pages/study-history/study-history",
-    "pages/favorites/favorites",
-    "pages/settings/settings"
+    "pages/profile/profile"
+  ],
+  "subpackages": [
+    {
+      "root": "packages/vocabulary",
+      "name": "vocabulary",
+      "pages": [
+        "pages/vocabulary/vocabulary",
+        "pages/word-list/word-list",
+        "pages/study-history/study-history",
+        "pages/favorites/favorites",
+        "pages/settings/settings"
+      ],
+      "independent": true
+    }
   ],
   "tabBar": {
     "list": [
@@ -36,5 +45,6 @@
     "navigationBarBackgroundColor": "#fff",
     "navigationBarTitleText": "闪电德语",
     "navigationBarTextStyle": "black"
-  }
+  },
+  "lazyCodeLoading": "requiredComponents"
 }
