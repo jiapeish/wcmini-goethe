@@ -1,46 +1,8 @@
-import cloudbase from "@cloudbase/js-sdk/app";
-import { registerAuth } from "@cloudbase/js-sdk/auth";
-import { registerAi } from "@cloudbase/js-sdk/ai";
-
-registerAuth(cloudbase);
-registerAi(cloudbase);
-
 Page({
   data: {
     messages: [],
     inputValue: '',
-    loading: false,
-    botId: 'bot-011af47b',
-    env: 'wcmini-goethe-5gkgoxil4bab77bf'
-  },
-
-  async onLoad() {
-    try {
-      const app = cloudbase.init({
-        env: this.data.env
-      });
-      
-      const auth = app.auth({ persistence: "local" });
-      await auth.signInWithOpenId();
-      this.ai = await app.ai();
-      
-      // Get bot info
-      const botInfo = await this.ai.bot.get({ botId: this.data.botId });
-      if (botInfo.welcomeMessage) {
-        this.setData({
-          messages: [{
-            role: 'assistant',
-            content: botInfo.welcomeMessage
-          }]
-        });
-      }
-    } catch (error) {
-      console.error('初始化失败:', error);
-      wx.showToast({
-        title: '初始化失败',
-        icon: 'error'
-      });
-    }
+    botId: 'bot-011af47b'
   },
 
   handleInput(e) {
@@ -50,38 +12,37 @@ Page({
   },
 
   async sendMessage() {
-    if (!this.data.inputValue.trim() || this.data.loading) return;
+    if (!this.data.inputValue.trim()) return;
 
     const userMessage = this.data.inputValue.trim();
+    const messages = [...this.data.messages, {
+      role: 'user',
+      content: userMessage
+    }];
+
     this.setData({
-      messages: [...this.data.messages, {
-        role: 'user',
-        content: userMessage
-      }],
-      inputValue: '',
-      loading: true
+      messages,
+      inputValue: ''
     });
 
     try {
-      const res = await this.ai.bot.sendMessage({
+      const app = getApp();
+      const ai = await app.ai();
+      const res = await ai.bot.sendMessage({
         botId: this.data.botId,
         msg: userMessage,
+        history: this.data.messages
       });
 
-      let fullResponse = '';
-      for await (let str of res.textStream) {
-        fullResponse += str;
-        // Update the last message (bot's response) in real-time
-        const messages = [...this.data.messages];
-        if (messages[messages.length - 1].role === 'assistant') {
-          messages[messages.length - 1].content = fullResponse;
-        } else {
-          messages.push({
+      let response = '';
+      for await (let str of res.dataStream) {
+        response += str.content;
+        this.setData({
+          messages: [...messages, {
             role: 'assistant',
-            content: fullResponse
-          });
-        }
-        this.setData({ messages });
+            content: response
+          }]
+        });
       }
     } catch (error) {
       console.error('发送消息失败:', error);
@@ -89,8 +50,6 @@ Page({
         title: '发送失败',
         icon: 'error'
       });
-    } finally {
-      this.setData({ loading: false });
     }
   }
 });

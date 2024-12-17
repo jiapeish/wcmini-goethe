@@ -1,35 +1,24 @@
 <view class="chat-container">
-  <scroll-view 
-    scroll-y="true" 
-    class="messages-container"
-    scroll-into-view="msg-{{messages.length-1}}"
-  >
+  <scroll-view class="messages" scroll-y scroll-into-view="msg-{{messages.length-1}}">
     <block wx:for="{{messages}}" wx:key="index">
-      <view 
-        id="msg-{{index}}"
-        class="message {{item.role === 'user' ? 'user-message' : 'assistant-message'}}"
-      >
-        <view class="message-content">{{item.content}}</view>
+      <view id="msg-{{index}}" class="message {{item.role === 'user' ? 'user' : 'assistant'}}">
+        <text>{{item.content}}</text>
       </view>
     </block>
   </scroll-view>
   
-  <view class="input-container">
-    <input
-      class="message-input"
+  <view class="input-area">
+    <input 
+      class="input"
       value="{{inputValue}}"
       placeholder="输入消息..."
       bindinput="handleInput"
       bindconfirm="sendMessage"
-      confirm-type="send"
-      disabled="{{loading}}"
     />
     <button 
-      class="send-button" 
+      class="send-btn"
       bindtap="sendMessage"
-      disabled="{{loading || !inputValue}}"
-    >
-      发送
-    </button>
+      disabled="{{!inputValue}}"
+    >发送</button>
   </view>
 </view>

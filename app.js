@@ -1,15 +1,34 @@
-//app.js
+import cloudbase from "@cloudbase/js-sdk/app";
+import { registerAuth } from "@cloudbase/js-sdk/auth";
+import { registerAi } from "@cloudbase/js-sdk/ai";
+
+registerAuth(cloudbase);
+registerAi(cloudbase);
+
 App({
   globalData: {
-    userInfo: null
+    userInfo: null,
+    ai: null
   },
 
-  onLaunch() {
+  async onLaunch() {
     // Initialize cloud environment
     wx.cloud.init({
-      env: 'prod-3gq9kpp7b8085f19',
+      env: 'wcmini-goethe-5gkgoxil4bab77bf',
       traceUser: true
     });
+
+    try {
+      const app = cloudbase.init({
+        env: 'wcmini-goethe-5gkgoxil4bab77bf'
+      });
+      
+      const auth = app.auth({ persistence: "local" });
+      await auth.signInWithOpenId();
+      this.globalData.ai = await app.ai();
+    } catch (error) {
+      console.error('AI初始化失败:', error);
+    }
 
     // Check if user is logged in
     const userInfo = wx.getStorageSync('userInfo');
@@ -33,7 +52,12 @@ App({
     
   },
 
-  // 添加用户登录方法
+  // Get AI instance
+  ai() {
+    return this.globalData.ai;
+  },
+
+  // User login method
   login() {
     return new Promise((resolve, reject) => {
       wx.getUserProfile({
