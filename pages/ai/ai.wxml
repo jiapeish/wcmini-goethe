@@ -57,16 +57,18 @@
   <!-- Input Area -->
   <view class="input-area">
     <view style="position: relative;">
-      <input 
+      <textarea 
         class="input"
         value="{{inputValue}}"
         placeholder="请将您遇到的问题告诉我"
         placeholder-class="input-placeholder"
         bindinput="handleInput"
         bindconfirm="sendMessage"
-        confirm-type="send"
+        auto-height
         maxlength="1024"
         disabled="{{!initialized || loading}}"
+        show-confirm-bar="{{false}}"
+        cursor-spacing="20"
       />
       <view class="input-actions">
         <text class="char-count">{{inputValue.length}}/1024</text>
