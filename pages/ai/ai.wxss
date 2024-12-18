@@ -118,29 +118,35 @@
 }
 
 .input {
-  width: 100%;
-  min-height: 120rpx;
-  max-height: 400rpx; /* Allow expansion up to this height */
-  padding: 20rpx 180rpx 60rpx 30rpx; /* Increased bottom padding for action buttons */
-  border: 2rpx solid transparent;
-  border-radius: 40rpx;
-  font-size: 28rpx;
-  background: #f9f9f9;
-  box-sizing: border-box;
   position: relative;
-  background-clip: padding-box;
+  padding: 6rpx;
+  border-radius: 40rpx;
+  background: linear-gradient(45deg, #FF0080, #FF8C00, #40E0D0, #4169E1, #32CD32);
+  background-size: 200% 200%;
+  animation: gradientBorder 6s ease infinite;
 }
 
-.input::before {
-  content: '';
-  position: absolute;
-  top: -2rpx;
-  right: -2rpx;
-  bottom: -2rpx;
-  left: -2rpx;
-  z-index: -1;
-  border-radius: 40rpx;
-  background: linear-gradient(45deg, #FF6B6B, #4ECDC4, #45B7D1, #96C93D);
+.input textarea {
+  width: 100%;
+  min-height: 120rpx;
+  max-height: 400rpx;
+  padding: 20rpx 180rpx 60rpx 30rpx;
+  font-size: 28rpx;
+  background: #fff;
+  border-radius: 34rpx;
+  box-sizing: border-box;
+}
+
+@keyframes gradientBorder {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
 }
 
 .input-placeholder {
@@ -148,15 +154,17 @@
   position: absolute;
   top: 20rpx;
   left: 30rpx;
+  z-index: 1;
 }
 
 .input-actions {
   position: absolute;
   right: 20rpx;
-  bottom: 10rpx; /* Position at bottom */
+  bottom: 10rpx;
   display: flex;
   align-items: center;
   gap: 16rpx;
+  z-index: 1;
 }
 
 .char-count {
