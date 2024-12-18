@@ -1,0 +1,32 @@
+<view class="container">
+  <!-- Unit Title -->
+  <view class="unit-title">{{currentUnit}}</view>
+
+  <!-- Progress -->
+  <view class="progress-bar">
+    <view class="progress" style="width: {{(currentWordIndex + 1) / totalWords * 100}}%"></view>
+  </view>
+
+  <!-- Game Grid -->
+  <view class="game-grid">
+    <block wx:for="{{tiles}}" wx:key="id">
+      <view 
+        class="tile {{item.selected ? 'selected' : ''}} {{item.matched ? 'matched' : ''}}"
+        bindtap="handleTileTap"
+        data-index="{{index}}"
+      >
+        <text class="tile-text">{{item.text}}</text>
+      </view>
+    </block>
+  </view>
+
+  <!-- Score Info -->
+  <view class="score-info">
+    <text>已配对: {{matchedPairs}}/{{totalPairs}}</text>
+  </view>
+
+  <!-- Next Level Button (only show when all pairs are matched) -->
+  <view class="button-area" wx:if="{{matchedPairs === totalPairs}}">
+    <button class="next-btn" bindtap="handleNextLevel">下一关</button>
+  </view>
+</view>

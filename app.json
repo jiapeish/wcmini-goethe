@@ -11,6 +11,8 @@
       "pages": [
         "pages/vocabulary/vocabulary",
         "pages/word-list/word-list",
+        "pages/word-game/word-game",
+        "pages/study-history/study-history",
         "pages/favorites/favorites",
         "pages/settings/settings"
       ],

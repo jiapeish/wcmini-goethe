@@ -16,6 +16,14 @@ Page({
     }
   },
 
+  // 获取要显示的单词文本
+  getWordText(word) {
+    if (word.type === 'verb') {
+      return word.forms.infinitive;
+    }
+    return word.word;
+  },
+
   // 更新学习进度
   updateProgress() {
     const history = wx.getStorageSync('studyHistory') || [];
@@ -59,7 +67,10 @@ Page({
             id: i,
             title: `第${i}组单词`,
             total: data.data.total,
-            words: data.data.words,
+            words: data.data.words.map(word => ({
+              ...word,
+              displayText: this.getWordText(word)
+            })),
             progress: 0,  // 初始进度为0
             bgColor: this.getBackgroundColor(i)
           });
@@ -94,7 +105,10 @@ Page({
             id: i + 8, // Einheit02的ID从9开始，避免与Einheit01冲突
             title: `第${i}组单词`,
             total: data.data.total,
-            words: data.data.words,
+            words: data.data.words.map(word => ({
+              ...word,
+              displayText: this.getWordText(word)
+            })),
             progress: 0,  // 初始进度为0
             bgColor: this.getBackgroundColor(i)
           });

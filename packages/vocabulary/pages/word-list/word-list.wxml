@@ -16,10 +16,20 @@
 
       <!-- 单词部分 -->
       <view class="word-section" bindtap="toggleMeaning">
-        <text class="word" style="font-family: {{computedStyles.fontFamily}}; font-size: {{computedStyles.fontSize}}; color: {{styleSettings.wordColor}}">{{wordList[currentIndex].word}}</text>
-        <text class="type" wx:if="{{wordList[currentIndex].type === 'noun'}}">{{wordList[currentIndex].article}} {{wordList[currentIndex].plural ? '(-' + wordList[currentIndex].plural + ')' : ''}}</text>
-        <text class="type" wx:elif="{{wordList[currentIndex].type === 'verb'}}">{{wordList[currentIndex].forms.infinitive}}</text>
-        <text class="type" wx:else>{{wordList[currentIndex].type}}</text>
+        <!-- 动词显示 -->
+        <block wx:if="{{wordList[currentIndex].type === 'verb'}}">
+          <text class="word" style="font-family: {{computedStyles.fontFamily}}; font-size: {{computedStyles.fontSize}}; color: {{styleSettings.wordColor}}">{{wordList[currentIndex].forms.infinitive}}</text>
+        </block>
+        <!-- 名词显示 -->
+        <block wx:elif="{{wordList[currentIndex].type === 'noun'}}">
+          <text class="word" style="font-family: {{computedStyles.fontFamily}}; font-size: {{computedStyles.fontSize}}; color: {{styleSettings.wordColor}}">{{wordList[currentIndex].word}}</text>
+          <text class="type">{{wordList[currentIndex].article}} {{wordList[currentIndex].plural ? '(-' + wordList[currentIndex].plural + ')' : ''}}</text>
+        </block>
+        <!-- 其他类型词显示 -->
+        <block wx:else>
+          <text class="word" style="font-family: {{computedStyles.fontFamily}}; font-size: {{computedStyles.fontSize}}; color: {{styleSettings.wordColor}}">{{wordList[currentIndex].word}}</text>
+          <text class="type">{{wordList[currentIndex].type}}</text>
+        </block>
       </view>
 
       <!-- 例句部分 -->

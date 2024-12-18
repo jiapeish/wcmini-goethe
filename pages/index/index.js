@@ -9,7 +9,7 @@ Page({
           bgColor: 'yellow'
         },
         {
-          title: '单词练习',
+          title: '单词消消乐',
           subtitle: '闯关进步快',
           icon: 'snail',
           bgColor: 'blue'
@@ -40,6 +40,14 @@ Page({
     if (section === 'vocabulary' && index === 0) {
       wx.navigateTo({
         url: '/packages/vocabulary/pages/vocabulary/vocabulary'
+      });
+      return;
+    }
+
+    // 处理单词消消乐点击
+    if (section === 'vocabulary' && index === 1) {
+      wx.navigateTo({
+        url: '/packages/vocabulary/pages/word-game/word-game'
       });
       return;
     }

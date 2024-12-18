@@ -14,9 +14,9 @@
     <!-- Welcome Message -->
     <view class="message assistant" wx:if="{{messages.length === 0}}">
       <view class="message-content">
-        <text user-select="true">你好，我是AI助手。</text>
+        <text user-select="true">Hallo，我是闪电德语AI助手。</text>
         <view class="message-footer">
-          <button class="copy-btn" bindtap="copyMessage" data-text="你好，我是AI助手。">
+          <button class="copy-btn" bindtap="copyMessage" data-text="Hallo，我是闪电德语AI助手。">
             <text class="copy-icon">📋</text>
             <text>复制</text>
           </button>
