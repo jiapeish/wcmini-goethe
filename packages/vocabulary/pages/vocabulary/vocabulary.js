@@ -9,39 +9,12 @@ Page({
     this.loadWordUnits();
   },
 
-  onShow() {
-    // 每次显示页面时更新进度
-    if (this.data.wordUnits.length > 0) {
-      this.updateProgress();
-    }
-  },
-
   // 获取要显示的单词文本
   getWordText(word) {
     if (word.type === 'verb') {
       return word.forms.infinitive;
     }
     return word.word;
-  },
-
-  // 更新学习进度
-  updateProgress() {
-    const history = wx.getStorageSync('studyHistory') || [];
-    const wordUnits = this.data.wordUnits.map(unit => {
-      const lists = unit.lists.map(list => {
-        const record = history.find(h => h.wordListId === list.id);
-        return {
-          ...list,
-          progress: record ? record.progress : 0
-        };
-      });
-      return {
-        ...unit,
-        lists
-      };
-    });
-
-    this.setData({ wordUnits });
   },
 
   loadWordUnits() {
@@ -71,7 +44,6 @@ Page({
               ...word,
               displayText: this.getWordText(word)
             })),
-            progress: 0,  // 初始进度为0
             bgColor: this.getBackgroundColor(i)
           });
         } catch (err) {
@@ -109,7 +81,6 @@ Page({
               ...word,
               displayText: this.getWordText(word)
             })),
-            progress: 0,  // 初始进度为0
             bgColor: this.getBackgroundColor(i)
           });
         } catch (err) {
@@ -129,9 +100,6 @@ Page({
         this.setData({
           wordUnits: units,
           loading: false
-        }, () => {
-          // 加载完数据后更新进度
-          this.updateProgress();
         });
       } else {
         throw new Error('No word lists loaded');

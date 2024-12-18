@@ -7,48 +7,11 @@ Page({
     totalPairs: 0,
     tiles: [],
     selectedTile: null,
-    words: [],
-    styleSettings: {
-      fontFamily: 'default',
-      fontSize: 'medium',
-      wordColor: '#333333'
-    },
-    computedStyles: {
-      fontFamily: 'unset',
-      fontSize: '48rpx'
-    }
+    words: []
   },
 
   onLoad() {
-    this.loadStyleSettings();
     this.loadWords();
-  },
-
-  loadStyleSettings() {
-    try {
-      const settings = wx.getStorageSync('wordCardSettings');
-      if (settings) {
-        this.setData({
-          styleSettings: settings
-        });
-        this.computeStyles(settings);
-      }
-    } catch (error) {
-      console.error('Failed to load style settings:', error);
-    }
-  },
-
-  computeStyles(settings) {
-    const fontSize = settings.fontSize === 'small' ? '40' : 
-                    settings.fontSize === 'medium' ? '48' : '56';
-    const fontFamily = settings.fontFamily === 'default' ? 'unset' : settings.fontFamily;
-
-    this.setData({
-      computedStyles: {
-        fontFamily,
-        fontSize: fontSize + 'rpx'
-      }
-    });
   },
 
   // 获取单词显示文本
@@ -174,25 +137,10 @@ Page({
 
         // 检查是否完成当前页面
         if (this.data.matchedPairs === this.data.totalPairs) {
-          // 检查是否还有更多单词
-          if (this.data.currentWordIndex + 8 < this.data.totalWords) {
-            wx.showToast({
-              title: '太棒了！准备下一组',
-              icon: 'success'
-            });
-          } else if (this.data.currentUnit === 'Einheit01') {
-            // 完成Einheit01，准备进入Einheit02
-            wx.showToast({
-              title: '完成Einheit01！',
-              icon: 'success'
-            });
-          } else {
-            // 完成所有单词
-            wx.showToast({
-              title: '恭喜完成所有单词！',
-              icon: 'success'
-            });
-          }
+          wx.showToast({
+            title: '太棒了！',
+            icon: 'success'
+          });
         }
       } else {
         // 匹配失败，短暂显示后翻转回去
@@ -205,6 +153,17 @@ Page({
           });
         }, 1000);
       }
+    }
+  },
+
+  // 处理上一关
+  handlePrevLevel() {
+    if (this.data.currentWordIndex >= 8) {
+      this.setData({
+        currentWordIndex: this.data.currentWordIndex - 8
+      }, () => {
+        this.setupGame();
+      });
     }
   },
 

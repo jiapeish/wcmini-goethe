@@ -20,9 +20,6 @@
                 <text class="title">{{list.title}}</text>
                 <text class="count">{{list.total}}个单词</text>
               </view>
-              <view class="progress-bar">
-                <view class="progress" style="width: {{list.progress}}%"></view>
-              </view>
             </view>
           </view>
         </block>

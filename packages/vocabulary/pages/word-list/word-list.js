@@ -4,7 +4,6 @@ Page({
     loading: true,
     currentIndex: 0,
     showMeaning: false,
-    studyProgress: 0,
     isFavorite: false,
     styleSettings: {
       fontFamily: 'default',
@@ -67,8 +66,6 @@ Page({
           wordList: data.data.words,
           loading: false
         }, () => {
-          // 初始化进度
-          this.initProgress();
           this.checkFavoriteStatus();
         });
       } catch (err) {
@@ -84,21 +81,6 @@ Page({
         title: '加载单词列表失败',
         icon: 'none'
       });
-    }
-  },
-
-  initProgress() {
-    try {
-      const history = wx.getStorageSync('studyHistory') || [];
-      const record = history.find(item => item.wordListId === parseInt(this.wordListId));
-      if (record) {
-        this.setData({
-          currentIndex: record.lastIndex || 0,
-          studyProgress: record.progress || 0
-        });
-      }
-    } catch (error) {
-      console.error('Failed to init progress:', error);
     }
   },
 
@@ -158,7 +140,6 @@ Page({
     this.setData({
       showMeaning: !this.data.showMeaning
     });
-    this.updateProgress();
   },
 
   prevWord() {
@@ -167,7 +148,6 @@ Page({
         currentIndex: this.data.currentIndex - 1,
         showMeaning: false
       });
-      this.updateProgress();
       this.checkFavoriteStatus();
     }
   },
@@ -178,47 +158,7 @@ Page({
         currentIndex: this.data.currentIndex + 1,
         showMeaning: false
       });
-      this.updateProgress();
       this.checkFavoriteStatus();
-    }
-  },
-
-  updateProgress() {
-    // 计算进度：当前查看的单词数占总单词数的百分比
-    const progress = Math.round(((this.data.currentIndex + 1) / this.data.wordList.length) * 100);
-    
-    this.setData({ studyProgress: progress });
-    
-    // 更新学习历史
-    try {
-      let history = wx.getStorageSync('studyHistory') || [];
-      const newRecord = {
-        wordListId: parseInt(this.wordListId),
-        totalWords: this.data.wordList.length,
-        progress: progress,
-        timestamp: new Date().toLocaleString(),
-        lastIndex: this.data.currentIndex
-      };
-
-      const existingIndex = history.findIndex(item => item.wordListId === parseInt(this.wordListId));
-      
-      if (existingIndex !== -1) {
-        // 如果新进度大于旧进度，才更新
-        if (progress > history[existingIndex].progress) {
-          history[existingIndex] = newRecord;
-        }
-      } else {
-        history.push(newRecord);
-      }
-
-      // 限制历史记录数量
-      if (history.length > 20) {
-        history = history.slice(-20);
-      }
-
-      wx.setStorageSync('studyHistory', history);
-    } catch (error) {
-      console.error('Failed to update study history:', error);
     }
   },
 

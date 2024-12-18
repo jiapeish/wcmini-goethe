@@ -7,6 +7,13 @@
     <view class="progress" style="width: {{(currentWordIndex + 1) / totalWords * 100}}%"></view>
   </view>
 
+  <!-- Navigation Buttons -->
+  <view class="nav-buttons">
+    <button class="nav-btn" bindtap="handlePrevLevel" disabled="{{currentWordIndex === 0}}">上一关</button>
+    <text class="level-info">第{{currentWordIndex / 8 + 1}}组</text>
+    <button class="nav-btn" bindtap="handleNextLevel" disabled="{{currentWordIndex + 8 >= totalWords}}">下一关</button>
+  </view>
+
   <!-- Game Grid -->
   <view class="game-grid">
     <block wx:for="{{tiles}}" wx:key="id">
