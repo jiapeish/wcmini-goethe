@@ -40,7 +40,7 @@
 
 .message-content {
   padding: 24rpx 36rpx;
-  font-size: 28rpx;
+  font-size: 36rpx;
   line-height: 1.5;
   position: relative;
 }
@@ -106,7 +106,7 @@
   background: #fff;
   border: 2rpx solid #e5e5e5;
   border-radius: 40rpx;
-  font-size: 28rpx;
+  font-size: 32rpx;
   color: #666;
   max-width: fit-content;
 }
@@ -131,7 +131,7 @@
   min-height: 120rpx;
   max-height: 400rpx;
   padding: 20rpx 180rpx 60rpx 30rpx;
-  font-size: 28rpx;
+  font-size: 36rpx;
   background: #fff;
   border-radius: 34rpx;
   box-sizing: border-box;

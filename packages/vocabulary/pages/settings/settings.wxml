@@ -46,7 +46,7 @@
   <view class="preview-section">
     <view class="preview-title">预览效果</view>
     <view class="preview-card">
-      <text class="preview-word" style="font-family: {{settings.fontFamily === 'default' ? 'unset' : settings.fontFamily}}; font-size: {{settings.fontSize === 'small' ? '32' : settings.fontSize === 'medium' ? '40' : '48'}}rpx; color: {{settings.wordColor}}">Beispiel</text>
+      <text class="preview-word" style="font-family: {{settings.fontFamily === 'default' ? 'unset' : settings.fontFamily}}; font-size: {{settings.fontSize === 'small' ? '48' : settings.fontSize === 'medium' ? '64' : '80'}}rpx; color: {{settings.wordColor}}">Beispiel</text>
       <text class="preview-type">das (-e)</text>
       <text class="preview-meaning">示例</text>
     </view>

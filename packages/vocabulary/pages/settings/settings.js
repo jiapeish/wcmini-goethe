@@ -13,9 +13,9 @@ Page({
     ],
     colors: [
       { name: '黑色', value: '#333333' },
-      { name: '深蓝', value: '#2c3e50' },
-      { name: '深棕', value: '#34495e' },
-      { name: '深紫', value: '#8e44ad' }
+      { name: '勃艮第红', value: '#800020' },
+      { name: '深青', value: '#006D77' },
+      { name: '橄榄绿', value: '#556B2F' }
     ],
     settings: {
       fontFamily: 'default',

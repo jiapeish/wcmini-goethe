@@ -95,25 +95,14 @@ Page({
     }
 
     switch (menuText) {
-      case '我的学习记录':
-        wx.navigateTo({
-          url: '/pages/study-history/study-history'
-        });
-        break;
       case '我的收藏':
         wx.navigateTo({
-          url: '/pages/favorites/favorites'
-        });
-        break;
-      case '我的积分':
-        wx.showToast({
-          title: '当前积分：' + this.data.points,
-          icon: 'none'
+          url: '/packages/vocabulary/pages/favorites/favorites'
         });
         break;
       case '设置':
         wx.navigateTo({
-          url: '/pages/settings/settings'
+          url: '/packages/vocabulary/pages/settings/settings'
         });
         break;
     }
