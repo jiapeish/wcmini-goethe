@@ -1,62 +1,62 @@
-import { init } from '@cloudbase/weda-client';
+import cloudbase from "@cloudbase/js-sdk/app";
+import { registerAuth } from "@cloudbase/js-sdk/auth";
+import { registerAi } from "@cloudbase/js-sdk/ai";
 
-// Initialize SDK
-init({
-  envID: 'prod-3gq9kpp7b8085f19', // Using the existing cloud env ID
-  appConfig: {
-    staticResourceDomain: 'undefined-1333030562.tcloudbaseapp.com',
-  }
-});
+registerAuth(cloudbase);
+registerAi(cloudbase);
 
 App({
   globalData: {
-    userInfo: null
+    userInfo: null,
+    ai: null,
+    cloudApp: null
   },
 
-  onLaunch() {
-    // Initialize cloud environment
-    wx.cloud.init({
-      env: 'prod-3gq9kpp7b8085f19',
-      traceUser: true
-    });
+  async onLaunch() {
+    try {
+      // 初始化云开发环境
+      wx.cloud.init({
+        env: 'wcmini-goethe-5gkgoxil4bab77bf',
+        traceUser: true
+      });
 
-    // Check if user is logged in
-    const userInfo = wx.getStorageSync('userInfo');
-    if (userInfo) {
-      this.globalData.userInfo = userInfo;
+      // 初始化 cloudbase
+      const app = cloudbase.init({
+        env: 'wcmini-goethe-5gkgoxil4bab77bf'
+      });
+      
+      this.globalData.cloudApp = app;
+      const auth = app.auth({ persistence: "local" });
+      await auth.signInWithOpenId();
+      this.globalData.ai = await app.ai();
+
+      console.log('AI初始化成功');
+    } catch (error) {
+      console.error('AI初始化失败:', error);
+    }
+  },
+
+  // 获取AI实例，带重试机制
+  async ai() {
+    if (this.globalData.ai) {
+      return this.globalData.ai;
     }
 
-    // Get system info for UI adaptation
-    wx.getSystemInfo({
-      success: res => {
-        this.globalData.systemInfo = res;
+    // 如果AI实例不存在，尝试重新初始化
+    try {
+      if (!this.globalData.cloudApp) {
+        this.globalData.cloudApp = cloudbase.init({
+          env: 'wcmini-goethe-5gkgoxil4bab77bf'
+        });
       }
-    });
-  },
-
-  onShow() {
-    
-  },
-
-  onHide() {
-    
-  },
-
-  // 添加用户登录方法
-  login() {
-    return new Promise((resolve, reject) => {
-      wx.getUserProfile({
-        desc: '用于完善用户资料',
-        success: (res) => {
-          const userInfo = res.userInfo;
-          this.globalData.userInfo = userInfo;
-          wx.setStorageSync('userInfo', userInfo);
-          resolve(userInfo);
-        },
-        fail: (err) => {
-          reject(err);
-        }
-      });
-    });
+      
+      const auth = this.globalData.cloudApp.auth({ persistence: "local" });
+      await auth.signInWithOpenId();
+      this.globalData.ai = await this.globalData.cloudApp.ai();
+      return this.globalData.ai;
+    } catch (error) {
+      console.error('AI重新初始化失败:', error);
+      throw error;
+    }
   }
 });

@@ -26,5 +26,6 @@ replay_pid*
 # other
 .DS_Store
 */.DS_Store
+
 node_modules/
 miniprogram_npm/

@@ -1,5 +1,5 @@
 {
   "dependencies": {
-    "@cloudbase-module/block": "file:components"
+    "@cloudbase/js-sdk": "^2.8.3-beta.0"
   }
 }
