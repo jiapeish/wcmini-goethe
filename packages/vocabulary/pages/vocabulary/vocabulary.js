@@ -50,7 +50,7 @@ Page({
       // 加载Einheit01的8组单词
       for (let i = 1; i <= 8; i++) {
         const fileNum = i.toString().padStart(2, '0');
-        const filePath = `/data/vocabulary/B1-1/Einheit01/B1.1.1-Einheit01-${fileNum}.json`;
+        const filePath = `data/vocabulary/B1-1/Einheit01/B1.1.1-Einheit01-${fileNum}.json`;
         
         try {
           const res = fs.readFileSync(filePath, 'utf8');
@@ -85,7 +85,7 @@ Page({
       // 加载Einheit02的8组单词
       for (let i = 1; i <= 8; i++) {
         const fileNum = i.toString().padStart(2, '0');
-        const filePath = `/data/vocabulary/B1-1/Einheit02/B1.1.1-Einheit02-${fileNum}.json`;
+        const filePath = `data/vocabulary/B1-1/Einheit02/B1.1.1-Einheit02-${fileNum}.json`;
         
         try {
           const res = fs.readFileSync(filePath, 'utf8');
@@ -149,7 +149,7 @@ Page({
     const { unitIndex, listIndex } = e.currentTarget.dataset;
     const wordList = this.data.wordUnits[unitIndex].lists[listIndex];
     wx.navigateTo({
-      url: `/pages/word-list/word-list?id=${wordList.id}`
+      url: `/packages/vocabulary/pages/word-list/word-list?id=${wordList.id}`
     });
   }
 });

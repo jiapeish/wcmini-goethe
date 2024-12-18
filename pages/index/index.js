@@ -39,7 +39,7 @@ Page({
     // 处理单元词汇点击
     if (section === 'vocabulary' && index === 0) {
       wx.navigateTo({
-        url: '/pages/vocabulary/vocabulary'
+        url: '/packages/vocabulary/pages/vocabulary/vocabulary'
       });
       return;
     }
