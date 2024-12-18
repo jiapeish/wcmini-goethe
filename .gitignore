@@ -29,3 +29,5 @@ replay_pid*
 
 node_modules/
 miniprogram_npm/
+
+.cloudbase/
