@@ -7,6 +7,14 @@ Page({
     initialized: false
   },
 
+  onShareAppMessage(options) {
+    return {
+      title: '来和德语AI助手对话吧！',
+      path: '/pages/ai/ai',
+      imageUrl: '/pages/images/assist.png'  // 使用助手图标作为分享图片
+    }
+  },
+
   async onLoad() {
     try {
       const ai = await getApp().ai();

@@ -10,7 +10,14 @@ Page({
     words: []
   },
 
-  onLoad() {
+  onLoad(options) {
+    // 如果是从分享进入，设置相应的单元和索引
+    if (options.unit && options.index) {
+      this.setData({
+        currentUnit: options.unit,
+        currentWordIndex: parseInt(options.index)
+      });
+    }
     this.loadWords();
   },
 
