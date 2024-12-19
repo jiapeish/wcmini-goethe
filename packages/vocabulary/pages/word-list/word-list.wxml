@@ -17,7 +17,7 @@
       <!-- 单词部分 -->
       <view class="word-section" bindtap="toggleMeaning">
         <!-- 动词显示 -->
-        <block wx:if="{{wordList[currentIndex].type === 'verb'}}">
+        <block wx:if="{{wordList[currentIndex].type === 'verb' || wordList[currentIndex].type === 'reflexive_verb'}}">
           <text class="word" style="font-family: {{computedStyles.fontFamily}}; font-size: {{computedStyles.fontSize}}; color: {{styleSettings.wordColor}}">{{wordList[currentIndex].forms.infinitive}}</text>
         </block>
         <!-- 名词显示 -->

@@ -18,6 +18,7 @@ Page({
   getWordText(word) {
     switch (word.type) {
       case 'verb':
+      case 'reflexive_verb':
         return word.forms.infinitive;
       case 'noun':
         return `${word.article} ${word.word}`;

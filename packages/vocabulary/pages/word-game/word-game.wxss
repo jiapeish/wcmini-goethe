@@ -65,7 +65,7 @@
 .game-grid {
   display: grid;
   grid-template-columns: repeat(4, 1fr);
-  gap: 15rpx;
+  gap: 20rpx;
   padding: 15rpx;
   margin-bottom: 30rpx;
   width: 100%;
@@ -73,24 +73,32 @@
 }
 
 .tile {
-  aspect-ratio: 1;
+  position: relative;
+  width: 100%;
+  padding-bottom: 100%; /* Creates a square aspect ratio */
   background: white;
   border-radius: 12rpx;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  padding: 10rpx;
   box-shadow: 0 2rpx 4rpx rgba(0, 0, 0, 0.1);
   transition: all 0.3s ease;
   border: 2rpx solid #e0e0e0;
 }
 
 .tile-text {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
   font-size: 28rpx;
   text-align: center;
-  word-break: break-word;
+  word-break: break-all;
+  word-wrap: break-word;
   line-height: 1.4;
-  padding: 10rpx;
+  padding: 20rpx;
+  box-sizing: border-box;
 }
 
 .tile.selected {
