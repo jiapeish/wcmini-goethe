@@ -27,12 +27,6 @@
         "selectedIconPath": "pages/images/home_selected.png"
       },
       {
-        "pagePath": "pages/ai/ai",
-        "text": "助手",
-        "iconPath": "pages/images/ai.png",
-        "selectedIconPath": "pages/images/ai_selected.png"
-      },
-      {
         "pagePath": "pages/profile/profile",
         "text": "我的",
         "iconPath": "pages/images/user.png",
