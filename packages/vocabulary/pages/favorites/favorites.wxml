@@ -18,13 +18,23 @@
           data-word-list-id="{{item.wordListId}}">
       <view class="word-content">
         <view class="word-header">
-          <text class="word">{{item.word}}</text>
-          <text class="type" wx:if="{{item.type === 'noun'}}">
-            {{item.article}} {{item.plural ? '(-' + item.plural + ')' : ''}}
-          </text>
-          <text class="type" wx:elif="{{item.type === 'verb'}}">
-            {{item.forms.infinitive}}
-          </text>
+          <!-- 名词显示 -->
+          <block wx:if="{{item.type === 'noun'}}">
+            <text class="word">{{item.word}}</text>
+            <text class="noun-type">{{item.article}} {{item.plural ? '(-' + item.plural + ')' : ''}}</text>
+          </block>
+          <!-- 动词显示 -->
+          <block wx:elif="{{item.type === 'verb' || item.type === 'reflexive_verb'}}">
+            <text class="verb-word">{{item.forms.infinitive}}</text>
+          </block>
+          <!-- 形容词显示 -->
+          <block wx:elif="{{item.type === 'adjective'}}">
+            <text class="word">{{item.word}}</text>
+          </block>
+          <!-- 其他类型显示 -->
+          <block wx:else>
+            <text class="word">{{item.word}}</text>
+          </block>
         </view>
         <view class="meaning">{{item.meaning}}</view>
         <view class="example">{{item.example}}</view>

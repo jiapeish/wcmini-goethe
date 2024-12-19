@@ -22,6 +22,8 @@ Page({
         return word.forms.infinitive;
       case 'noun':
         return `${word.article} ${word.word}`;
+      case 'adjective':
+        return word.word;
       default:
         return word.word;
     }
