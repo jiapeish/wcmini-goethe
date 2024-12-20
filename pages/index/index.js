@@ -29,8 +29,15 @@ Page({
 
   onShareAppMessage(options) {
     return {
-      title: '歌德德语学习助手',
+      title: '闪电德语学习助手',
       path: '/pages/index/index',
+      imageUrl: '/pages/images/share.jpg'
+    }
+  },
+
+  onShareTimeline() {
+    return {
+      title: '闪电德语学习助手',
       imageUrl: '/pages/images/share.jpg'
     }
   },
