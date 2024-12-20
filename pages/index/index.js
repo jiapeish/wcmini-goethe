@@ -31,7 +31,7 @@ Page({
     return {
       title: '歌德德语学习助手',
       path: '/pages/index/index',
-      imageUrl: '/pages/images/home.png'  // 使用首页图标作为分享图片
+      imageUrl: '/pages/images/share.jpg'
     }
   },
 
