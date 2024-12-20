@@ -15,7 +15,7 @@
           wx:for="{{favoriteWords}}" 
           wx:key="timestamp"
           bindtap="handleWordTap"
-          data-word-list-id="{{item.wordListId}}">
+          data-index="{{index}}">
       <view class="word-content">
         <view class="word-header">
           <!-- 名词显示 -->

@@ -74,9 +74,10 @@ Page({
 
   // 点击单词跳转到对应的单词列表
   handleWordTap(e) {
-    const { wordListId } = e.currentTarget.dataset;
+    const { index } = e.currentTarget.dataset;
+    const word = this.data.favoriteWords[index];
     wx.navigateTo({
-      url: `/packages/vocabulary/pages/word-list/word-list?id=${wordListId}`
+      url: `/packages/vocabulary/pages/word-list/word-list?id=${word.wordListId}&word=${encodeURIComponent(JSON.stringify(word))}`
     });
   }
 });

@@ -17,8 +17,9 @@ Page({
   },
 
   onLoad(options) {
-    const { id } = options;
+    const { id, word } = options;
     this.wordListId = id;
+    this.targetWord = word ? JSON.parse(decodeURIComponent(word)) : null;
     this.loadWordList(id);
     this.loadStyleSettings();
   },
@@ -66,6 +67,13 @@ Page({
           wordList: data.data.words,
           loading: false
         }, () => {
+          // 如果有目标单词，找到并显示它
+          if (this.targetWord) {
+            const index = this.findWordIndex(this.targetWord);
+            if (index !== -1) {
+              this.setData({ currentIndex: index });
+            }
+          }
           this.checkFavoriteStatus();
         });
       } catch (err) {
@@ -82,6 +90,11 @@ Page({
         icon: 'none'
       });
     }
+  },
+
+  // 查找特定单词在列表中的索引
+  findWordIndex(targetWord) {
+    return this.data.wordList.findIndex(word => this.isSameWord(word, targetWord));
   },
 
   // 检查两个单词是否完全相同
