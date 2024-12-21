@@ -1,0 +1,104 @@
+{
+  "code": 0,
+  "msg": "success",
+  "data": {
+    "total": 11,
+    "words": [
+      {
+        "id": 1,
+        "type": "noun",
+        "article": "das",
+        "word": "Klischee",
+        "plural": "-s",
+        "meaning": "陈腐的思想",
+        "example": "Dass Frauen nicht Auto fahren können, ist ein Klischee."
+      },
+      {
+        "id": 2,
+        "type": "expression",
+        "word": "eher ... als",
+        "meaning": "比...更喜欢",
+        "example": "Männer sehen eher Sportsendungen als Frauen."
+      },
+      {
+        "id": 3,
+        "type": "adjective",
+        "word": "weiblich",
+        "meaning": "女性的，妇女的",
+        "example": "Kosmetik ist ein typisch weibliches Produkt."
+      },
+      {
+        "id": 4,
+        "type": "adjective",
+        "word": "männlich",
+        "meaning": "男性的，男人的",
+        "example": "Ich glaube, dass Sportsendungen typisch männlich sind."
+      },
+      {
+        "id": 5,
+        "type": "verb",
+        "forms": {
+          "infinitive": "passen",
+          "present": "er passt zu",
+          "perfect": "er hat zu ... gepasst"
+        },
+        "meaning": "对...合适，中...意",
+        "example": "Sportsendungen passen zu Männern und Frauen."
+      },
+      {
+        "id": 6,
+        "type": "adjective",
+        "word": "schlicht",
+        "meaning": "简单的，朴实无华的",
+        "example": "Meine Kamera ist schwarz und schlicht."
+      },
+      {
+        "id": 7,
+        "type": "verb",
+        "forms": {
+          "infinitive": "zappen",
+          "present": "er zappt",
+          "perfect": "er hat gezappt"
+        },
+        "meaning": "（用遥控器快速地）频繁转换（电视）频道",
+        "example": "Er setzt sich vor den Fernseher und zappt durch die Programme."
+      },
+      {
+        "id": 8,
+        "type": "noun",
+        "article": "das",
+        "word": "Boxen",
+        "plural": "Sg.",
+        "meaning": "拳击",
+        "example": "Eigentlich ist es egal, ob Fußball, Boxen oder Formel-1 läuft."
+      },
+      {
+        "id": 9,
+        "type": "noun",
+        "article": "die",
+        "word": "Formel-1",
+        "plural": "Sg.",
+        "meaning": "一级方程式赛车",
+        "example": "Eigentlich ist es egal, ob Fußball, Boxen oder Formel-1 läuft."
+      },
+      {
+        "id": 10,
+        "type": "verb",
+        "forms": {
+          "infinitive": "sprechen",
+          "present": "er spricht über etw.",
+          "perfect": "er hat über etw. gesprochen"
+        },
+        "meaning": "谈论",
+        "example": "Sprechen Sie mit Männern nicht über Ihre Gefühle."
+      },
+      {
+        "id": 11,
+        "type": "adjective",
+        "word": "unmännlich",
+        "meaning": "不像男子汉的，无男子汉气概的",
+        "example": "Das ist unmännlich."
+      }
+    ]
+  }
+}

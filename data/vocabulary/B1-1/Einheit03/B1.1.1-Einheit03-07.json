@@ -1,0 +1,198 @@
+{
+  "code": 0,
+  "msg": "success",
+  "data": {
+    "total": 22,
+    "words": [
+      {
+        "id": 1,
+        "type": "adjective",
+        "word": "unkritisch",
+        "meaning": "不加批判的，不加评论的",
+        "example": "Sie ist unkritisch, wenn es um die Partnerwahl geht."
+      },
+      {
+        "id": 2,
+        "type": "adjective",
+        "word": "verständnislos",
+        "meaning": "不理解的，难以理解的",
+        "example": "Mein Vater ist manchmal verständnislos, wenn ich von meinen Problemen erzähle."
+      },
+      {
+        "id": 3,
+        "type": "adjective",
+        "word": "humorlos",
+        "meaning": "无幽默感的",
+        "example": "Unser Mathelehrer war immer humorlos."
+      },
+      {
+        "id": 4,
+        "type": "noun",
+        "article": "der",
+        "word": "Salsakurs",
+        "plural": "-e",
+        "meaning": "萨尔萨舞蹈培训班",
+        "example": "Wir gehen am Sonntag gemeinsam zum Salsakurs."
+      },
+      {
+        "id": 5,
+        "type": "noun",
+        "article": "der",
+        "word": "Abwasch",
+        "plural": "Sg.",
+        "meaning": "洗涤（餐具）",
+        "example": "Die Eltern kochen und die Kinder machen den Abwasch."
+      },
+      {
+        "id": 6,
+        "type": "noun",
+        "article": "das",
+        "word": "Bett machen",
+        "meaning": "整理床铺",
+        "example": "Früher hat meine Mutter jeden Morgen mein Bett gemacht."
+      },
+      {
+        "id": 7,
+        "type": "verb",
+        "forms": {
+          "infinitive": "gießen",
+          "present": "er gießt",
+          "perfect": "er hat gegossen"
+        },
+        "meaning": "浇",
+        "example": "Vergiss nicht, die Blumen zu gießen!"
+      },
+      {
+        "id": 8,
+        "type": "noun",
+        "article": "die",
+        "word": "Wäsche",
+        "plural": "-n",
+        "meaning": "衣物",
+        "example": "Wasch bitte die Wäsche."
+      },
+      {
+        "id": 9,
+        "type": "verb",
+        "forms": {
+          "infinitive": "runterbringen",
+          "present": "er bringt runter",
+          "perfect": "er hat runtergebracht"
+        },
+        "meaning": "把...带下来",
+        "example": "Hast du schon den Müll runtergebracht?"
+      },
+      {
+        "id": 10,
+        "type": "verb",
+        "forms": {
+          "infinitive": "wegbringen",
+          "present": "er bringt weg",
+          "perfect": "er hat weggebracht"
+        },
+        "meaning": "带走",
+        "example": "Jemand muss noch die Flaschen wegbringen."
+      },
+      {
+        "id": 11,
+        "type": "noun",
+        "article": "das",
+        "word": "Grüne",
+        "plural": "Sg.",
+        "meaning": "绿色的东西",
+        "example": "Was ist das Grüne in der Soße?"
+      },
+      {
+        "id": 12,
+        "type": "noun",
+        "article": "die",
+        "word": "Ebene",
+        "plural": "-n",
+        "meaning": "层面",
+        "example": "Personen verstehen Nachrichten auf vier Ebenen."
+      },
+      {
+        "id": 13,
+        "type": "noun",
+        "article": "das",
+        "word": "Modell",
+        "plural": "-e",
+        "meaning": "模式",
+        "example": "In dem Modell geht es um Kommunikation und Missverständnisse."
+      },
+      {
+        "id": 14,
+        "type": "noun",
+        "article": "das",
+        "word": "Missverständnis",
+        "plural": "-se",
+        "meaning": "误解",
+        "example": "In dem Modell geht es um Kommunikation und Missverständnisse."
+      },
+      {
+        "id": 15,
+        "type": "noun",
+        "article": "der/die",
+        "word": "Psychologe/in",
+        "plural": "-n/-nen",
+        "meaning": "心理学家",
+        "example": "Die Psychologin arbeitet mit Menschen."
+      },
+      {
+        "id": 16,
+        "type": "abbreviation",
+        "word": "vgl.",
+        "meaning": "比较，对照",
+        "example": "Die vier Ebenen einer Nachricht (vgl. Grafik 5) sind sehr wichtig für die Kommunikation."
+      },
+      {
+        "id": 17,
+        "type": "noun",
+        "article": "der",
+        "word": "Sender",
+        "plural": "-",
+        "meaning": "（信息）发送者",
+        "example": "Der Sender sagt einen Satz, den der Empfänger verstehen muss."
+      },
+      {
+        "id": 18,
+        "type": "noun",
+        "article": "der",
+        "word": "Empfänger",
+        "plural": "-",
+        "meaning": "接收者",
+        "example": "Der Sender sagt einen Satz, den der Empfänger verstehen muss."
+      },
+      {
+        "id": 19,
+        "type": "adjective",
+        "word": "bissfest",
+        "meaning": "稍微硬点",
+        "example": "Bitte koch die Nudeln nicht zu weich, sondern bissfest."
+      },
+      {
+        "id": 20,
+        "type": "adverb",
+        "word": "möglicherweise",
+        "meaning": "也许，可能",
+        "example": "Möglicherweise haben die Personen auf dem Foto Streit."
+      },
+      {
+        "id": 21,
+        "type": "adjective",
+        "word": "chemisch",
+        "meaning": "化学的",
+        "example": "Liebe ist ein chemischer Vorgang, aber es macht Spaß, die Formel zu suchen!"
+      },
+      {
+        "id": 22,
+        "type": "noun",
+        "article": "der",
+        "word": "Vorgang",
+        "plural": "-ä-e",
+        "meaning": "（化学）反应",
+        "example": "Liebe ist ein chemischer Vorgang, aber es macht Spaß, die Formel zu suchen!"
+      }
+    ]
+  }
+}

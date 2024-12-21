@@ -1,0 +1,97 @@
+{
+  "code": 0,
+  "msg": "success",
+  "data": {
+    "total": 10,
+    "words": [
+      {
+        "id": 1,
+        "type": "adjective",
+        "word": "hoch",
+        "meaning": "高的",
+        "example": "Hier sehen Sie ausgewählte Berufe mit hohem Frauenanteil."
+      },
+      {
+        "id": 2,
+        "type": "noun",
+        "article": "der",
+        "word": "Frauenanteil",
+        "plural": "-e",
+        "meaning": "妇女的份额/比重",
+        "example": "Hier sehen Sie ausgewählte Berufe mit hohem Frauenanteil."
+      },
+      {
+        "id": 3,
+        "type": "noun",
+        "article": "der/die",
+        "word": "Kosmetiker/in",
+        "plural": "-/-nen",
+        "meaning": "化妆师",
+        "example": "Mein Onkel geht immer zum Kosmetiker."
+      },
+      {
+        "id": 4,
+        "type": "noun",
+        "article": "die",
+        "word": "Hauswirtschaft",
+        "plural": "Sg.",
+        "meaning": "家政课",
+        "example": "In der Schule wird auch Hauswirtschaft unterrichtet."
+      },
+      {
+        "id": 5,
+        "type": "noun",
+        "article": "die",
+        "word": "Ernährungswirtschaft",
+        "plural": "Sg.",
+        "meaning": "营养课",
+        "example": "Ich habe einen Abschluss in Ernährungswirtschaft."
+      },
+      {
+        "id": 6,
+        "type": "noun",
+        "article": "die",
+        "word": "Krankenpflege",
+        "plural": "Sg.",
+        "meaning": "病人护理",
+        "example": "Sie möchte Karriere in der Krankenpflege machen."
+      },
+      {
+        "id": 7,
+        "type": "noun",
+        "article": "der",
+        "word": "Männeranteil",
+        "plural": "-e",
+        "meaning": "男子份额/比重",
+        "example": "Hier sehen sie ausgewählte Berufe mit hohem Männeranteil."
+      },
+      {
+        "id": 8,
+        "type": "noun",
+        "article": "der",
+        "word": "Metallbauberuf",
+        "plural": "-e",
+        "meaning": "金属构造职业",
+        "example": "Der Metallbauberuf ist für Männer attraktiver als für Frauen."
+      },
+      {
+        "id": 9,
+        "type": "noun",
+        "article": "der",
+        "word": "Anlagenbauberuf",
+        "plural": "-e",
+        "meaning": "基础设施建设职业",
+        "example": "Mein Bruder überlegt, ob er Karriere im Anlagenbauberuf machen möchte."
+      },
+      {
+        "id": 10,
+        "type": "noun",
+        "article": "der",
+        "word": "Elektroberuf",
+        "plural": "-e",
+        "meaning": "电工职业",
+        "example": "Findest du den Elektroberuf interessant?"
+      }
+    ]
+  }
+}

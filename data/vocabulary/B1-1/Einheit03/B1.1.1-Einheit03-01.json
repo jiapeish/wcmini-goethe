@@ -1,0 +1,45 @@
+{
+  "code": 0,
+  "msg": "success",
+  "data": {
+    "total": 4,
+    "words": [
+      {
+        "id": 1,
+        "type": "noun",
+        "article": "die",
+        "word": "Sportsendung",
+        "plural": "-en",
+        "meaning": "体育节目",
+        "example": "Ich sehe gerne Sportsendungen mit meiner Freundin."
+      },
+      {
+        "id": 2,
+        "type": "noun",
+        "article": "die",
+        "word": "Ledertasche",
+        "plural": "-n",
+        "meaning": "皮包",
+        "example": "Ich schenke meinem Vater eine Ledertasche zum Geburtstag."
+      },
+      {
+        "id": 3,
+        "type": "noun",
+        "article": "der",
+        "word": "Kochtopf",
+        "plural": "-ö-e",
+        "meaning": "锅子",
+        "example": "Nudeln kocht man am besten in einem großen Kochtopf."
+      },
+      {
+        "id": 4,
+        "type": "noun",
+        "article": "das",
+        "word": "4-Ohren-Modell",
+        "plural": "-e",
+        "meaning": "四耳模型",
+        "example": "Lies die Informationen zum 4-Ohren-Modell der Kommunikation."
+      }
+    ]
+  }
+}

@@ -1,0 +1,191 @@
+{
+  "code": 0,
+  "msg": "success",
+  "data": {
+    "total": 22,
+    "words": [
+      {
+        "id": 1,
+        "type": "noun",
+        "article": "die",
+        "word": "Kampagne",
+        "plural": "-n",
+        "meaning": "运动",
+        "example": "Der Flyer ist von einer Kampagne zur freien Berufswahl."
+      },
+      {
+        "id": 2,
+        "type": "noun",
+        "article": "die",
+        "word": "Berufswahl",
+        "plural": "Sg.",
+        "meaning": "职业选择",
+        "example": "Der Flyer ist von einer Kampagne zur freien Berufswahl."
+      },
+      {
+        "id": 3,
+        "type": "noun",
+        "article": "die",
+        "word": "Partnerschaft",
+        "plural": "-en",
+        "meaning": "共同生活",
+        "example": "Leben Sie in einer Partnerschaft?"
+      },
+      {
+        "id": 4,
+        "type": "adverb",
+        "word": "alleine",
+        "meaning": "独自地（生活）",
+        "example": "Warum leben so viele Menschen alleine?"
+      },
+      {
+        "id": 5,
+        "type": "verb",
+        "forms": {
+          "infinitive": "wünschen",
+          "present": "er wünscht sich",
+          "perfect": "er hat sich gewünscht"
+        },
+        "meaning": "希望得到",
+        "example": "Wünschen Sie sich Kinder?"
+      },
+      {
+        "id": 6,
+        "type": "verb",
+        "forms": {
+          "infinitive": "glauben",
+          "present": "er glaubt an etw.",
+          "perfect": "er hat an etw. geglaubt"
+        },
+        "meaning": "相信，信任",
+        "example": "Ich glaube an die große Liebe."
+      },
+      {
+        "id": 7,
+        "type": "noun",
+        "article": "der",
+        "word": "Großstadtmensch",
+        "plural": "-en",
+        "meaning": "大城市人",
+        "example": "Drei Großstadtmenschen berichten über die Liebe."
+      },
+      {
+        "id": 8,
+        "type": "verb",
+        "forms": {
+          "infinitive": "trennen",
+          "present": "er trennt sich",
+          "perfect": "er hat sich getrennt"
+        },
+        "meaning": "分手，离婚，彼此绝交",
+        "example": "Wir haben uns getrennt, seitdem bin ich Single."
+      },
+      {
+        "id": 9,
+        "type": "adverb",
+        "word": "seitdem",
+        "meaning": "从此以后",
+        "example": "Wir haben uns getrennt, seitdem bin ich Single."
+      },
+      {
+        "id": 10,
+        "type": "adjective",
+        "word": "heutig",
+        "meaning": "今天的，目前的，当前的",
+        "example": "In der heutigen Zeit geht alles so schnell."
+      },
+      {
+        "id": 11,
+        "type": "noun",
+        "article": "die",
+        "word": "Veränderung",
+        "plural": "-en",
+        "meaning": "变化",
+        "example": "In der heutigen Zeit gibt es ständig Veränderungen."
+      },
+      {
+        "id": 12,
+        "type": "adjective",
+        "word": "kompliziert",
+        "meaning": "复杂的",
+        "example": "Für den Partner ist es oft kompliziert, da mitzukommen."
+      },
+      {
+        "id": 13,
+        "type": "adjective",
+        "word": "vernünftig",
+        "meaning": "理性的，冷静的",
+        "example": "Viele Paare schaffen es nicht, vernünftig miteinander zu reden."
+      },
+      {
+        "id": 14,
+        "type": "adverb",
+        "word": "miteinander",
+        "meaning": "一起，相互",
+        "example": "Viele Paare schaffen es nicht, vernünftig miteinander zu reden."
+      },
+      {
+        "id": 15,
+        "type": "adjective",
+        "word": "sinnvoll",
+        "meaning": "有意义的，有用的",
+        "example": "Es ist sinnvoll, ehrlich zueinander zu sein."
+      },
+      {
+        "id": 16,
+        "type": "adjective",
+        "word": "verständnisvoll",
+        "meaning": "充分理解的，充分谅解的",
+        "example": "Es ist mir wichtig, eine verständnisvolle Freundin zu haben."
+      },
+      {
+        "id": 17,
+        "type": "adjective",
+        "word": "einsam",
+        "meaning": "孤独的，寂寞的",
+        "example": "Ich habe keine Angst, einsam zu sein."
+      },
+      {
+        "id": 18,
+        "type": "verb",
+        "forms": {
+          "infinitive": "verstehen",
+          "present": "sie verstehen sich",
+          "perfect": "sie haben sich verstanden"
+        },
+        "meaning": "合得来，相处很好",
+        "example": "Meine Tochter und ich verstehen uns gut."
+      },
+      {
+        "id": 19,
+        "type": "noun",
+        "article": "der",
+        "word": "Kinderwunsch",
+        "plural": "Sg.",
+        "meaning": "希望得到孩子",
+        "example": "Viele Paare haben einen Kinderwunsch."
+      },
+      {
+        "id": 20,
+        "type": "adjective",
+        "word": "sinnlos",
+        "meaning": "无意义的",
+        "example": "Zu viel Lernen ist sinnlos."
+      },
+      {
+        "id": 21,
+        "type": "adjective",
+        "word": "unehrlich",
+        "meaning": "不诚实的",
+        "example": "Ich bin niemals unehrlich zu meiner besten Freundin."
+      },
+      {
+        "id": 22,
+        "type": "adjective",
+        "word": "unromantisch",
+        "meaning": "不浪漫的",
+        "example": "Mein Freund ist total unromantisch."
+      }
+    ]
+  }
+}

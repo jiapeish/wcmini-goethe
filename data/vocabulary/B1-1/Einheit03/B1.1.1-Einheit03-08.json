@@ -1,0 +1,153 @@
+{
+  "code": 0,
+  "msg": "success",
+  "data": {
+    "total": 16,
+    "words": [
+      {
+        "id": 1,
+        "type": "noun",
+        "article": "die",
+        "word": "Formel",
+        "plural": "-n",
+        "meaning": "（客）套话，套语",
+        "example": "Liebe ist ein chemischer Vorgang, aber es macht Spaß, die Formel zu suchen!"
+      },
+      {
+        "id": 2,
+        "type": "noun",
+        "article": "der",
+        "word": "Duft",
+        "plural": "-ü-e",
+        "meaning": "香味，香气",
+        "example": "In der Parfümerie kann man verschiedene Düfte riechen."
+      },
+      {
+        "id": 3,
+        "type": "noun",
+        "article": "der",
+        "word": "Gang",
+        "plural": "-ä-e",
+        "meaning": "档，变速档",
+        "example": "Das Fahrrad hat 28 Gänge."
+      },
+      {
+        "id": 4,
+        "type": "noun",
+        "article": "die",
+        "word": "Durchsage",
+        "plural": "-n",
+        "meaning": "广播通知",
+        "example": "Hören Sie die Durchsage im Kaufhaus."
+      },
+      {
+        "id": 5,
+        "type": "adjective",
+        "word": "familiär",
+        "meaning": "家庭的",
+        "example": "Der Hausmann übernimmt viele familiäre Pflichten."
+      },
+      {
+        "id": 6,
+        "type": "noun",
+        "article": "die",
+        "word": "Pflicht",
+        "plural": "-en",
+        "meaning": "义务，责任",
+        "example": "In der Prüfung ist die Höraufgabe Pflicht."
+      },
+      {
+        "id": 7,
+        "type": "noun",
+        "article": "die",
+        "word": "Berufstätigkeit",
+        "plural": "Sg.",
+        "meaning": "在职",
+        "example": "Die Berufstätigkeit von Frauen ist geringer als die von Männern."
+      },
+      {
+        "id": 8,
+        "type": "noun",
+        "article": "die",
+        "word": "Berufstätigenquote",
+        "plural": "-n",
+        "meaning": "就业率",
+        "example": "Die Berufstätigenquote von Frauen in Deutschland beträgt 59%."
+      },
+      {
+        "id": 9,
+        "type": "noun",
+        "article": "die",
+        "word": "Teilzeitquote",
+        "plural": "-n",
+        "meaning": "兼职比率",
+        "example": "Die Teilzeitquote von Frauen in Deutschland beträgt 32%."
+      },
+      {
+        "id": 10,
+        "type": "noun",
+        "article": "der",
+        "word": "Kerzenschein",
+        "plural": "Sg.",
+        "meaning": "烛光",
+        "example": "Ich liebe ein romantisches Essen bei Kerzenschein."
+      },
+      {
+        "id": 11,
+        "type": "noun",
+        "article": "die",
+        "word": "Wochenendbeziehung",
+        "plural": "-en",
+        "meaning": "周末的两性关系",
+        "example": "Ich suche eine Frau für eine romantische Wochenendbeziehung."
+      },
+      {
+        "id": 12,
+        "type": "verb",
+        "forms": {
+          "infinitive": "befinden",
+          "present": "er befindet sich",
+          "perfect": "er hat sich befunden"
+        },
+        "meaning": "在，处于",
+        "example": "Die beiden befinden sich draußen."
+      },
+      {
+        "id": 13,
+        "type": "noun",
+        "article": "der",
+        "word": "Verdienstunterschied",
+        "plural": "-e",
+        "meaning": "收入差别",
+        "example": "Für den Verdienstunterschied gibt es verschiedene Gründe."
+      },
+      {
+        "id": 14,
+        "type": "noun",
+        "article": "die",
+        "word": "Erziehungszeit",
+        "plural": "-en",
+        "meaning": "教育（幼儿）时期",
+        "example": "Frauen unterbrechen ihren Job häufig für eine Erziehungszeit."
+      },
+      {
+        "id": 15,
+        "type": "noun",
+        "article": "die",
+        "word": "Chefetage",
+        "plural": "-n",
+        "meaning": "领导层",
+        "example": "In den Chefetagen findet man weniger Frauen als Männer."
+      },
+      {
+        "id": 16,
+        "type": "noun",
+        "article": "der",
+        "word": "Gehaltsunterschied",
+        "plural": "-e",
+        "meaning": "薪水差别",
+        "example": "Die Gehaltsunterschiede zwischen Männern und Frauen sind sehr groß."
+      }
+    ]
+  }
+}

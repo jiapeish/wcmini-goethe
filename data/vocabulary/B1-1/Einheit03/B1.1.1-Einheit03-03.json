@@ -1,0 +1,113 @@
+{
+  "code": 0,
+  "msg": "success",
+  "data": {
+    "total": 12,
+    "words": [
+      {
+        "id": 1,
+        "type": "adjective",
+        "word": "unsensibel",
+        "meaning": "不敏感的",
+        "example": "Männer reden nicht nur wenig, sie sind auch unsensibel."
+      },
+      {
+        "id": 2,
+        "type": "noun",
+        "article": "die",
+        "word": "Seite",
+        "plural": "-n",
+        "meaning": "面，一面（好的/坏的方面）",
+        "example": "Aber sie haben auch ihre guten Seiten."
+      },
+      {
+        "id": 3,
+        "type": "adjective",
+        "word": "unkompliziert",
+        "meaning": "易于接近的；不烦相处的",
+        "example": "Sie sind unkompliziert."
+      },
+      {
+        "id": 4,
+        "type": "noun",
+        "article": "der",
+        "word": "Kleinwagen",
+        "plural": "-",
+        "meaning": "小型汽车，小车",
+        "example": "Sie will ihren Kleinwagen in eine fünf Meter lange Parklücke einparken."
+      },
+      {
+        "id": 5,
+        "type": "noun",
+        "article": "die",
+        "word": "Parklücke",
+        "plural": "-n",
+        "meaning": "停车位",
+        "example": "Sie will ihren Kleinwagen in eine fünf Meter lange Parklücke einparken."
+      },
+      {
+        "id": 6,
+        "type": "verb",
+        "forms": {
+          "infinitive": "orientieren",
+          "present": "er orientiert sich",
+          "perfect": "er hat sich orientiert"
+        },
+        "meaning": "辨别方向",
+        "example": "Sie haben große Probleme, sich zu orientieren."
+      },
+      {
+        "id": 7,
+        "type": "verb",
+        "forms": {
+          "infinitive": "wiederfinden",
+          "present": "er findet wieder",
+          "perfect": "er hat wiedergefunden"
+        },
+        "meaning": "重新找到，重新得到",
+        "example": "Schuhgeschäfte finden sie jedoch mühelos wieder."
+      },
+      {
+        "id": 8,
+        "type": "conjunction",
+        "word": "jedoch",
+        "meaning": "但是，然而",
+        "example": "Schuhgeschäfte finden sie jedoch mühelos wieder."
+      },
+      {
+        "id": 9,
+        "type": "adjective",
+        "word": "mühelos",
+        "meaning": "容易的，不费劲的",
+        "example": "Schuhgeschäfte finden sie jedoch mühelos wieder."
+      },
+      {
+        "id": 10,
+        "type": "noun",
+        "article": "der",
+        "word": "Kumpel",
+        "plural": "-",
+        "meaning": "同事；朋友",
+        "example": "Es ist nicht in Ordnung, dass Sie sich mit Ihren Kumpeln zum Bier treffen."
+      },
+      {
+        "id": 11,
+        "type": "adjective",
+        "word": "gefühlvoll",
+        "meaning": "富有情感的",
+        "example": "Frauen sind gefühlvoll und erziehen die Kinder."
+      },
+      {
+        "id": 12,
+        "type": "verb",
+        "forms": {
+          "infinitive": "erziehen",
+          "present": "er erzieht",
+          "perfect": "er hat erzogen"
+        },
+        "meaning": "教育，培养",
+        "example": "Frauen sind gefühlvoll und erziehen die Kinder."
+      }
+    ]
+  }
+}

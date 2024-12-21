@@ -1,0 +1,170 @@
+{
+  "code": 0,
+  "msg": "success",
+  "data": {
+    "total": 17,
+    "words": [
+      {
+        "id": 1,
+        "type": "noun",
+        "article": "der/die",
+        "word": "Maler/in",
+        "plural": "-/-nen",
+        "meaning": "画家",
+        "example": "Sie macht eine Ausbildung zur Malerin und Lackiererin."
+      },
+      {
+        "id": 2,
+        "type": "noun",
+        "article": "der/die",
+        "word": "Lackierer/in",
+        "plural": "-/-nen",
+        "meaning": "油漆工",
+        "example": "Sie macht eine Ausbildung zur Malerin und Lackiererin."
+      },
+      {
+        "id": 3,
+        "type": "noun",
+        "article": "der/die",
+        "word": "Berufskraftfahrer/in",
+        "plural": "-/-nen",
+        "meaning": "职业驾驶员",
+        "example": "Berufskraftfahrer müssen oft an der Autobahn schlafen."
+      },
+      {
+        "id": 4,
+        "type": "noun",
+        "article": "der",
+        "word": "Frauenberuf",
+        "plural": "-e",
+        "meaning": "妇女职业",
+        "example": "Kosmetikerin ist ein typischer Frauenberuf."
+      },
+      {
+        "id": 5,
+        "type": "noun",
+        "article": "der",
+        "word": "Männerberuf",
+        "plural": "-e",
+        "meaning": "男子职业",
+        "example": "Das ist ein typischer Männerberuf."
+      },
+      {
+        "id": 6,
+        "type": "adjective",
+        "word": "biologisch",
+        "meaning": "生物学上的，生物的",
+        "example": "Es gibt keine biologischen Unterschiede zwischen Männern und Frauen."
+      },
+      {
+        "id": 7,
+        "type": "verb",
+        "forms": {
+          "infinitive": "Recht haben",
+          "present": "er hat Recht",
+          "perfect": "er hatte Recht"
+        },
+        "meaning": "有权利",
+        "example": "Jeder hat das Recht, einen schönen Beruf zu erlernen."
+      },
+      {
+        "id": 8,
+        "type": "verb",
+        "forms": {
+          "infinitive": "genauso sehen",
+          "present": "er sieht etw. genauso",
+          "perfect": "er hat etw. genauso gesehen"
+        },
+        "meaning": "完全一样，同样看",
+        "example": "Das sehe ich genauso."
+      },
+      {
+        "id": 9,
+        "type": "verb",
+        "forms": {
+          "infinitive": "widersprechen",
+          "present": "er widerspricht",
+          "perfect": "er hat widersprochen"
+        },
+        "meaning": "反对，反驳",
+        "example": "Der Talkshow-Moderator widerspricht seinem Gast."
+      },
+      {
+        "id": 10,
+        "type": "verb",
+        "forms": {
+          "infinitive": "nicht sagen können",
+          "present": "er kann nicht sagen",
+          "perfect": "er konnte nicht sagen"
+        },
+        "meaning": "不能说",
+        "example": "Das kann man so nicht sagen."
+      },
+      {
+        "id": 11,
+        "type": "verb",
+        "forms": {
+          "infinitive": "kümmern",
+          "present": "er kümmert sich um jmdn.",
+          "perfect": "er hat sich um jmdn. gekümmert"
+        },
+        "meaning": "关心，照料",
+        "example": "Die Mutter kümmert sich sehr gut um die Kinder."
+      },
+      {
+        "id": 12,
+        "type": "adjective",
+        "word": "aufwändig",
+        "meaning": "昂贵的",
+        "example": "Nach dem Schulabschluss machte sie die aufwändige Ausbildung zur Pilotin."
+      },
+      {
+        "id": 13,
+        "type": "noun",
+        "article": "der/die",
+        "word": "Steward/ess",
+        "plural": "-s/-en",
+        "meaning": "（飞机上或轮船上的）服务员",
+        "example": "Alle denken immer, dass sie Stewardess ist."
+      },
+      {
+        "id": 14,
+        "type": "adjective",
+        "word": "selbstbewusst",
+        "meaning": "自信的",
+        "example": "Aber sie hat gelernt, selbstbewusst zu sein."
+      },
+      {
+        "id": 15,
+        "type": "verb",
+        "forms": {
+          "infinitive": "spotten",
+          "present": "er spottet",
+          "perfect": "er hat gespottet"
+        },
+        "meaning": "嘲笑，取笑",
+        "example": "Seine alten Kollegen spotten über ihn."
+      },
+      {
+        "id": 16,
+        "type": "noun",
+        "article": "der/die",
+        "word": "Kindergärtner/in",
+        "plural": "-/-nen",
+        "meaning": "幼儿园教师",
+        "example": "Kindergärtnerin ist ein typischer Frauenberuf."
+      },
+      {
+        "id": 17,
+        "type": "verb",
+        "forms": {
+          "infinitive": "vorbeikommen",
+          "present": "er kommt vorbei",
+          "perfect": "er ist vorbeigekommen"
+        },
+        "meaning": "顺便看看",
+        "example": "Kommen Sie vorbei, wenn Sie Ihren Weg gehen wollen."
+      }
+    ]
+  }
+}
