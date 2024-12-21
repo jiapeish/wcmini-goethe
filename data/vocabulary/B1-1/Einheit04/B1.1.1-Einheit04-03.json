@@ -1,0 +1,227 @@
+{
+  "code": 0,
+  "msg": "success",
+  "data": {
+    "total": 24,
+    "words": [
+      {
+        "id": 1,
+        "type": "noun",
+        "article": "die",
+        "word": "Traumfabrik",
+        "plural": "-en",
+        "meaning": "梦工厂",
+        "example": "Hollywood ist die bekannteste Traumfabrik."
+      },
+      {
+        "id": 2,
+        "type": "verb",
+        "forms": {
+          "infinitive": "gehören",
+          "present": "er gehört zu",
+          "perfect": "er hat zu etw. gehört"
+        },
+        "meaning": "属于，归...所有",
+        "example": "Zu meinem Häuschen gehört auch ein Schrebergärtchen."
+      },
+      {
+        "id": 3,
+        "type": "noun",
+        "article": "die",
+        "word": "Industrieregion",
+        "plural": "-en",
+        "meaning": "工业区域",
+        "example": "Das Ruhrgebiet ist eine Industrieregion."
+      },
+      {
+        "id": 4,
+        "type": "verb",
+        "forms": {
+          "infinitive": "entstehen",
+          "present": "er entsteht",
+          "perfect": "er ist entstanden"
+        },
+        "meaning": "产生，发展起来",
+        "example": "Die Industrieregion ist im 20. Jahrhundert entstanden."
+      },
+      {
+        "id": 5,
+        "type": "abbreviation",
+        "word": "u. a.",
+        "meaning": "另外，其中还有",
+        "example": "Zum Ruhrgebiet gehören u. a. Bochum und Duisburg."
+      },
+      {
+        "id": 6,
+        "type": "noun",
+        "article": "der",
+        "word": "Einwohner",
+        "plural": "-",
+        "meaning": "居民",
+        "example": "Das Ruhrgebiet hat heute fast sechs Millionen Einwohner."
+      },
+      {
+        "id": 7,
+        "type": "noun",
+        "article": "die",
+        "word": "Bevölkerung",
+        "plural": "-en",
+        "meaning": "居民；人口",
+        "example": "10% der deutschen Bevölkerung leben im Ruhrgebiet."
+      },
+      {
+        "id": 8,
+        "type": "noun",
+        "article": "die",
+        "word": "Industrialisierung",
+        "plural": "Sg.",
+        "meaning": "工业化",
+        "example": "Aufgrund der Industrialisierung kamen viele Menschen ins Ruhrgebiet."
+      },
+      {
+        "id": 9,
+        "type": "noun",
+        "article": "der",
+        "word": "Abbau",
+        "plural": "Sg.",
+        "meaning": "开采",
+        "example": "Es begann mit dem Abbau von Kohle, dem schwarzen Gold."
+      },
+      {
+        "id": 10,
+        "type": "noun",
+        "article": "das",
+        "word": "Städtchen",
+        "plural": "-",
+        "meaning": "小城市",
+        "example": "Meine Eltern wohnen in einem kleinen Städtchen."
+      },
+      {
+        "id": 11,
+        "type": "noun",
+        "article": "das",
+        "word": "Gold",
+        "plural": "Sg.",
+        "meaning": "金，黄金",
+        "example": "Es begann mit dem Abbau von Kohle, dem schwarzen Gold."
+      },
+      {
+        "id": 12,
+        "type": "noun",
+        "article": "die",
+        "word": "Zeche",
+        "plural": "-n",
+        "meaning": "矿山",
+        "example": "Bergarbeiter arbeiten in einer Zeche."
+      },
+      {
+        "id": 13,
+        "type": "noun",
+        "article": "die",
+        "word": "Stahlproduktion",
+        "plural": "-en",
+        "meaning": "钢铁生产",
+        "example": "Die Stahlproduktion ist wichtig für die Industrieregion."
+      },
+      {
+        "id": 14,
+        "type": "noun",
+        "article": "das",
+        "word": "Häuschen",
+        "plural": "-",
+        "meaning": "小房屋",
+        "example": "Wir haben ein Häuschen im Grünen."
+      },
+      {
+        "id": 15,
+        "type": "noun",
+        "article": "die",
+        "word": "Bergarbeitersiedlung",
+        "plural": "-en",
+        "meaning": "矿工住宅区",
+        "example": "Arbeitsmigranten lebten in einer Bergarbeitersiedlung."
+      },
+      {
+        "id": 16,
+        "type": "noun",
+        "article": "der",
+        "word": "Kohlekonzern",
+        "plural": "-e",
+        "meaning": "煤炭康采恩（企业集团）",
+        "example": "Sie wollten bei den Kohle- und Stahlkonzernen Arbeit finden."
+      },
+      {
+        "id": 17,
+        "type": "noun",
+        "article": "der",
+        "word": "Stahlkonzern",
+        "plural": "-e",
+        "meaning": "钢铁康采恩（企业集团）",
+        "example": "Sie wollten bei den Kohle- und Stahlkonzernen Arbeit finden."
+      },
+      {
+        "id": 18,
+        "type": "verb",
+        "forms": {
+          "infinitive": "hinzukommen",
+          "present": "er kommt hinzu",
+          "perfect": "er ist hinzugekommen"
+        },
+        "meaning": "参加进来，来到",
+        "example": "Es kamen nochmal über eine Million Arbeitsmigranten hinzu."
+      },
+      {
+        "id": 19,
+        "type": "noun",
+        "article": "das",
+        "word": "Südeuropa",
+        "plural": null,
+        "meaning": "南欧，欧洲南部",
+        "example": "In Südeuropa ist es viel wärmer als hier."
+      },
+      {
+        "id": 20,
+        "type": "noun",
+        "article": "der/die",
+        "word": "Arbeitsmigrant/in",
+        "plural": "-en/-nen",
+        "meaning": "为了工作的移民",
+        "example": "Arbeitsmigranten lebten in einer Bergarbeitersiedlung."
+      },
+      {
+        "id": 21,
+        "type": "noun",
+        "article": "die",
+        "word": "Stahlindustrie",
+        "plural": "-n",
+        "meaning": "钢铁工业",
+        "example": "Arbeitsplätze in der Stahlindustrie waren beliebt."
+      },
+      {
+        "id": 22,
+        "type": "noun",
+        "article": "der",
+        "word": "Bergbau",
+        "plural": "Sg.",
+        "meaning": "采矿业，采矿",
+        "example": "Die Arbeit im Bergbau ist schmutzig und hart."
+      },
+      {
+        "id": 23,
+        "type": "adjective",
+        "word": "schmutzig",
+        "meaning": "脏脏的",
+        "example": "Die Arbeit im Bergbau ist schmutzig und hart."
+      },
+      {
+        "id": 24,
+        "type": "noun",
+        "article": "die",
+        "word": "Sozialgesetzgebung",
+        "plural": "-en",
+        "meaning": "社会福利法法",
+        "example": "Vor der Sozialgesetzgebung Bismarcks gab es keine Sozialversicherung."
+      }
+    ]
+  }
+}

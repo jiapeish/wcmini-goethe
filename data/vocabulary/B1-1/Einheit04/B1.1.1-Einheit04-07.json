@@ -1,0 +1,218 @@
+{
+  "code": 0,
+  "msg": "success",
+  "data": {
+    "total": 23,
+    "words": [
+      {
+        "id": 1,
+        "type": "noun",
+        "article": "die",
+        "word": "Rente",
+        "plural": "-n",
+        "meaning": "退休金",
+        "example": "Wenn nötig, zahlt die Berufsgenossenschaft sogar die Rente."
+      },
+      {
+        "id": 2,
+        "type": "noun",
+        "article": "das",
+        "word": "Unfallrisiko",
+        "plural": "Unfallrisiken",
+        "meaning": "事故风险",
+        "example": "Das Unfallrisiko für junge Berufstätige ist laut Statistik besonders hoch."
+      },
+      {
+        "id": 3,
+        "type": "noun",
+        "article": "die",
+        "word": "Unfallhäufigkeit",
+        "plural": "-en",
+        "meaning": "事故发生频率",
+        "example": "Die 20-29-Jährigen stehen bei der Unfallhäufigkeit an der Spitze."
+      },
+      {
+        "id": 4,
+        "type": "noun",
+        "article": "die",
+        "word": "Spitze",
+        "plural": "-n",
+        "meaning": "前头，前列",
+        "example": "Die 20-29-Jährigen stehen bei der Unfallhäufigkeit an der Spitze."
+      },
+      {
+        "id": 5,
+        "type": "adjective",
+        "word": "jährlich",
+        "meaning": "每年的",
+        "example": "Jährlich werden etwa 1,2 Millionen Arbeitsunfälle gemeldet."
+      },
+      {
+        "id": 6,
+        "type": "noun",
+        "article": "der",
+        "word": "Versicherte",
+        "plural": "-n",
+        "meaning": "被保险人",
+        "example": "Bei jedem dritten Unfall sind die Versicherten jünger als 30 Jahre."
+      },
+      {
+        "id": 7,
+        "type": "verb",
+        "forms": {
+          "infinitive": "riskieren",
+          "present": "er riskiert",
+          "perfect": "er hat riskiert"
+        },
+        "meaning": "冒险，担风险",
+        "example": "Junge Berufstätige riskieren mehr als ältere Arbeitnehmer."
+      },
+      {
+        "id": 8,
+        "type": "verb",
+        "forms": {
+          "infinitive": "runterfallen",
+          "present": "er fällt runter",
+          "perfect": "er ist runtergefallen"
+        },
+        "meaning": "掉下来，跌下来",
+        "example": "Das Glas ist runtergefallen."
+      },
+      {
+        "id": 9,
+        "type": "expression",
+        "word": "auf dem Weg zu etw. sein",
+        "meaning": "在去...路上，途中",
+        "example": "Ich bin auf dem Weg zu meiner Tante."
+      },
+      {
+        "id": 10,
+        "type": "verb",
+        "forms": {
+          "infinitive": "ausrutschen",
+          "present": "er rutscht aus",
+          "perfect": "er ist ausgerutscht"
+        },
+        "meaning": "滑倒",
+        "example": "Ich rutschte auf der nassen Straße aus."
+      },
+      {
+        "id": 11,
+        "type": "verb",
+        "forms": {
+          "infinitive": "stoßen",
+          "present": "er stößt sich",
+          "perfect": "er hat sich gestoßen"
+        },
+        "meaning": "撞上，碰上",
+        "example": "Ich stieß mich an der Tür."
+      },
+      {
+        "id": 12,
+        "type": "noun",
+        "article": "die",
+        "word": "Verletzung",
+        "plural": "-en",
+        "meaning": "受伤，损伤",
+        "example": "Wegen der Verletzung musste ich ins Krankenhaus."
+      },
+      {
+        "id": 13,
+        "type": "noun",
+        "article": "der",
+        "word": "Notfallwagen",
+        "plural": "-",
+        "meaning": "急救车",
+        "example": "Ich musste mit dem Notfallwagen in die Klinik."
+      },
+      {
+        "id": 14,
+        "type": "noun",
+        "article": "der/die",
+        "word": "Chef/in",
+        "plural": "-s/-nen",
+        "meaning": "老板，上司",
+        "example": "Die Chefin des Unternehmens ist sehr energisch."
+      },
+      {
+        "id": 15,
+        "type": "noun",
+        "article": "das",
+        "word": "Kantinenessen",
+        "plural": "-",
+        "meaning": "食堂饭菜",
+        "example": "Das Kantinenessen ist heute viel besser als früher."
+      },
+      {
+        "id": 16,
+        "type": "noun",
+        "article": "der",
+        "word": "Nachhauseweg",
+        "plural": "-e",
+        "meaning": "回家的路",
+        "example": "Er wurde gestern auf dem Nachhauseweg verletzt."
+      },
+      {
+        "id": 17,
+        "type": "adjective",
+        "word": "feuchtfröhlich",
+        "meaning": "开怀畅饮的",
+        "example": "Er war auf dem Nachhauseweg von einer feuchtfröhlichen Firmenfeier."
+      },
+      {
+        "id": 18,
+        "type": "noun",
+        "article": "die",
+        "word": "Firmenfeier",
+        "plural": "-n",
+        "meaning": "公司庆祝活动",
+        "example": "Er war auf dem Nachhauseweg von einer feuchtfröhlichen Firmenfeier."
+      },
+      {
+        "id": 19,
+        "type": "noun",
+        "article": "der",
+        "word": "Dienstwagen",
+        "plural": "-",
+        "meaning": "公事用车",
+        "example": "Er war mit dem neuen Dienstwagen unterwegs."
+      },
+      {
+        "id": 20,
+        "type": "noun",
+        "article": "der",
+        "word": "Wagen",
+        "plural": "-",
+        "meaning": "车，汽车",
+        "example": "Der Fahrer des anderen Wagens musste in die Klinik transportiert werden."
+      },
+      {
+        "id": 21,
+        "type": "adjective",
+        "word": "örtlich",
+        "meaning": "地方的，当地的",
+        "example": "Er musste mit dem örtlichen Rettungshubschrauber transportiert werden."
+      },
+      {
+        "id": 22,
+        "type": "noun",
+        "article": "der",
+        "word": "Rettungshubschrauber",
+        "plural": "-",
+        "meaning": "救援直升机",
+        "example": "Er musste mit dem örtlichen Rettungshubschrauber transportiert werden."
+      },
+      {
+        "id": 23,
+        "type": "verb",
+        "forms": {
+          "infinitive": "entfernen",
+          "present": "er entfernt sich",
+          "perfect": "er hat sich entfernt"
+        },
+        "meaning": "离...远，相距",
+        "example": "Der Fahrer musste in die 180 km entfernte Klinik in Bochum transportiert werden."
+      }
+    ]
+  }
+}

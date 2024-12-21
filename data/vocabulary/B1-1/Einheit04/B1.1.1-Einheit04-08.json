@@ -1,0 +1,221 @@
+{
+  "code": 0,
+  "msg": "success",
+  "data": {
+    "total": 24,
+    "words": [
+      {
+        "id": 1,
+        "type": "verb",
+        "forms": {
+          "infinitive": "transportieren",
+          "present": "er transportiert",
+          "perfect": "er hat transportiert"
+        },
+        "meaning": "运送",
+        "example": "Er musste mit dem örtlichen Rettungshubschrauber transportiert werden."
+      },
+      {
+        "id": 2,
+        "type": "noun",
+        "article": "die",
+        "word": "Hilfsaktion",
+        "plural": "-en",
+        "meaning": "救助工作",
+        "example": "Eine Verkäuferin wurde bei einer Hilfsaktion selber verletzt."
+      },
+      {
+        "id": 3,
+        "type": "noun",
+        "article": "der",
+        "word": "Gehstock",
+        "plural": "-ö-e",
+        "meaning": "手杖",
+        "example": "Sie stolperte über den Gehstock der alten Dame."
+      },
+      {
+        "id": 4,
+        "type": "noun",
+        "article": "die",
+        "word": "Kopfverletzung",
+        "plural": "-en",
+        "meaning": "头受伤",
+        "example": "Sie wurde mit leichten Kopfverletzungen ins Krankenhaus gebracht."
+      },
+      {
+        "id": 5,
+        "type": "noun",
+        "article": "die",
+        "word": "Schnittwunde",
+        "plural": "-n",
+        "meaning": "（切/割）伤口",
+        "example": "Sie wurde mit einer tiefen Schnittwunde ins Krankenhaus gebracht."
+      },
+      {
+        "id": 6,
+        "type": "noun",
+        "article": "der",
+        "word": "Zusammenhang",
+        "plural": "-ä-e",
+        "meaning": "关系，关联",
+        "example": "Der Unfall steht im Zusammenhang mit der beruflichen Tätigkeit."
+      },
+      {
+        "id": 7,
+        "type": "noun",
+        "article": "die",
+        "word": "Dienstzeit",
+        "plural": "-en",
+        "meaning": "工作时间",
+        "example": "Die Unfälle müssen während der Dienstzeit passieren."
+      },
+      {
+        "id": 8,
+        "type": "noun",
+        "article": "das",
+        "word": "Firmenfest",
+        "plural": "-e",
+        "meaning": "公司庆祝活动",
+        "example": "Auch Unfälle bei Firmenfesten sind ein Fall für die Berufsgenossenschaft."
+      },
+      {
+        "id": 9,
+        "type": "adjective",
+        "word": "anwesend",
+        "meaning": "在场的，出席的",
+        "example": "Der Chef muss bei der Party anwesend sein."
+      },
+      {
+        "id": 10,
+        "type": "noun",
+        "article": "der",
+        "word": "Einsatz",
+        "plural": "-ä-e",
+        "meaning": "投入，参与",
+        "example": "Gestern kam es zu einem Einsatz bei einer jungen Familie."
+      },
+      {
+        "id": 11,
+        "type": "noun",
+        "article": "das",
+        "word": "Spielzeugauto",
+        "plural": "-s",
+        "meaning": "玩具车",
+        "example": "Er stolpert über ein kleines Spielzeugauto."
+      },
+      {
+        "id": 12,
+        "type": "noun",
+        "article": "der",
+        "word": "Fußboden",
+        "plural": "-ö-",
+        "meaning": "地板",
+        "example": "Das Spielzeugauto lag auf dem Fußboden."
+      },
+      {
+        "id": 13,
+        "type": "noun",
+        "article": "die",
+        "word": "Theaterhalle",
+        "plural": "-n",
+        "meaning": "剧院大厅",
+        "example": "In der Theaterhalle wird ein Musical gezeigt."
+      },
+      {
+        "id": 14,
+        "type": "noun",
+        "article": "das",
+        "word": "Bergbau-Museum",
+        "plural": "Bergbau-Museen",
+        "meaning": "采矿博物馆",
+        "example": "In dieser Stadt ist das bekannteste Bergbau-Museum der Welt."
+      },
+      {
+        "id": 15,
+        "type": "noun",
+        "article": "das",
+        "word": "Ruhrgebietswort",
+        "plural": "-ö-er",
+        "meaning": "鲁尔区单词",
+        "example": "Welche Ruhrgebietswörter haben Sie schon gelernt?"
+      },
+      {
+        "id": 16,
+        "type": "adjective",
+        "word": "halbtags",
+        "meaning": "半天的",
+        "example": "Beide Elternteile arbeiten halbtags."
+      },
+      {
+        "id": 17,
+        "type": "noun",
+        "article": "das",
+        "word": "Spezialglas",
+        "plural": "-ä-er",
+        "meaning": "特殊玻璃/玻璃容器",
+        "example": "Die Firma stellt Spezialglas her."
+      },
+      {
+        "id": 18,
+        "type": "noun",
+        "article": "der",
+        "word": "Freizeitspaß",
+        "plural": "Sg.",
+        "meaning": "业余娱乐",
+        "example": "Der Schrebergarten und Fußball waren der Freizeitspaß der Arbeiter."
+      },
+      {
+        "id": 19,
+        "type": "noun",
+        "article": "der",
+        "word": "Bergindustriearbeiter",
+        "plural": "-",
+        "meaning": "采矿工人",
+        "example": "Viele Bergindustriearbeiter wurden krank."
+      },
+      {
+        "id": 20,
+        "type": "noun",
+        "article": "der",
+        "word": "Stahlindustriearbeiter",
+        "plural": "-",
+        "meaning": "钢铁工人",
+        "example": "Viele Stahlindustriearbeiter hatten Arbeitsunfälle."
+      },
+      {
+        "id": 21,
+        "type": "noun",
+        "article": "der",
+        "word": "Pott",
+        "plural": "Sg.",
+        "meaning": "鲁尔区",
+        "example": "Wann kamen die ersten Arbeitsmigranten in den Pott?"
+      },
+      {
+        "id": 22,
+        "type": "noun",
+        "article": "die",
+        "word": "Freizeitbeschäftigung",
+        "plural": "-en",
+        "meaning": "业余活动",
+        "example": "Man wollte eine sinnvolle Freizeitbeschäftigung für die Kinder."
+      },
+      {
+        "id": 23,
+        "type": "adjective",
+        "word": "idyllisch",
+        "meaning": "田园般的",
+        "example": "Der Schrebergarten war ein idyllischer Platz."
+      },
+      {
+        "id": 24,
+        "type": "noun",
+        "article": "die",
+        "word": "Laube",
+        "plural": "-n",
+        "meaning": "小木屋",
+        "example": "In der Laube konnte man im Sommer übernachten."
+      }
+    ]
+  }
+}

@@ -1,0 +1,193 @@
+{
+  "code": 0,
+  "msg": "success",
+  "data": {
+    "total": 20,
+    "words": [
+      {
+        "id": 1,
+        "type": "verb",
+        "forms": {
+          "infinitive": "stolpern",
+          "present": "er stolpert",
+          "perfect": "er ist gestolpert"
+        },
+        "meaning": "绊倒",
+        "example": "Sie stolpert und bricht sich den rechten Arm."
+      },
+      {
+        "id": 2,
+        "type": "verb",
+        "forms": {
+          "infinitive": "brechen",
+          "present": "er bricht sich etw.",
+          "perfect": "er hat sich etw. gebrochen"
+        },
+        "meaning": "折断，骨折",
+        "example": "Sie stolpert und bricht sich den rechten Arm."
+      },
+      {
+        "id": 3,
+        "type": "adjective",
+        "word": "wochenlang",
+        "meaning": "数周之久的",
+        "example": "Tanja muss wochenlang in einer teuren Spezialklinik bleiben."
+      },
+      {
+        "id": 4,
+        "type": "noun",
+        "article": "die",
+        "word": "Spezialklinik",
+        "plural": "-en",
+        "meaning": "专科医院",
+        "example": "Tanja muss wochenlang in einer teuren Spezialklinik bleiben."
+      },
+      {
+        "id": 5,
+        "type": "adjective",
+        "word": "glatt",
+        "meaning": "滑的，滑溜的",
+        "example": "Er fährt auch im Winter bei glatter Straße."
+      },
+      {
+        "id": 6,
+        "type": "noun",
+        "article": "die",
+        "word": "Kurve",
+        "plural": "-n",
+        "meaning": "转弯处",
+        "example": "Marco bremst in einer gefährlichen Kurve."
+      },
+      {
+        "id": 7,
+        "type": "verb",
+        "forms": {
+          "infinitive": "bremsen",
+          "present": "er bremst",
+          "perfect": "er hat gebremst"
+        },
+        "meaning": "刹住，刹车",
+        "example": "Marco bremst in einer gefährlichen Kurve."
+      },
+      {
+        "id": 8,
+        "type": "verb",
+        "forms": {
+          "infinitive": "wegrutschen",
+          "present": "er rutscht weg",
+          "perfect": "er ist weggerutscht"
+        },
+        "meaning": "滑下来，滑走",
+        "example": "Die Maschine rutscht ihm weg."
+      },
+      {
+        "id": 9,
+        "type": "noun",
+        "article": "der",
+        "word": "Lenker",
+        "plural": "-",
+        "meaning": "把手，操纵杆",
+        "example": "Die Maschine rutscht ihm weg und er fliegt über den Lenker."
+      },
+      {
+        "id": 10,
+        "type": "noun",
+        "article": "die",
+        "word": "Wirbelsäulenverletzung",
+        "plural": "-en",
+        "meaning": "脊椎受伤",
+        "example": "Wegen einer Wirbelsäulenverletzung muss er in eine teure Klinik."
+      },
+      {
+        "id": 11,
+        "type": "noun",
+        "article": "die",
+        "word": "Klinik",
+        "plural": "Kliniken",
+        "meaning": "医院",
+        "example": "Wegen einer Wirbelsäulenverletzung muss er in eine teure Klinik."
+      },
+      {
+        "id": 12,
+        "type": "noun",
+        "article": "die",
+        "word": "Berufsgenossenschaft",
+        "plural": "-en",
+        "meaning": "同业保险联合会（工伤事故及职业病）",
+        "example": "In einer Berufsgenossenschaft hat man viele Vorteile."
+      },
+      {
+        "id": 13,
+        "type": "verb",
+        "forms": {
+          "infinitive": "eingehen",
+          "present": "er geht ein",
+          "perfect": "er ist eingegangen"
+        },
+        "meaning": "行细研究，认真探讨",
+        "example": "Der Arzt geht auf alle Unfalldetails ein."
+      },
+      {
+        "id": 14,
+        "type": "adjective",
+        "word": "gefährdet",
+        "meaning": "遭受危险的，损害的",
+        "example": "Junge Arbeiter sind besonders gefährdet."
+      },
+      {
+        "id": 15,
+        "type": "adjective",
+        "word": "gesetzlich",
+        "meaning": "法律上的，法定的",
+        "example": "Die Berufsgenossenschaft ist die gesetzliche Unfallversicherung für Arbeitnehmer und Arbeitnehmerinnen."
+      },
+      {
+        "id": 16,
+        "type": "verb",
+        "forms": {
+          "infinitive": "sorgen",
+          "present": "er sorgt für",
+          "perfect": "er hat für etw. gesorgt"
+        },
+        "meaning": "负责",
+        "example": "Sie sorgt für eine optimale Behandlung und übernimmt die Kosten."
+      },
+      {
+        "id": 17,
+        "type": "noun",
+        "article": "die",
+        "word": "Altersgruppe",
+        "plural": "-n",
+        "meaning": "同年龄层的人",
+        "example": "Die Altersgruppe der jungen Berufstätigen ist besonders gefährdet."
+      },
+      {
+        "id": 18,
+        "type": "adverb",
+        "word": "dahin",
+        "meaning": "去那儿",
+        "example": "Gehen Sie bis dahin und warten dann auf mich."
+      },
+      {
+        "id": 19,
+        "type": "verb",
+        "forms": {
+          "infinitive": "erleiden",
+          "present": "er erleidet",
+          "perfect": "er hat erlitten"
+        },
+        "meaning": "遭受，遭到",
+        "example": "Sie kümmert sich um Personen, die einen Unfall am Arbeitsplatz erleiden."
+      },
+      {
+        "id": 20,
+        "type": "noun",
+        "article": "die",
+        "word": "Behandlung",
+        "plural": "-en",
+        "meaning": "治疗",
+        "example": "Sie sorgt für eine optimale Behandlung und übernimmt die Kosten."
+      }
+    ]
+  }
+}

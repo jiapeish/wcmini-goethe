@@ -1,0 +1,219 @@
+{
+  "code": 0,
+  "msg": "success",
+  "data": {
+    "total": 24,
+    "words": [
+      {
+        "id": 1,
+        "type": "noun",
+        "article": "die",
+        "word": "Frührente",
+        "plural": "-n",
+        "meaning": "提前退休",
+        "example": "Viele Arbeiter mussten in Frührente gehen."
+      },
+      {
+        "id": 2,
+        "type": "noun",
+        "article": "das",
+        "word": "Kulturzentrum",
+        "plural": "Kulturzentren",
+        "meaning": "文化中心",
+        "example": "In alten Zechen befinden sich heute Kulturzentren."
+      },
+      {
+        "id": 3,
+        "type": "noun",
+        "article": "der",
+        "word": "Dienstleistungsbereich",
+        "plural": "-e",
+        "meaning": "服务业",
+        "example": "Es gibt viele Jobs im Dienstleistungsbereich."
+      },
+      {
+        "id": 4,
+        "type": "noun",
+        "article": "die",
+        "word": "Schwerindustrie",
+        "plural": "-n",
+        "meaning": "重工业",
+        "example": "Die Schwerindustrie hat viel mehr männliche als weibliche Arbeiter."
+      },
+      {
+        "id": 5,
+        "type": "noun",
+        "article": "der",
+        "word": "Badesee",
+        "plural": "-n",
+        "meaning": "可游泳的湖",
+        "example": "Im Ruhrgebiet gibt es überall Badeseen."
+      },
+      {
+        "id": 6,
+        "type": "noun",
+        "article": "der",
+        "word": "Freizeitpark",
+        "plural": "-s",
+        "meaning": "娱乐园，游乐场",
+        "example": "Im Ruhrgebiet gibt es überall Badeseen und Freizeitparks."
+      },
+      {
+        "id": 7,
+        "type": "noun",
+        "article": "das",
+        "word": "Kinozentrum",
+        "plural": "Kinozentren",
+        "meaning": "大型电影院，影城",
+        "example": "Es gibt überall große Kinozentren."
+      },
+      {
+        "id": 8,
+        "type": "adjective",
+        "word": "renommiert",
+        "meaning": "有声誉的，声望高的",
+        "example": "In Bochum steht ein renommiertes Schauspielhaus."
+      },
+      {
+        "id": 9,
+        "type": "noun",
+        "article": "die",
+        "word": "Fußballmannschaft",
+        "plural": "-en",
+        "meaning": "足球队",
+        "example": "Das Ruhrgebiet hat mehr Fußballmannschaften in der Bundesliga als jede andere Region."
+      },
+      {
+        "id": 10,
+        "type": "noun",
+        "article": "die",
+        "word": "Bundesliga",
+        "plural": "Bundesligen",
+        "meaning": "联邦甲级联赛合会",
+        "example": "Das Ruhrgebiet hat mehr Fußballmannschaften in der 1. Bundesliga als jede andere Region."
+      },
+      {
+        "id": 11,
+        "type": "noun",
+        "article": "das",
+        "word": "Fußballstadion",
+        "plural": "Fußballstadien",
+        "meaning": "足球场",
+        "example": "In einigen Fußballstadien finden auch Popkonzerte statt."
+      },
+      {
+        "id": 12,
+        "type": "noun",
+        "article": "das",
+        "word": "Popkonzert",
+        "plural": "-e",
+        "meaning": "流行音乐会",
+        "example": "In einigen Fußballstadien finden auch Popkonzerte statt."
+      },
+      {
+        "id": 13,
+        "type": "expression",
+        "word": "bekannt sein für",
+        "meaning": "著名的，众所周知的",
+        "example": "Das Ruhrgebiet ist bekannt für die Industrie."
+      },
+      {
+        "id": 14,
+        "type": "noun",
+        "article": "die",
+        "word": "Bevölkerungszahl",
+        "plural": "-en",
+        "meaning": "人口（总）数",
+        "example": "Wie hoch war die Bevölkerungszahl vor 1800?"
+      },
+      {
+        "id": 15,
+        "type": "noun",
+        "article": "der",
+        "word": "Rohstoff",
+        "plural": "-e",
+        "meaning": "原料料",
+        "example": "Für welche Rohstoffe ist Ihr Land besonders bekannt?"
+      },
+      {
+        "id": 16,
+        "type": "noun",
+        "article": "die",
+        "word": "Gegend",
+        "plural": "-en",
+        "meaning": "地区，地方",
+        "example": "Ich möchte über eine Gegend in meinem Land berichten."
+      },
+      {
+        "id": 17,
+        "type": "noun",
+        "article": "die",
+        "word": "Achtung",
+        "plural": "Sg.",
+        "meaning": "注意",
+        "example": "Achtung: Laser!"
+      },
+      {
+        "id": 18,
+        "type": "noun",
+        "article": "der",
+        "word": "Strom",
+        "plural": "Sg.",
+        "meaning": "电，电流",
+        "example": "Mein Computer verbraucht viel Strom."
+      },
+      {
+        "id": 19,
+        "type": "noun",
+        "article": "das",
+        "word": "Gift",
+        "plural": "-e",
+        "meaning": "毒品，毒药",
+        "example": "Gift ist für Kinder gefährlich."
+      },
+      {
+        "id": 20,
+        "type": "noun",
+        "article": "der",
+        "word": "Laser",
+        "plural": "-",
+        "meaning": "激光器",
+        "example": "Ein Laser kann ohne Probleme Stahl zerstören."
+      },
+      {
+        "id": 21,
+        "type": "noun",
+        "article": "der",
+        "word": "Absturz",
+        "plural": "-ü-e",
+        "meaning": "坠落",
+        "example": "In den Bergen wird oft vor einem Absturz gewarnt."
+      },
+      {
+        "id": 22,
+        "type": "noun",
+        "article": "die",
+        "word": "Stolpergefahr",
+        "plural": "-en",
+        "meaning": "绊倒危险",
+        "example": "Wenn die Straße kaputt ist, gibt es eine große Stolpergefahr."
+      },
+      {
+        "id": 23,
+        "type": "adjective",
+        "word": "feuergefährlich",
+        "meaning": "易爆的，易燃的",
+        "example": "Mein neues Kleid ist feuergefährlich."
+      },
+      {
+        "id": 24,
+        "type": "noun",
+        "article": "die",
+        "word": "Akte",
+        "plural": "-n",
+        "meaning": "文件，档案",
+        "example": "Mit schweren Akten auf dem Arm stolpert sie und bricht sich den rechten Arm."
+      }
+    ]
+  }
+}

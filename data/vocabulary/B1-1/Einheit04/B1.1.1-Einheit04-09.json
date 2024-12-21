@@ -1,0 +1,249 @@
+{
+  "code": 0,
+  "msg": "success",
+  "data": {
+    "total": 26,
+    "words": [
+      {
+        "id": 1,
+        "type": "noun",
+        "article": "der",
+        "word": "Wohnraum",
+        "plural": "-äu-e",
+        "meaning": "住房，起居室",
+        "example": "Die Laube ist gleichzeitig Wohnraum und Raum für Gartengeräte."
+      },
+      {
+        "id": 2,
+        "type": "noun",
+        "article": "das",
+        "word": "Gartengerät",
+        "plural": "-e",
+        "meaning": "园艺工具",
+        "example": "Die Laube ist gleichzeitig Wohnraum und Raum für Gartengeräte."
+      },
+      {
+        "id": 3,
+        "type": "noun",
+        "article": "das",
+        "word": "Gläschen",
+        "plural": "-",
+        "meaning": "小酒杯",
+        "example": "Die Kanzlerin trifft sich mit Hollande auf ein Gläschen Wein."
+      },
+      {
+        "id": 4,
+        "type": "noun",
+        "article": "das",
+        "word": "Bierchen",
+        "plural": "-",
+        "meaning": "啤酒",
+        "example": "Nach drei Bierchen sollte man nicht mehr Fahrrad fahren."
+      },
+      {
+        "id": 5,
+        "type": "noun",
+        "article": "das",
+        "word": "Tischlein",
+        "plural": "-",
+        "meaning": "小桌子",
+        "example": "Das Tischlein im Märchen deckt sich alleine."
+      },
+      {
+        "id": 6,
+        "type": "verb",
+        "forms": {
+          "infinitive": "decken",
+          "present": "er deckt",
+          "perfect": "er hat gedeckt"
+        },
+        "meaning": "摆好餐具",
+        "example": "Das Tischlein im Märchen deckt sich alleine."
+      },
+      {
+        "id": 7,
+        "type": "noun",
+        "article": "das",
+        "word": "Wetterchen",
+        "plural": "Sg.",
+        "meaning": "（口）好天气",
+        "example": "Das wird ein Wetterchen!"
+      },
+      {
+        "id": 8,
+        "type": "noun",
+        "article": "das",
+        "word": "Süppchen",
+        "plural": "-",
+        "meaning": "汤",
+        "example": "Der Chef kocht sein eigenes Süppchen."
+      },
+      {
+        "id": 9,
+        "type": "noun",
+        "article": "die",
+        "word": "IT-Sicherheit",
+        "plural": "Sg.",
+        "meaning": "信息安全",
+        "example": "Ich möchte IT-Sicherheit studieren."
+      },
+      {
+        "id": 10,
+        "type": "noun",
+        "article": "das",
+        "word": "Erholungsgebiet",
+        "plural": "-e",
+        "meaning": "疗养地，休养地",
+        "example": "Auf vielen Zechengeländen findest du jetzt Erholungsgebiete."
+      },
+      {
+        "id": 11,
+        "type": "noun",
+        "article": "die",
+        "word": "Kulturszene",
+        "plural": "Sg.",
+        "meaning": "文化圈，文化活动领域",
+        "example": "Im Ruhrgebiet gibt es eine große Kulturszene."
+      },
+      {
+        "id": 12,
+        "type": "noun",
+        "article": "die",
+        "word": "Kulturhauptstadt",
+        "plural": "-ä-e",
+        "meaning": "文化中心城市",
+        "example": "Essen war 2010 Kulturhauptstadt Europas."
+      },
+      {
+        "id": 13,
+        "type": "noun",
+        "article": "das",
+        "word": "Forschungszentrum",
+        "plural": "Forschungszentren",
+        "meaning": "研究中心",
+        "example": "Das Ruhrgebiet hat viele moderne Forschungszentren."
+      },
+      {
+        "id": 14,
+        "type": "noun",
+        "article": "die",
+        "word": "Informationstechnik",
+        "plural": "Sg.",
+        "meaning": "信息技术，信息工程",
+        "example": "Sie möchte Informationstechnik studieren."
+      },
+      {
+        "id": 15,
+        "type": "noun",
+        "article": "der",
+        "word": "Wegeunfall",
+        "plural": "-ä-e",
+        "meaning": "上下班路上发生的事故",
+        "example": "Frau Müller erlitt gestern einen Wegeunfall."
+      },
+      {
+        "id": 16,
+        "type": "noun",
+        "article": "der",
+        "word": "Heimweg",
+        "plural": "-e",
+        "meaning": "回家的路",
+        "example": "Frau Lindner stolpert auf dem Heimweg."
+      },
+      {
+        "id": 17,
+        "type": "noun",
+        "article": "das",
+        "word": "Handgelenk",
+        "plural": "-e",
+        "meaning": "手腕",
+        "example": "Frau Lindner bricht sich das Handgelenk."
+      },
+      {
+        "id": 18,
+        "type": "noun",
+        "article": "die",
+        "word": "Schutzkleidung",
+        "plural": "Sg.",
+        "meaning": "防护服",
+        "example": "Er zieht vor der Arbeit Schutzkleidung an."
+      },
+      {
+        "id": 19,
+        "type": "noun",
+        "article": "die",
+        "word": "Schutzbrille",
+        "plural": "-n",
+        "meaning": "防护眼镜，风镜",
+        "example": "Er trägt vor der Arbeit eine Schutzbrille."
+      },
+      {
+        "id": 20,
+        "type": "noun",
+        "article": "die",
+        "word": "Hektik",
+        "plural": "Sg.",
+        "meaning": "忙碌，匆忙",
+        "example": "Verfall nicht in Hektik, das ist ungesund."
+      },
+      {
+        "id": 21,
+        "type": "verb",
+        "forms": {
+          "infinitive": "verfallen",
+          "present": "er verfällt",
+          "perfect": "er ist verfallen"
+        },
+        "meaning": "陷入",
+        "example": "Verfall nicht in Hektik, das ist ungesund."
+      },
+      {
+        "id": 22,
+        "type": "noun",
+        "article": "der",
+        "word": "Schutzhandschuh",
+        "plural": "-e",
+        "meaning": "防护手套",
+        "example": "Bergarbeiter brauchen bei der Arbeit Schutzhandschuhe."
+      },
+      {
+        "id": 23,
+        "type": "noun",
+        "article": "die",
+        "word": "Stolperfalle",
+        "plural": "-n",
+        "meaning": "绊倒陷阱",
+        "example": "Auf Baustellen gibt es viele Stolperfallen."
+      },
+      {
+        "id": 24,
+        "type": "verb",
+        "forms": {
+          "infinitive": "wegräumen",
+          "present": "er räumt weg",
+          "perfect": "er hat weggeräumt"
+        },
+        "meaning": "清除，把...移到一边",
+        "example": "Der Arbeiter räumt die Stolperfallen weg."
+      },
+      {
+        "id": 25,
+        "type": "noun",
+        "article": "der",
+        "word": "Arbeitsschutz",
+        "plural": "Sg.",
+        "meaning": "劳动保护",
+        "example": "Der Arbeitsschutz ist im Bergbau sehr wichtig."
+      },
+      {
+        "id": 26,
+        "type": "noun",
+        "article": "die",
+        "word": "Rehaklinik",
+        "plural": "Rehakliniken",
+        "meaning": "康复医院",
+        "example": "Ich musste fünf Monate in eine teure Rehaklinik."
+      }
+    ]
+  }
+}

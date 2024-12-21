@@ -1,0 +1,218 @@
+{
+  "code": 0,
+  "msg": "success",
+  "data": {
+    "total": 23,
+    "words": [
+      {
+        "id": 1,
+        "type": "noun",
+        "article": "der",
+        "word": "Kilometer",
+        "plural": "-",
+        "meaning": "公里",
+        "example": "Von Berlin nach Potsdam sind es nur wenige Kilometer."
+      },
+      {
+        "id": 2,
+        "type": "noun",
+        "article": "das",
+        "word": "Bundesland",
+        "plural": "-ä-er",
+        "meaning": "联邦州",
+        "example": "Köln liegt im Bundesland Nordrhein-Westfalen."
+      },
+      {
+        "id": 3,
+        "type": "expression",
+        "word": "in der Nähe von",
+        "meaning": "在...附近",
+        "example": "Potsdam liegt in der Nähe von Berlin."
+      },
+      {
+        "id": 4,
+        "type": "noun",
+        "article": "der",
+        "word": "Bergmann",
+        "plural": "-ä-er",
+        "meaning": "矿工",
+        "example": "Der Bergmann arbeitet in einem Bergwerk."
+      },
+      {
+        "id": 5,
+        "type": "noun",
+        "article": "der/die",
+        "word": "Kamerad/in",
+        "plural": "-en/-nen",
+        "meaning": "同事，战友",
+        "example": "Kumpel ist ein anderes Wort für Kamerad."
+      },
+      {
+        "id": 6,
+        "type": "noun",
+        "article": "der",
+        "word": "Kleingarten",
+        "plural": "-ä-",
+        "meaning": "小花园",
+        "example": "In einer Großstadt haben viele Leute einen Kleingarten in einer Kolonie."
+      },
+      {
+        "id": 7,
+        "type": "noun",
+        "article": "die",
+        "word": "Kolonie",
+        "plural": "-n",
+        "meaning": "聚居区，居民区",
+        "example": "In einer Großstadt haben viele Leute einen Kleingarten in einer Kolonie."
+      },
+      {
+        "id": 8,
+        "type": "noun",
+        "article": "die",
+        "word": "Brieftaube",
+        "plural": "-n",
+        "meaning": "信鸽",
+        "example": "Brieftauben sind das Hobby von meinem Großvater."
+      },
+      {
+        "id": 9,
+        "type": "verb",
+        "forms": {
+          "infinitive": "abbauen",
+          "present": "er baut ab",
+          "perfect": "er hat abgebaut"
+        },
+        "meaning": "挖掘",
+        "example": "In einem Bergwerk wird Kohle abgebaut."
+      },
+      {
+        "id": 10,
+        "type": "noun",
+        "article": "der",
+        "word": "Schrebergarten",
+        "plural": "-ä-",
+        "meaning": "（市郊）小园圃",
+        "example": "Am Wochenende fahren wir in unseren Schrebergarten."
+      },
+      {
+        "id": 11,
+        "type": "noun",
+        "article": "der",
+        "word": "Ruhrpott-Charme",
+        "plural": "Sg.",
+        "meaning": "鲁尔区的魅力",
+        "example": "Ein Förderturm im Hintergrund des Fotos: Das ist Ruhrpott-Charme!"
+      },
+      {
+        "id": 12,
+        "type": "noun",
+        "article": "das",
+        "word": "Stahlwerk",
+        "plural": "-e",
+        "meaning": "钢铁厂",
+        "example": "Im Ruhrgebiet gibt es große Stahlwerke."
+      },
+      {
+        "id": 13,
+        "type": "noun",
+        "article": "der",
+        "word": "Hintergrund",
+        "plural": "-ü-e",
+        "meaning": "背景",
+        "example": "Ein Förderturm im Hintergrund des Fotos: Das ist Ruhrpott-Charme!"
+      },
+      {
+        "id": 14,
+        "type": "noun",
+        "article": "der",
+        "word": "Förderturm",
+        "plural": "-ü-e",
+        "meaning": "提升井架",
+        "example": "Ein Förderturm im Hintergrund des Fotos: Das ist Ruhrpott-Charme!"
+      },
+      {
+        "id": 15,
+        "type": "expression",
+        "word": "unter Tage",
+        "meaning": "地下",
+        "example": "Ein Bergmann arbeitet unter Tage."
+      },
+      {
+        "id": 16,
+        "type": "verb",
+        "forms": {
+          "infinitive": "malochen",
+          "present": "er malocht",
+          "perfect": "er hat malocht"
+        },
+        "meaning": "拼命苦干，卖力地干",
+        "example": "Wenn man schwer arbeiten muss, malocht man."
+      },
+      {
+        "id": 17,
+        "type": "noun",
+        "article": "das",
+        "word": "Rennpferd",
+        "plural": "-e",
+        "meaning": "赛马；骏马",
+        "example": "Rennpferd ist der Name von einer Brieftaube."
+      },
+      {
+        "id": 18,
+        "type": "noun",
+        "article": "die",
+        "word": "Urgroßeltern",
+        "plural": "Pl.",
+        "meaning": "曾祖父母，外曾祖父母",
+        "example": "Meine Urgroßeltern sind 1920 ins Ruhrgebiet gekommen."
+      },
+      {
+        "id": 19,
+        "type": "noun",
+        "article": "der",
+        "word": "Urgroßvater",
+        "plural": "-ä-",
+        "meaning": "曾祖父，外曾祖父",
+        "example": "Mein Urgroßvater konnte wegen der Gesundheit nicht bis 65 arbeiten."
+      },
+      {
+        "id": 20,
+        "type": "noun",
+        "article": "der",
+        "word": "Bergarbeiter",
+        "plural": "-",
+        "meaning": "矿工",
+        "example": "Frau Kowalskis Vater arbeitet als Bergarbeiter."
+      },
+      {
+        "id": 21,
+        "type": "verb",
+        "forms": {
+          "infinitive": "züchten",
+          "present": "er züchtet",
+          "perfect": "er hat gezüchtet"
+        },
+        "meaning": "饲养",
+        "example": "Onkel Helmut züchtete gemeinsam mit Tante Agathe Tauben."
+      },
+      {
+        "id": 22,
+        "type": "noun",
+        "article": "die",
+        "word": "Jugend",
+        "plural": "Sg.",
+        "meaning": "青年时代",
+        "example": "Mein Vater spielte in seiner Jugend auch selbst Fußball."
+      },
+      {
+        "id": 23,
+        "type": "noun",
+        "article": "die",
+        "word": "Stahlfabrik",
+        "plural": "-en",
+        "meaning": "钢铁厂",
+        "example": "In der Stahlfabrik ist die Arbeit sehr hart."
+      }
+    ]
+  }
+}

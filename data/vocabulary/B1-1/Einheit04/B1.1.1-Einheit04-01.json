@@ -1,0 +1,54 @@
+{
+  "code": 0,
+  "msg": "success",
+  "data": {
+    "total": 5,
+    "words": [
+      {
+        "id": 1,
+        "type": "noun",
+        "article": "der",
+        "word": "Arbeiter",
+        "plural": "-",
+        "meaning": "工人",
+        "example": "Die Arbeiter im Bergwerk müssen sehr hart arbeiten."
+      },
+      {
+        "id": 2,
+        "type": "noun",
+        "article": "die",
+        "word": "Kohle",
+        "plural": "Sg.",
+        "meaning": "煤",
+        "example": "Hier wird Kohle abgebaut."
+      },
+      {
+        "id": 3,
+        "type": "noun",
+        "article": "das",
+        "word": "Kraftwerk",
+        "plural": "-e",
+        "meaning": "发电厂，发电站",
+        "example": "In einem Kraftwerk wird Strom produziert."
+      },
+      {
+        "id": 4,
+        "type": "noun",
+        "article": "das",
+        "word": "Bergwerk",
+        "plural": "-e",
+        "meaning": "矿井，采矿场",
+        "example": "Die Arbeit im Bergwerk ist hart."
+      },
+      {
+        "id": 5,
+        "type": "noun",
+        "article": "die",
+        "word": "Industrieanlage",
+        "plural": "-n",
+        "meaning": "工厂；工业设备",
+        "example": "Mein Cousin arbeitet in einer modernen Industrieanlage."
+      }
+    ]
+  }
+}

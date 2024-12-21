@@ -1,0 +1,81 @@
+{
+  "code": 0,
+  "msg": "success",
+  "data": {
+    "total": 8,
+    "words": [
+      {
+        "id": 1,
+        "type": "adjective",
+        "word": "freiwillig",
+        "meaning": "自愿的",
+        "example": "Ich habe mich freiwillig bei der BG Bau versichert."
+      },
+      {
+        "id": 2,
+        "type": "noun",
+        "article": "die",
+        "word": "Kosten",
+        "plural": "Pl.",
+        "meaning": "费用，化费",
+        "example": "Die Kosten übernimmt die BG Bau."
+      },
+      {
+        "id": 3,
+        "type": "noun",
+        "article": "das",
+        "word": "Bierglas",
+        "plural": "-ä-er",
+        "meaning": "啤酒杯",
+        "example": "Ein Mann wollte ein Bierglas essen."
+      },
+      {
+        "id": 4,
+        "type": "verb",
+        "forms": {
+          "infinitive": "bringen",
+          "present": "er bringt",
+          "perfect": "er hat gebracht"
+        },
+        "meaning": "（使来人）想到，达到",
+        "example": "Niemand weiß, wer ihn auf die verrückte Idee gebracht hat."
+      },
+      {
+        "id": 5,
+        "type": "noun",
+        "article": "das",
+        "word": "Verhalten",
+        "plural": "Sg.",
+        "meaning": "举止，行为，态度",
+        "example": "Das Verhalten am Arbeitsplatz ist wichtig für die Karriere."
+      },
+      {
+        "id": 6,
+        "type": "noun",
+        "article": "die",
+        "word": "Unfallmeldung",
+        "plural": "-en",
+        "meaning": "事故报道",
+        "example": "Hören Sie die Unfallmeldung."
+      },
+      {
+        "id": 7,
+        "type": "verb",
+        "forms": {
+          "infinitive": "stürzen",
+          "present": "er stürzt",
+          "perfect": "er ist gestürzt"
+        },
+        "meaning": "跌落，掉下",
+        "example": "Mein Freund ist auf der Treppe gestürzt."
+      },
+      {
+        "id": 8,
+        "type": "adjective",
+        "word": "familienfreundlich",
+        "meaning": "有利于家庭的",
+        "example": "Steffens Beruf ist nicht sehr familienfreundlich."
+      }
+    ]
+  }
+}

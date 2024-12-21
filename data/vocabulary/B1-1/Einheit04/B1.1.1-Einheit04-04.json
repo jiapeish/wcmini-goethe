@@ -1,0 +1,233 @@
+{
+  "code": 0,
+  "msg": "success",
+  "data": {
+    "total": 26,
+    "words": [
+      {
+        "id": 1,
+        "type": "noun",
+        "article": "die",
+        "word": "Sozialversicherung",
+        "plural": "-en",
+        "meaning": "社会保险",
+        "example": "Vor der Sozialgesetzgebung Bismarcks gab es keine Sozialversicherung."
+      },
+      {
+        "id": 2,
+        "type": "noun",
+        "article": "der",
+        "word": "Arbeitsunfall",
+        "plural": "-ä-e",
+        "meaning": "工伤事故",
+        "example": "Jeden Tag gab es 40 Arbeitsunfälle."
+      },
+      {
+        "id": 3,
+        "type": "noun",
+        "article": "der",
+        "word": "Malocher",
+        "plural": "-",
+        "meaning": "干（苦）活的人，工人",
+        "example": "Die Malocher waren mit 40 Jahren verbraucht."
+      },
+      {
+        "id": 4,
+        "type": "noun",
+        "article": "das",
+        "word": "Fremdwort",
+        "plural": "-ö-er",
+        "meaning": "陌生字的东西",
+        "example": "Freizeit war ein Fremdwort für sie."
+      },
+      {
+        "id": 5,
+        "type": "noun",
+        "article": "die",
+        "word": "Stammkneipe",
+        "plural": "-n",
+        "meaning": "常去的酒馆",
+        "example": "Nach der Arbeit gab es noch ein Bierchen in der Stammkneipe."
+      },
+      {
+        "id": 6,
+        "type": "noun",
+        "article": "die",
+        "word": "Gartenkolonie",
+        "plural": "-n",
+        "meaning": "园圃区",
+        "example": "Am Wochenende fuhr die ganze Familie in die Gartenkolonie."
+      },
+      {
+        "id": 7,
+        "type": "noun",
+        "article": "das",
+        "word": "Schrebergärtchen",
+        "plural": "-",
+        "meaning": "小园圃",
+        "example": "Zu meinem Häuschen gehört auch ein Schrebergärtchen."
+      },
+      {
+        "id": 8,
+        "type": "adverb",
+        "word": "samstagnachmittags",
+        "meaning": "每星期六下午",
+        "example": "Samstagnachmittags geht der Junge immer Fußball spielen."
+      },
+      {
+        "id": 9,
+        "type": "expression",
+        "word": "auf Schalke",
+        "meaning": "去体育场",
+        "example": "Samstagnachmittags ging man auf Schalke."
+      },
+      {
+        "id": 10,
+        "type": "noun",
+        "article": "das",
+        "word": "Revier",
+        "plural": "-e",
+        "meaning": "专业，区域",
+        "example": "Die Arbeiter sind ihrem Revier treu."
+      },
+      {
+        "id": 11,
+        "type": "adjective",
+        "word": "treu",
+        "meaning": "忠诚的",
+        "example": "Die Arbeiter sind ihrem Revier treu."
+      },
+      {
+        "id": 12,
+        "type": "adjective",
+        "word": "deutsch-polnisch",
+        "meaning": "德（国）与波（兰）的",
+        "example": "Das Treffen ist ein Zeichen der deutsch-polnischen Freundschaft."
+      },
+      {
+        "id": 13,
+        "type": "noun",
+        "article": "die",
+        "word": "Belegschaft",
+        "plural": "-en",
+        "meaning": "全体职工",
+        "example": "Auf dem Foto sieht man die Belegschaft einer Zeche."
+      },
+      {
+        "id": 14,
+        "type": "noun",
+        "article": "die",
+        "word": "Kinderarbeit",
+        "plural": "Sg.",
+        "meaning": "童工",
+        "example": "Kinderarbeit war normal."
+      },
+      {
+        "id": 15,
+        "type": "noun",
+        "article": "der",
+        "word": "Wandel",
+        "plural": "Sg.",
+        "meaning": "变化",
+        "example": "Das Ruhrgebiet ist eine Region im Wandel."
+      },
+      {
+        "id": 16,
+        "type": "noun",
+        "article": "die",
+        "word": "Arbeitsbedingung",
+        "plural": "-en",
+        "meaning": "工作条件",
+        "example": "Die Arbeitsbedingungen im Bergbau waren nicht besonders gut."
+      },
+      {
+        "id": 17,
+        "type": "noun",
+        "article": "das",
+        "word": "Schauspielhaus",
+        "plural": "-äu-er",
+        "meaning": "剧院，剧场",
+        "example": "In Bochum steht ein renommiertes Schauspielhaus."
+      },
+      {
+        "id": 18,
+        "type": "noun",
+        "article": "das",
+        "word": "Technologiezentrum",
+        "plural": "Technologiezentren",
+        "meaning": "技术中心",
+        "example": "Das Technologiezentrum in Oberhausen ist bekannt."
+      },
+      {
+        "id": 19,
+        "type": "noun",
+        "article": "der",
+        "word": "Campus",
+        "plural": "-se",
+        "meaning": "大学校园，大学校区",
+        "example": "Der Campus der Universität ist sehr modern."
+      },
+      {
+        "id": 20,
+        "type": "noun",
+        "article": "die",
+        "word": "Vielfalt",
+        "plural": "Sg.",
+        "meaning": "多样性，多种多样",
+        "example": "Die Vielfalt des Ruhrgebiets ist wichtig für den Tourismus."
+      },
+      {
+        "id": 21,
+        "type": "noun",
+        "article": "die",
+        "word": "Nachkriegszeit",
+        "plural": "-en",
+        "meaning": "战后时期",
+        "example": "In der Nachkriegszeit gab es im Ruhrgebiet einen wirtschaftlichen Aufschwung."
+      },
+      {
+        "id": 22,
+        "type": "verb",
+        "forms": {
+          "infinitive": "bombardieren",
+          "present": "er bombardiert",
+          "perfect": "er hat bombardiert"
+        },
+        "meaning": "轰炸，炮击",
+        "example": "Im 2. Weltkrieg wurde das Ruhrgebiet schwer bombardiert."
+      },
+      {
+        "id": 23,
+        "type": "adjective",
+        "word": "komplett",
+        "meaning": "完整的，齐全的",
+        "example": "Viele Städte wurden fast komplett zerstört."
+      },
+      {
+        "id": 24,
+        "type": "adjective",
+        "word": "wirtschaftlich",
+        "meaning": "经济的",
+        "example": "Nach 1945 kam der wirtschaftliche Aufschwung."
+      },
+      {
+        "id": 25,
+        "type": "noun",
+        "article": "der",
+        "word": "Aufschwung",
+        "plural": "-ü-e",
+        "meaning": "上升，繁荣",
+        "example": "Nach 1945 kam der wirtschaftliche Aufschwung."
+      },
+      {
+        "id": 26,
+        "type": "noun",
+        "article": "die",
+        "word": "Wirtschaftskrise",
+        "plural": "-n",
+        "meaning": "经济危机",
+        "example": "Wegen der Wirtschaftskrise mussten viele Zechen schließen."
+      }
+    ]
+  }
+}
