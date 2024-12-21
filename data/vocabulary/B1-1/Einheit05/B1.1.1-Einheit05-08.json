@@ -1,0 +1,200 @@
+{
+  "code": 0,
+  "msg": "success",
+  "data": {
+    "total": 21,
+    "words": [
+      {
+        "id": 1,
+        "type": "noun",
+        "article": "die",
+        "word": "Haltestelle",
+        "plural": "-n",
+        "meaning": "车站",
+        "example": "Die Haltestellen haben sich wegen der Baustelle geändert."
+      },
+      {
+        "id": 2,
+        "type": "noun",
+        "article": "die",
+        "word": "Schwierigkeit",
+        "plural": "-en",
+        "meaning": "困难",
+        "example": "Man lernt viel über die Schwierigkeiten der Gastarbeiter."
+      },
+      {
+        "id": 3,
+        "type": "noun",
+        "article": "der",
+        "word": "Schulweg",
+        "plural": "-e",
+        "meaning": "中小学教育经历",
+        "example": "Welchen Schulweg sind Sie gegangen?"
+      },
+      {
+        "id": 4,
+        "type": "noun",
+        "article": "die",
+        "word": "Zusage",
+        "plural": "-n",
+        "meaning": "同意，许诺",
+        "example": "Ich habe eine Zusage für die Universität bekommen."
+      },
+      {
+        "id": 5,
+        "type": "noun",
+        "article": "der/die",
+        "word": "Maschinenbauingenieur/in",
+        "plural": "-e/-nen",
+        "meaning": "机械工程师",
+        "example": "Heute bin ich erfolgreicher Maschinenbauingenieur."
+      },
+      {
+        "id": 6,
+        "type": "noun",
+        "article": "die",
+        "word": "Unterstützung",
+        "plural": "-en",
+        "meaning": "资助，津贴",
+        "example": "Er bekam am Gymnasium viel Unterstützung."
+      },
+      {
+        "id": 7,
+        "type": "noun",
+        "article": "die",
+        "word": "Sekretariatsaufgabe",
+        "plural": "-n",
+        "meaning": "秘书任务",
+        "example": "Eine Sekretärin übernimmt typische Sekretariatsaufgaben."
+      },
+      {
+        "id": 8,
+        "type": "noun",
+        "article": "die",
+        "word": "Einschulung",
+        "plural": "-en",
+        "meaning": "上学，入学教育",
+        "example": "Sie organisiert Einschulungen und Schulwechsel."
+      },
+      {
+        "id": 9,
+        "type": "noun",
+        "article": "der",
+        "word": "Schulwechsel",
+        "plural": "-",
+        "meaning": "转学",
+        "example": "Sie organisiert Einschulungen und Schulwechsel."
+      },
+      {
+        "id": 10,
+        "type": "noun",
+        "article": "die",
+        "word": "Kompetenz",
+        "plural": "-en",
+        "meaning": "能力",
+        "example": "Zu ihren Kompetenzen gehört auch der Umgang mit Schülern."
+      },
+      {
+        "id": 11,
+        "type": "noun",
+        "article": "der",
+        "word": "Umgang",
+        "plural": "Sg.",
+        "meaning": "使用，操作",
+        "example": "Es ist wichtig, den richtigen Umgang mit Medien zu erlernen."
+      },
+      {
+        "id": 12,
+        "type": "noun",
+        "article": "die",
+        "word": "Flexibilität",
+        "plural": "Sg.",
+        "meaning": "灵活性，应变能力",
+        "example": "Flexibilität und Belastbarkeit sind in jedem Beruf von Vorteil."
+      },
+      {
+        "id": 13,
+        "type": "noun",
+        "article": "die",
+        "word": "Belastbarkeit",
+        "plural": "Sg.",
+        "meaning": "承受力",
+        "example": "Flexibilität und Belastbarkeit sind in jedem Beruf von Vorteil."
+      },
+      {
+        "id": 14,
+        "type": "noun",
+        "article": "der",
+        "word": "Fachunterricht",
+        "plural": "Sg.",
+        "meaning": "专业课程",
+        "example": "Auch im Fachunterricht ist der Unterricht zweisprachig."
+      },
+      {
+        "id": 15,
+        "type": "verb",
+        "forms": {
+          "infinitive": "abschließen",
+          "present": "er schließt ab",
+          "perfect": "er hat abgeschlossen"
+        },
+        "meaning": "结束，完成",
+        "example": "Sie brauchen ein abgeschlossenes Studium."
+      },
+      {
+        "id": 16,
+        "type": "noun",
+        "article": "die",
+        "word": "Arbeitsweise",
+        "plural": "-n",
+        "meaning": "工作方式",
+        "example": "Haben Sie Interesse an der zweisprachigen Arbeitsweise?"
+      },
+      {
+        "id": 17,
+        "type": "noun",
+        "article": "die",
+        "word": "Osterferien",
+        "plural": "Pl.",
+        "meaning": "复活节假期",
+        "example": "Was macht ein Lehrer eigentlich in den Osterferien?"
+      },
+      {
+        "id": 18,
+        "type": "noun",
+        "article": "der/die",
+        "word": "Reiseleiter/in",
+        "plural": "-/-nen",
+        "meaning": "导游",
+        "example": "Ich würde lieber als Reiseleiterin arbeiten."
+      },
+      {
+        "id": 19,
+        "type": "noun",
+        "article": "der/die",
+        "word": "Rezeptionist/in",
+        "plural": "-en/-nen",
+        "meaning": "前台接待员",
+        "example": "Er möchte als Rezeptionist in Österreich arbeiten."
+      },
+      {
+        "id": 20,
+        "type": "noun",
+        "article": "der",
+        "word": "Anfängerkurs",
+        "plural": "-e",
+        "meaning": "初级课程",
+        "example": "Es gibt an der Uni Anfängerkurse in Deutsch."
+      },
+      {
+        "id": 21,
+        "type": "noun",
+        "article": "der",
+        "word": "Fortgeschrittenenkurs",
+        "plural": "-e",
+        "meaning": "高级课程",
+        "example": "Die Fortgeschrittenenkurse sind für die besseren Studenten."
+      }
+    ]
+  }
+}

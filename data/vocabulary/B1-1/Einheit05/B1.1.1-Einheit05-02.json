@@ -1,0 +1,248 @@
+{
+  "code": 0,
+  "msg": "success",
+  "data": {
+    "total": 27,
+    "words": [
+      {
+        "id": 1,
+        "type": "noun",
+        "article": "die",
+        "word": "Ethik",
+        "plural": "Sg.",
+        "meaning": "伦理（课）",
+        "example": "Der Unterricht in Ethik ist meistens interessant."
+      },
+      {
+        "id": 2,
+        "type": "noun",
+        "article": "die",
+        "word": "Biologie",
+        "plural": "Sg.",
+        "meaning": "生物（课）",
+        "example": "Meine beste Freundin mag Biologie am meisten."
+      },
+      {
+        "id": 3,
+        "type": "adjective",
+        "word": "zweiwöchig",
+        "meaning": "两周期的",
+        "example": "Die letzte Stunde am Donnerstag ist nur zweiwöchig."
+      },
+      {
+        "id": 4,
+        "type": "noun",
+        "article": "der",
+        "word": "Wettbewerb",
+        "plural": "-e",
+        "meaning": "比赛",
+        "example": "Die Klasse macht bei einem Wettbewerb in Mathe mit."
+      },
+      {
+        "id": 5,
+        "type": "noun",
+        "article": "die",
+        "word": "Matheaufgabe",
+        "plural": "-n",
+        "meaning": "数学作业",
+        "example": "Wir lösen gemeinsam eine schwierige Matheaufgabe."
+      },
+      {
+        "id": 6,
+        "type": "noun",
+        "article": "die",
+        "word": "Freischaltung",
+        "plural": "-en",
+        "meaning": "开通",
+        "example": "Die Freischaltung der Matheaufgaben im Netz ist am 21. März um 18 Uhr."
+      },
+      {
+        "id": 7,
+        "type": "noun",
+        "article": "die",
+        "word": "Abholung",
+        "plural": "-en",
+        "meaning": "领取（作业）",
+        "example": "Die Abholung der Aufgaben ist in Raum 126."
+      },
+      {
+        "id": 8,
+        "type": "noun",
+        "article": "der",
+        "word": "Einsendeschluss",
+        "plural": "Sg.",
+        "meaning": "投寄截止日期",
+        "example": "Einsendeschluss für die Matheaufgaben ist am 22. März um acht Uhr."
+      },
+      {
+        "id": 9,
+        "type": "noun",
+        "article": "der",
+        "word": "Schlafsack",
+        "plural": "-ä-e",
+        "meaning": "睡袋",
+        "example": "Du musst einen Schlafsack mitbringen."
+      },
+      {
+        "id": 10,
+        "type": "noun",
+        "article": "die",
+        "word": "Schulkantine",
+        "plural": "-n",
+        "meaning": "学校食堂",
+        "example": "Essen und Getränke gibt es in der Schulkantine."
+      },
+      {
+        "id": 11,
+        "type": "noun",
+        "article": "der/die",
+        "word": "Schulsozialarbeiter/in",
+        "plural": "-/-nen",
+        "meaning": "学校公益工作者",
+        "example": "Der Schulsozialarbeiter hat jeden Tag von 13-17 Uhr Sprechstunde."
+      },
+      {
+        "id": 12,
+        "type": "noun",
+        "article": "die",
+        "word": "Sprechstunde",
+        "plural": "-n",
+        "meaning": "辅导时间",
+        "example": "Der Schulsozialarbeiter hat jeden Tag von 13-17 Uhr Sprechstunde."
+      },
+      {
+        "id": 13,
+        "type": "noun",
+        "article": "der",
+        "word": "Schwimmkurs",
+        "plural": "-e",
+        "meaning": "游泳培训班",
+        "example": "Im Schwimmkurs lernen die Kinder, wie man schnell und sicher schwimmt."
+      },
+      {
+        "id": 14,
+        "type": "noun",
+        "article": "die",
+        "word": "Schulband",
+        "plural": "-s",
+        "meaning": "学校乐队",
+        "example": "In der Schulband spielen zwei Kinder Gitarre."
+      },
+      {
+        "id": 15,
+        "type": "noun",
+        "article": "die",
+        "word": "News",
+        "plural": "Pl.",
+        "meaning": "消息，新闻",
+        "example": "Es gibt News zu den Arbeitsgruppen."
+      },
+      {
+        "id": 16,
+        "type": "noun",
+        "article": "die",
+        "word": "Arbeitsgruppe",
+        "plural": "-n",
+        "meaning": "学习小组",
+        "example": "Es gibt News zu den Arbeitsgruppen."
+      },
+      {
+        "id": 17,
+        "type": "noun",
+        "article": "das",
+        "word": "AG-Angebot",
+        "plural": "-e",
+        "meaning": "学习小组的活动",
+        "example": "Das AG-Angebot meiner Schule ist sehr gut."
+      },
+      {
+        "id": 18,
+        "type": "noun",
+        "article": "die",
+        "word": "Medien-AG",
+        "plural": "-s",
+        "meaning": "媒体学习小组",
+        "example": "Es gibt eine Medien-AG, eine Literatur-AG und eine Theater-AG."
+      },
+      {
+        "id": 19,
+        "type": "noun",
+        "article": "die",
+        "word": "Literatur-AG",
+        "plural": "-s",
+        "meaning": "文学学习小组",
+        "example": "Es gibt eine Medien-AG, eine Literatur-AG und eine Theater-AG."
+      },
+      {
+        "id": 20,
+        "type": "noun",
+        "article": "die",
+        "word": "Theater-AG",
+        "plural": "-s",
+        "meaning": "（剧团）表演学习小组",
+        "example": "Es gibt eine Medien-AG, eine Literatur-AG und eine Theater-AG."
+      },
+      {
+        "id": 21,
+        "type": "verb",
+        "forms": {
+          "infinitive": "programmieren",
+          "present": "er programmiert",
+          "perfect": "er hat programmiert"
+        },
+        "meaning": "编程",
+        "example": "Hier lernst du zu programmieren oder deine eigenen Trickfilme zu machen."
+      },
+      {
+        "id": 22,
+        "type": "noun",
+        "article": "der",
+        "word": "Comic",
+        "plural": "-s",
+        "meaning": "连环漫画",
+        "example": "Hier lernst du zu programmieren oder deine eigenen Comics zu machen."
+      },
+      {
+        "id": 23,
+        "type": "noun",
+        "article": "der",
+        "word": "Trickfilm",
+        "plural": "-e",
+        "meaning": "动画片",
+        "example": "Hier lernst du deine eigenen Trickfilme zu machen."
+      },
+      {
+        "id": 24,
+        "type": "expression",
+        "word": "jeden (+ Tag, Monat)",
+        "meaning": "每（天，月）",
+        "example": "Wir treffen uns jeden Dienstag im Medienzentrum."
+      },
+      {
+        "id": 25,
+        "type": "noun",
+        "article": "die",
+        "word": "Abfahrtszeit",
+        "plural": "-en",
+        "meaning": "发车时间",
+        "example": "Die Abfahrtszeiten der Buslinien haben sich geändert."
+      },
+      {
+        "id": 26,
+        "type": "expression",
+        "word": "gültig ab",
+        "meaning": "从...起有效的",
+        "example": "Der neue Busfahrplan ist ab Montag gültig."
+      },
+      {
+        "id": 27,
+        "type": "noun",
+        "article": "die",
+        "word": "Linie",
+        "plural": "-n",
+        "meaning": "交通线，线路",
+        "example": "Die Linie fährt jetzt bis zum ZOB."
+      }
+    ]
+  }
+}

@@ -1,0 +1,206 @@
+{
+  "code": 0,
+  "msg": "success",
+  "data": {
+    "total": 21,
+    "words": [
+      {
+        "id": 1,
+        "type": "verb",
+        "forms": {
+          "infinitive": "frei haben",
+          "present": "er hat frei",
+          "perfect": "er hatte frei"
+        },
+        "meaning": "休息，休假",
+        "example": "Am Wochenende haben Lehrer immer frei."
+      },
+      {
+        "id": 2,
+        "type": "noun",
+        "article": "der",
+        "word": "Ordnungsdienst",
+        "plural": "-e",
+        "meaning": "秩序管理",
+        "example": "Ich würde mir einen Ordnungsdienst für die Schüler wünschen."
+      },
+      {
+        "id": 3,
+        "type": "noun",
+        "article": "der",
+        "word": "Klassenraum",
+        "plural": "-äu-e",
+        "meaning": "教室",
+        "example": "Sie würden dann vielleicht ihre Klassenräume selber sauberhalten."
+      },
+      {
+        "id": 4,
+        "type": "verb",
+        "forms": {
+          "infinitive": "sauberhalten",
+          "present": "er hält sauber",
+          "perfect": "er hat saubergehalten"
+        },
+        "meaning": "保持清洁/整洁",
+        "example": "Sie würden dann vielleicht ihre Klassenräume selber sauberhalten."
+      },
+      {
+        "id": 5,
+        "type": "verb",
+        "forms": {
+          "infinitive": "herumliegen",
+          "present": "er liegt herum",
+          "perfect": "er hat herumgelegen"
+        },
+        "meaning": "乱摆，散乱地放着",
+        "example": "Es würde dann nicht mehr so viel Müll herumliegen."
+      },
+      {
+        "id": 6,
+        "type": "adjective",
+        "word": "finanziell",
+        "meaning": "经济的",
+        "example": "Ich wünschte, dass die Schule mehr finanzielle Mittel hätte."
+      },
+      {
+        "id": 7,
+        "type": "noun",
+        "article": "das",
+        "word": "Mittel",
+        "plural": "-",
+        "meaning": "资金，金钱",
+        "example": "Ich wünschte, dass die Schule mehr finanzielle Mittel hätte."
+      },
+      {
+        "id": 8,
+        "type": "verb",
+        "forms": {
+          "infinitive": "froh sein",
+          "present": "er ist froh über etw.",
+          "perfect": "er war froh über etw."
+        },
+        "meaning": "对...感到高兴",
+        "example": "Er war froh über seine letzte Physikprüfung."
+      },
+      {
+        "id": 9,
+        "type": "noun",
+        "article": "die",
+        "word": "Elterninitiative",
+        "plural": "-n",
+        "meaning": "家长（自发组织的）小组",
+        "example": "Wir sind oft froh über die Hilfe von Elterninitiativen."
+      },
+      {
+        "id": 10,
+        "type": "adjective",
+        "word": "schulmüde",
+        "meaning": "厌学",
+        "example": "Mit 15 Jahren sind viele Kinder schulmüde."
+      },
+      {
+        "id": 11,
+        "type": "noun",
+        "article": "der",
+        "word": "Elfjährige",
+        "plural": "-n",
+        "meaning": "11岁的学生/孩子",
+        "example": "Es gibt Elfjährige, mit denen die Eltern und Lehrkräfte nicht mehr klarkommen."
+      },
+      {
+        "id": 12,
+        "type": "verb",
+        "forms": {
+          "infinitive": "klarkommen",
+          "present": "er kommt klar",
+          "perfect": "er ist klargekommen"
+        },
+        "meaning": "能对付，能相处",
+        "example": "Es gibt Elfjährige, mit denen die Eltern und Lehrkräfte nicht mehr klarkommen."
+      },
+      {
+        "id": 13,
+        "type": "noun",
+        "article": "die",
+        "word": "Arbeitsgemeinschaft",
+        "plural": "-en",
+        "meaning": "工作小组",
+        "example": "Ich leite die Arbeitsgemeinschaften, in denen die Schüler mitarbeiten."
+      },
+      {
+        "id": 14,
+        "type": "verb",
+        "forms": {
+          "infinitive": "mitarbeiten",
+          "present": "er arbeitet mit",
+          "perfect": "er hat mitgearbeitet"
+        },
+        "meaning": "共同参与工作",
+        "example": "Ich leite die Arbeitsgemeinschaften, in denen die Schüler mitarbeiten."
+      },
+      {
+        "id": 15,
+        "type": "noun",
+        "article": "die",
+        "word": "Streitschlichter-Gruppe",
+        "plural": "-n",
+        "meaning": "争执调解小组",
+        "example": "Montags trifft sich die Streitschlichter-Gruppe."
+      },
+      {
+        "id": 16,
+        "type": "noun",
+        "article": "der/die",
+        "word": "Streitschlichter/in",
+        "plural": "-/-nen",
+        "meaning": "争执调解员",
+        "example": "Streitschlichter vermitteln bei Problemen."
+      },
+      {
+        "id": 17,
+        "type": "noun",
+        "article": "der",
+        "word": "Konflikt",
+        "plural": "-e",
+        "meaning": "冲突，矛盾",
+        "example": "Streitschlichter helfen Konflikte zu lösen."
+      },
+      {
+        "id": 18,
+        "type": "noun",
+        "article": "die",
+        "word": "Gewalt",
+        "plural": "Sg.",
+        "meaning": "暴力，武力",
+        "example": "Streitschlichter helfen Konflikte ohne Gewalt zu lösen."
+      },
+      {
+        "id": 19,
+        "type": "adverb",
+        "word": "mittwochs",
+        "meaning": "每星期三",
+        "example": "Mittwochs übe ich eine Stunde Klavier."
+      },
+      {
+        "id": 20,
+        "type": "verb",
+        "forms": {
+          "infinitive": "Danke sagen",
+          "present": "er sagt Danke",
+          "perfect": "er hat Danke gesagt"
+        },
+        "meaning": "说谢谢",
+        "example": "Wenn jemand nett war, sollte man immer Danke sagen."
+      },
+      {
+        "id": 21,
+        "type": "noun",
+        "article": "die",
+        "word": "Realität",
+        "plural": "-en",
+        "meaning": "现实，事实",
+        "example": "Wenn man hart arbeitet, werden viele Wünsche auch Realität."
+      }
+    ]
+  }
+}

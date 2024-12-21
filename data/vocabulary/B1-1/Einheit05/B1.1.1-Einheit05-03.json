@@ -1,0 +1,216 @@
+{
+  "code": 0,
+  "msg": "success",
+  "data": {
+    "total": 23,
+    "words": [
+      {
+        "id": 1,
+        "type": "noun",
+        "article": "der",
+        "word": "Zentrale Omnibusbahnhof",
+        "plural": "-ö-e",
+        "meaning": "公共汽车总站",
+        "example": "Die Linie fährt jetzt bis zum ZOB."
+      },
+      {
+        "id": 2,
+        "type": "noun",
+        "article": "das",
+        "word": "Austauschjahr",
+        "plural": "-e",
+        "meaning": "交换学年",
+        "example": "Maria macht ein Austauschjahr in den USA."
+      },
+      {
+        "id": 3,
+        "type": "noun",
+        "article": "der",
+        "word": "Aushang",
+        "plural": "-ä-e",
+        "meaning": "通告，通知，布告",
+        "example": "Sehen Sie sich die Aushänge an."
+      },
+      {
+        "id": 4,
+        "type": "noun",
+        "article": "die",
+        "word": "Kontaktdaten",
+        "plural": "Pl.",
+        "meaning": "联系方式",
+        "example": "Wo finde ich die Kontaktdaten des Schulsozialarbeiters?"
+      },
+      {
+        "id": 5,
+        "type": "noun",
+        "article": "die",
+        "word": "Werbung",
+        "plural": "Sg.",
+        "meaning": "广告",
+        "example": "Dieser Aushang macht Werbung für die Medien-AG."
+      },
+      {
+        "id": 6,
+        "type": "noun",
+        "article": "der",
+        "word": "Busfahrplan",
+        "plural": "-ä-e",
+        "meaning": "巴士行车时刻表",
+        "example": "Der neue Busfahrplan ist ab Montag gültig."
+      },
+      {
+        "id": 7,
+        "type": "noun",
+        "article": "die",
+        "word": "Leseliste",
+        "plural": "-n",
+        "meaning": "阅读书单",
+        "example": "Auf der Leseliste stehen zwei Romane und ein Drama."
+      },
+      {
+        "id": 8,
+        "type": "noun",
+        "article": "der",
+        "word": "Abiturient",
+        "plural": "-en",
+        "meaning": "（文理）高级中学毕业生",
+        "example": "Abiturienten können auf eine Universität oder eine Fachhochschule gehen."
+      },
+      {
+        "id": 9,
+        "type": "noun",
+        "article": "die",
+        "word": "Stadtteilschule",
+        "plural": "-n",
+        "meaning": "城市/城区学校",
+        "example": "In einigen Regionen gibt es Stadtteilschulen."
+      },
+      {
+        "id": 10,
+        "type": "noun",
+        "article": "der",
+        "word": "Bildungsweg",
+        "plural": "-e",
+        "meaning": "教育途径",
+        "example": "Welcher Bildungsweg ist für Ihr Kind optimal?"
+      },
+      {
+        "id": 11,
+        "type": "noun",
+        "article": "der",
+        "word": "Überblick",
+        "plural": "-e",
+        "meaning": "概览，概要",
+        "example": "Der Artikel gibt einen Überblick über das Schulsystem in Deutschland."
+      },
+      {
+        "id": 12,
+        "type": "noun",
+        "article": "das",
+        "word": "Schulsystem",
+        "plural": "-e",
+        "meaning": "学制，学校体制",
+        "example": "In jedem Bundesland ist das Schulsystem ein bisschen anders."
+      },
+      {
+        "id": 13,
+        "type": "noun",
+        "article": "die",
+        "word": "Grundschule",
+        "plural": "-n",
+        "meaning": "小学",
+        "example": "Alle Kinder kommen mit sechs Jahren in die Grundschule."
+      },
+      {
+        "id": 14,
+        "type": "noun",
+        "article": "die",
+        "word": "Hauptschule",
+        "plural": "-n",
+        "meaning": "普通中学（五至九年级）",
+        "example": "In manchen Bundesländern werden Haupt- und Realschulen zusammengelegt."
+      },
+      {
+        "id": 15,
+        "type": "noun",
+        "article": "die",
+        "word": "Realschule",
+        "plural": "-n",
+        "meaning": "实科中学（五至十年级）",
+        "example": "In manchen Bundesländern werden Haupt- und Realschulen zusammengelegt."
+      },
+      {
+        "id": 16,
+        "type": "noun",
+        "article": "die",
+        "word": "Alternative",
+        "plural": "-n",
+        "meaning": "其他选择",
+        "example": "Die Alternative zu diesem dreigliedrigen Schulsystem ist die Gesamtschule."
+      },
+      {
+        "id": 17,
+        "type": "noun",
+        "article": "die",
+        "word": "Gesamtschule",
+        "plural": "-n",
+        "meaning": "综合性中学",
+        "example": "Die Alternative zu diesem dreigliedrigen Schulsystem ist die Gesamtschule."
+      },
+      {
+        "id": 18,
+        "type": "verb",
+        "forms": {
+          "infinitive": "zusammenlegen",
+          "present": "er legt zusammen",
+          "perfect": "er hat zusammengelegt"
+        },
+        "meaning": "合并，联合",
+        "example": "In manchen Bundesländern werden Haupt- und Realschulen zusammengelegt."
+      },
+      {
+        "id": 19,
+        "type": "noun",
+        "article": "die",
+        "word": "Regionalschule",
+        "plural": "-n",
+        "meaning": "地方学校",
+        "example": "In manchen Bundesländern gibt es Regionalschulen."
+      },
+      {
+        "id": 20,
+        "type": "noun",
+        "article": "der/die",
+        "word": "Hauptschüler/in",
+        "plural": "-/-nen",
+        "meaning": "中学生",
+        "example": "Einige Hauptschüler verlassen die Schule nach der neunten Klasse."
+      },
+      {
+        "id": 21,
+        "type": "noun",
+        "article": "der",
+        "word": "Ausbildungsplatz",
+        "plural": "-ä-e",
+        "meaning": "培训名额/位子",
+        "example": "Sie suchen einen Ausbildungsplatz."
+      },
+      {
+        "id": 22,
+        "type": "adjective",
+        "word": "weiter",
+        "meaning": "另外的，继续的，进一步的",
+        "example": "Manche gehen ein weiteres Jahr zur Schule und machen ihren Realschulabschluss."
+      },
+      {
+        "id": 23,
+        "type": "noun",
+        "article": "der",
+        "word": "Realschulabschluss",
+        "plural": "-ü-e",
+        "meaning": "中学毕业考试",
+        "example": "Manche gehen ein weiteres Jahr zur Schule und machen ihren Realschulabschluss."
+      }
+    ]
+  }
+}

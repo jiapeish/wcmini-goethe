@@ -1,0 +1,108 @@
+{
+  "code": 0,
+  "msg": "success",
+  "data": {
+    "total": 11,
+    "words": [
+      {
+        "id": 1,
+        "type": "noun",
+        "article": "der",
+        "word": "Schulhof",
+        "plural": "-ö-e",
+        "meaning": "（中小学）校园",
+        "example": "In der Pause spielen die Kinder auf dem Schulhof."
+      },
+      {
+        "id": 2,
+        "type": "noun",
+        "article": "das",
+        "word": "Lehrerzimmer",
+        "plural": "-",
+        "meaning": "教师休息室",
+        "example": "Die Lehrer können im Lehrerzimmer den Unterricht vorbereiten."
+      },
+      {
+        "id": 3,
+        "type": "noun",
+        "article": "die",
+        "word": "Sporthalle",
+        "plural": "-n",
+        "meaning": "体育馆，健身房",
+        "example": "Zum Sportunterricht gehen alle in die Sporthalle."
+      },
+      {
+        "id": 4,
+        "type": "noun",
+        "article": "das",
+        "word": "Zeugnis",
+        "plural": "-se",
+        "meaning": "成绩单",
+        "example": "Am Ende des Schuljahres bekommen alle Schüler ein Zeugnis."
+      },
+      {
+        "id": 5,
+        "type": "noun",
+        "article": "die",
+        "word": "Nachhilfe",
+        "plural": "-n",
+        "meaning": "补习，辅导（课）",
+        "example": "Wenn du schlecht in Mathe bist, brauchst du Nachhilfe."
+      },
+      {
+        "id": 6,
+        "type": "noun",
+        "article": "der",
+        "word": "Klassenausflug",
+        "plural": "-ü-e",
+        "meaning": "班级郊游",
+        "example": "Dieses Jahr machen wir einen Klassenausflug nach Berlin."
+      },
+      {
+        "id": 7,
+        "type": "noun",
+        "article": "das",
+        "word": "Latein",
+        "plural": "Sg.",
+        "meaning": "拉丁语",
+        "example": "Montags haben wir zwei Stunden Latein."
+      },
+      {
+        "id": 8,
+        "type": "noun",
+        "article": "der",
+        "word": "Stundenplan",
+        "plural": "-ä-e",
+        "meaning": "课程表",
+        "example": "Der Stundenplan der Klasse 8C hat sich geändert."
+      },
+      {
+        "id": 9,
+        "type": "noun",
+        "article": "die",
+        "word": "Mathematik",
+        "plural": "Sg.",
+        "meaning": "数学（课）",
+        "example": "In der ersten Stunde am Dienstag haben wir Mathe."
+      },
+      {
+        "id": 10,
+        "type": "noun",
+        "article": "die",
+        "word": "Religion",
+        "plural": "-en",
+        "meaning": "宗教（课）",
+        "example": "Am Donnerstag haben wir eine Stunde Religion."
+      },
+      {
+        "id": 11,
+        "type": "noun",
+        "article": "die",
+        "word": "Physik",
+        "plural": "Sg.",
+        "meaning": "物理（课）",
+        "example": "Ich bin sehr gut in Physik, aber nicht in Mathe."
+      }
+    ]
+  }
+}

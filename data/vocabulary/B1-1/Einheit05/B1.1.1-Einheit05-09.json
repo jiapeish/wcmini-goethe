@@ -1,0 +1,88 @@
+{
+  "code": 0,
+  "msg": "success",
+  "data": {
+    "total": 9,
+    "words": [
+      {
+        "id": 1,
+        "type": "noun",
+        "article": "die",
+        "word": "Gastronomie",
+        "plural": "Sg.",
+        "meaning": "饮食业，旅馆行业",
+        "example": "Er hat eine Ausbildung in der Gastronomie gemacht."
+      },
+      {
+        "id": 2,
+        "type": "noun",
+        "article": "das",
+        "word": "Lernziel",
+        "plural": "-e",
+        "meaning": "学习目标，学习目的",
+        "example": "Dieser Deutschkurs hat ein spezielles Lernziel."
+      },
+      {
+        "id": 3,
+        "type": "noun",
+        "article": "die",
+        "word": "Abiturvorbereitung",
+        "plural": "-en",
+        "meaning": "考试（文理）高级中学毕业",
+        "example": "Ich brauche einen Mathekurs zur Abiturvorbereitung."
+      },
+      {
+        "id": 4,
+        "type": "noun",
+        "article": "das",
+        "word": "10-Finger-Schreiben",
+        "plural": "Sg.",
+        "meaning": "10个手指写",
+        "example": "Die Sekretärin hat einen Kurs im 10-Finger-Schreiben gemacht."
+      },
+      {
+        "id": 5,
+        "type": "noun",
+        "article": "der",
+        "word": "Web-Design-Basiskurs",
+        "plural": "Sg.",
+        "meaning": "网页设计基础班",
+        "example": "Im Web-Design-Basiskurs lerne ich HTML und CSS."
+      },
+      {
+        "id": 6,
+        "type": "noun",
+        "article": "die",
+        "word": "Online-Anmeldung",
+        "plural": "-en",
+        "meaning": "在线报名",
+        "example": "Die Online-Anmeldung funktioniert ab dem nächsten Montag."
+      },
+      {
+        "id": 7,
+        "type": "noun",
+        "article": "das",
+        "word": "Weiterbildungsangebot",
+        "plural": "-e",
+        "meaning": "培训活动",
+        "example": "Die Anzeige informiert über aktuelle Weiterbildungsangebote."
+      },
+      {
+        "id": 8,
+        "type": "adjective",
+        "word": "interkulturell",
+        "meaning": "跨文化的，不同文化间的",
+        "example": "Interkulturelle Kommunikation ist wichtig in vielen Berufen."
+      },
+      {
+        "id": 9,
+        "type": "noun",
+        "article": "der",
+        "word": "Klinikalltag",
+        "plural": "Sg.",
+        "meaning": "医院的日常生活",
+        "example": "Der Klinikalltag ist hart und anstrengend."
+      }
+    ]
+  }
+}

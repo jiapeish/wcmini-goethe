@@ -1,0 +1,188 @@
+{
+  "code": 0,
+  "msg": "success",
+  "data": {
+    "total": 19,
+    "words": [
+      {
+        "id": 1,
+        "type": "noun",
+        "article": "der/die",
+        "word": "Realschüler/in",
+        "plural": "-/-nen",
+        "meaning": "实科中学学生",
+        "example": "Die Realschüler gehen insgesamt 10 Jahre zur Schule."
+      },
+      {
+        "id": 2,
+        "type": "noun",
+        "article": "die",
+        "word": "Berufsschule",
+        "plural": "-n",
+        "meaning": "职业学校",
+        "example": "Sie lernen drei Jahre lang einen Beruf in Betrieben und gehen zur Berufsschule."
+      },
+      {
+        "id": 3,
+        "type": "noun",
+        "article": "die",
+        "word": "Fachoberschule",
+        "plural": "-n",
+        "meaning": "职业高中，专科高中",
+        "example": "Manche Realschüler gehen auch weiter zur Fachoberschule und machen ihr Fachabitur."
+      },
+      {
+        "id": 4,
+        "type": "noun",
+        "article": "das",
+        "word": "Fachabitur",
+        "plural": "Sg.",
+        "meaning": "专科中学毕业考试",
+        "example": "Manche Realschüler gehen auch weiter zur Fachoberschule und machen ihr Fachabitur."
+      },
+      {
+        "id": 5,
+        "type": "noun",
+        "article": "die",
+        "word": "Schulzeit",
+        "plural": "-en",
+        "meaning": "在学期间；求学时期",
+        "example": "Auf dem Gymnasium ist die Schulzeit am längsten."
+      },
+      {
+        "id": 6,
+        "type": "noun",
+        "article": "der/die",
+        "word": "Gymnasiast/in",
+        "plural": "-en/-nen",
+        "meaning": "文理（高级）中学学生",
+        "example": "Gymnasiasten gehen insgesamt 12 Jahre zur Schule."
+      },
+      {
+        "id": 7,
+        "type": "verb",
+        "forms": {
+          "infinitive": "bewerben",
+          "present": "er bewirbt sich",
+          "perfect": "er hat sich beworben"
+        },
+        "meaning": "申请",
+        "example": "Mit dem Abitur bewerben sie sich um einen Studienplatz."
+      },
+      {
+        "id": 8,
+        "type": "noun",
+        "article": "die",
+        "word": "Fachhochschule",
+        "plural": "-n",
+        "meaning": "专科高等学校（大学）",
+        "example": "Sie bewerben sich um einen Studienplatz an einer Fachhochschule."
+      },
+      {
+        "id": 9,
+        "type": "verb",
+        "forms": {
+          "infinitive": "schreiben",
+          "present": "er schreibt an jmdn.",
+          "perfect": "er hat an jmdn. geschrieben"
+        },
+        "meaning": "写信给...",
+        "example": "Sie schreibt einen Brief an ihre Versicherung."
+      },
+      {
+        "id": 10,
+        "type": "verb",
+        "forms": {
+          "infinitive": "gehen",
+          "present": "er geht auf etw.",
+          "perfect": "er ist auf etw. gegangen"
+        },
+        "meaning": "去（上学）",
+        "example": "Viele Realschüler gehen nach dem Schulabschluss auf eine Fachoberschule."
+      },
+      {
+        "id": 11,
+        "type": "noun",
+        "article": "der",
+        "word": "Schulabschluss",
+        "plural": "-ü-e",
+        "meaning": "中学毕业考试",
+        "example": "Nach zehn Jahren machen Realschüler ihren Schulabschluss."
+      },
+      {
+        "id": 12,
+        "type": "expression",
+        "word": "über uns",
+        "meaning": "关于我们",
+        "example": "Bei \"Über uns\" stehen viele Informationen zu dieser Schule."
+      },
+      {
+        "id": 13,
+        "type": "noun",
+        "article": "das",
+        "word": "Nachmittagsangebot",
+        "plural": "-e",
+        "meaning": "下午活动",
+        "example": "Lesen Sie hier über das Nachmittagsangebot für die Schüler."
+      },
+      {
+        "id": 14,
+        "type": "noun",
+        "article": "das",
+        "word": "Porträt",
+        "plural": "-s",
+        "meaning": "描写一个人的性格或生活的短文",
+        "example": "Es gibt ein Porträt des Hausmeisters und der Schulsozialarbeiterin."
+      },
+      {
+        "id": 15,
+        "type": "noun",
+        "article": "der/die",
+        "word": "Hausmeister/in",
+        "plural": "-/-nen",
+        "meaning": "宿舍管理员",
+        "example": "Es gibt ein Porträt des Hausmeisters und der Schulsozialarbeiterin."
+      },
+      {
+        "id": 16,
+        "type": "noun",
+        "article": "der/die",
+        "word": "Schlosser/in",
+        "plural": "-/-nen",
+        "meaning": "钳工，装配工",
+        "example": "Ich habe eigentlich Schlosser gelernt."
+      },
+      {
+        "id": 17,
+        "type": "verb",
+        "forms": {
+          "infinitive": "überwachen",
+          "present": "er überwacht",
+          "perfect": "er hat überwacht"
+        },
+        "meaning": "监控，监察",
+        "example": "Ich überwache die Heizung und repariere kaputte Kopiergeräte."
+      },
+      {
+        "id": 18,
+        "type": "noun",
+        "article": "das",
+        "word": "Kopiergerät",
+        "plural": "-e",
+        "meaning": "复印机",
+        "example": "Ich überwache die Heizung und repariere kaputte Kopiergeräte."
+      },
+      {
+        "id": 19,
+        "type": "verb",
+        "forms": {
+          "infinitive": "räumen",
+          "present": "er räumt",
+          "perfect": "er hat geräumt"
+        },
+        "meaning": "清除",
+        "example": "Im Winter räume ich Schnee."
+      }
+    ]
+  }
+}

@@ -1,0 +1,210 @@
+{
+  "code": 0,
+  "msg": "success",
+  "data": {
+    "total": 21,
+    "words": [
+      {
+        "id": 1,
+        "type": "noun",
+        "article": "das",
+        "word": "Klassenzimmer",
+        "plural": "-",
+        "meaning": "教室",
+        "example": "Ich wünschte, die Schüler würden ihr Klassenzimmer selber sauberhalten."
+      },
+      {
+        "id": 2,
+        "type": "verb",
+        "forms": {
+          "infinitive": "aufteilen",
+          "present": "er teilt auf",
+          "perfect": "er hat aufgeteilt"
+        },
+        "meaning": "分完，分掉",
+        "example": "Ich wünschte, ich könnte die Arbeit besser aufteilen."
+      },
+      {
+        "id": 3,
+        "type": "verb",
+        "forms": {
+          "infinitive": "einführen",
+          "present": "er führt ein",
+          "perfect": "er hat eingeführt"
+        },
+        "meaning": "采用，实行",
+        "example": "Ich wünschte, die Schule würde einen Ordnungsdienst einführen."
+      },
+      {
+        "id": 4,
+        "type": "noun",
+        "article": "das",
+        "word": "Ferienhaus",
+        "plural": "-äu-er",
+        "meaning": "度假屋",
+        "example": "Ich wäre gern in einem Ferienhaus am Strand."
+      },
+      {
+        "id": 5,
+        "type": "noun",
+        "article": "das",
+        "word": "Hotelzimmer",
+        "plural": "-",
+        "meaning": "宾馆房间",
+        "example": "Ich würde ein Hotelzimmer mieten."
+      },
+      {
+        "id": 6,
+        "type": "noun",
+        "article": "das",
+        "word": "Zelt",
+        "plural": "-e",
+        "meaning": "帐篷",
+        "example": "Mit einem leichten Zelt könnte ich gut reisen."
+      },
+      {
+        "id": 7,
+        "type": "noun",
+        "article": "das",
+        "word": "Zugticket",
+        "plural": "-s",
+        "meaning": "火车票",
+        "example": "Ich buche mir ein Zugticket nach München."
+      },
+      {
+        "id": 8,
+        "type": "noun",
+        "article": "das",
+        "word": "Boot",
+        "plural": "-e",
+        "meaning": "小船，小艇",
+        "example": "Wir machen einen Familienurlaub mit einem Boot."
+      },
+      {
+        "id": 9,
+        "type": "noun",
+        "article": "der",
+        "word": "Familienurlaub",
+        "plural": "-e",
+        "meaning": "家庭度假",
+        "example": "Wir machen einen Familienurlaub mit einem Boot."
+      },
+      {
+        "id": 10,
+        "type": "verb",
+        "forms": {
+          "infinitive": "faulenzen",
+          "present": "er faulenzt",
+          "perfect": "er hat gefaulenzt"
+        },
+        "meaning": "发懒，无所事事",
+        "example": "Am Wochenende können wir uns entspannen und faulenzen."
+      },
+      {
+        "id": 11,
+        "type": "verb",
+        "forms": {
+          "infinitive": "ausgeben",
+          "present": "er gibt aus",
+          "perfect": "er hat ausgegeben"
+        },
+        "meaning": "支付，花费",
+        "example": "Wenn ich könnte, würde ich viel Geld ausgeben, aber ich habe keins!"
+      },
+      {
+        "id": 12,
+        "type": "noun",
+        "article": "die",
+        "word": "Physikprüfung",
+        "plural": "-en",
+        "meaning": "物理考试",
+        "example": "Die Physikprüfung ist nächste Woche."
+      },
+      {
+        "id": 13,
+        "type": "noun",
+        "article": "der",
+        "word": "Test",
+        "plural": "-s",
+        "meaning": "测试",
+        "example": "Ich muss die Prüfung wiederholen, weil ich im Test durchgefallen bin."
+      },
+      {
+        "id": 14,
+        "type": "verb",
+        "forms": {
+          "infinitive": "durchfallen",
+          "present": "er fällt durch",
+          "perfect": "er ist durchgefallen"
+        },
+        "meaning": "（考试）不及格",
+        "example": "Ich muss die Prüfung wiederholen, weil ich im Test durchgefallen bin."
+      },
+      {
+        "id": 15,
+        "type": "verb",
+        "forms": {
+          "infinitive": "installieren",
+          "present": "er installiert",
+          "perfect": "er hat installiert"
+        },
+        "meaning": "安装",
+        "example": "Könntest du mir helfen, dieses Programm zu installieren?"
+      },
+      {
+        "id": 16,
+        "type": "noun",
+        "article": "die",
+        "word": "Kreide",
+        "plural": "-n",
+        "meaning": "粉笔",
+        "example": "Auf der Tafel kann man nur mit Kreide schreiben."
+      },
+      {
+        "id": 17,
+        "type": "noun",
+        "article": "der",
+        "word": "Schulbeginn",
+        "plural": "Sg.",
+        "meaning": "上学的第一天，开学",
+        "example": "Schulbeginn wäre erst um neun Uhr."
+      },
+      {
+        "id": 18,
+        "type": "noun",
+        "article": "das",
+        "word": "Pflichtfach",
+        "plural": "-ä-er",
+        "meaning": "必修课",
+        "example": "Ich wünschte, Schach wäre ein Pflichtfach."
+      },
+      {
+        "id": 19,
+        "type": "noun",
+        "article": "das",
+        "word": "Schach",
+        "plural": "Sg.",
+        "meaning": "（国际）象棋",
+        "example": "Ich wünschte, Schach wäre ein Pflichtfach."
+      },
+      {
+        "id": 20,
+        "type": "noun",
+        "article": "das",
+        "word": "Musikinstrument",
+        "plural": "-e",
+        "meaning": "乐器",
+        "example": "Jeder müsste ein Musikinstrument erlernen."
+      },
+      {
+        "id": 21,
+        "type": "noun",
+        "article": "die",
+        "word": "Medienkunde",
+        "plural": "Sg.",
+        "meaning": "媒体学",
+        "example": "Medienkunde sollte ein Pflichtfach werden."
+      }
+    ]
+  }
+}

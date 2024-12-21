@@ -1,0 +1,153 @@
+{
+  "code": 0,
+  "msg": "success",
+  "data": {
+    "total": 16,
+    "words": [
+      {
+        "id": 1,
+        "type": "noun",
+        "article": "der",
+        "word": "Musiklehrer",
+        "plural": "-",
+        "meaning": "音乐教师",
+        "example": "Mein Musiklehrer ist immer sehr freundlich und motiviert."
+      },
+      {
+        "id": 2,
+        "type": "noun",
+        "article": "das",
+        "word": "Chemiebuch",
+        "plural": "-ü-er",
+        "meaning": "化学教科书",
+        "example": "Der Schüler hat heute sein Chemiebuch zu Hause vergessen."
+      },
+      {
+        "id": 3,
+        "type": "noun",
+        "article": "der/die",
+        "word": "Sozialarbeiter/in",
+        "plural": "-/-nen",
+        "meaning": "社会公益工作者",
+        "example": "Mit der Sozialarbeiterin kann ich über Probleme sprechen."
+      },
+      {
+        "id": 4,
+        "type": "noun",
+        "article": "der/die",
+        "word": "Mathematiklehrer/in",
+        "plural": "-/-nen",
+        "meaning": "数学教师",
+        "example": "Die Mathematiklehrerin gibt meistens gute Noten."
+      },
+      {
+        "id": 5,
+        "type": "noun",
+        "article": "der/die",
+        "word": "Vertrauenslehrer/in",
+        "plural": "-/-nen",
+        "meaning": "心理教师，辅导员",
+        "example": "Eine Vertrauenslehrerin kümmert sich um die Probleme der Schüler."
+      },
+      {
+        "id": 6,
+        "type": "noun",
+        "article": "der/die",
+        "word": "Schulsekretär/in",
+        "plural": "-e/-nen",
+        "meaning": "学校秘书",
+        "example": "Die Schulsekretärin organisiert das Leben in der Schule."
+      },
+      {
+        "id": 7,
+        "type": "noun",
+        "article": "der/die",
+        "word": "Schulzahnarzt/ärztin",
+        "plural": "-ä-e/-nen",
+        "meaning": "校牙科医生",
+        "example": "Die Schulzahnärztin kommt regelmäßig in alle Klassen."
+      },
+      {
+        "id": 8,
+        "type": "noun",
+        "article": "der",
+        "word": "Unterricht",
+        "plural": "Sg.",
+        "meaning": "课，课程",
+        "example": "Der Unterricht beginnt um acht Uhr."
+      },
+      {
+        "id": 9,
+        "type": "verb",
+        "forms": {
+          "infinitive": "beibringen",
+          "present": "er bringt bei",
+          "perfect": "er hat beigebracht"
+        },
+        "meaning": "教，教会",
+        "example": "Die Lehrer bringen den Schülern jeden Tag etwas Neues bei."
+      },
+      {
+        "id": 10,
+        "type": "noun",
+        "article": "der/die",
+        "word": "Lieblingslehrer/in",
+        "plural": "-/-nen",
+        "meaning": "最喜欢的老师",
+        "example": "Mein Lieblingslehrer war sehr jung und motiviert."
+      },
+      {
+        "id": 11,
+        "type": "noun",
+        "article": "das",
+        "word": "Lieblingsfach",
+        "plural": "-ä-er",
+        "meaning": "最喜欢的课程",
+        "example": "Physik ist mein absolutes Lieblingsfach."
+      },
+      {
+        "id": 12,
+        "type": "noun",
+        "article": "der",
+        "word": "Schulausflug",
+        "plural": "-ü-e",
+        "meaning": "学校郊游",
+        "example": "Der Schulausflug geht dieses Jahr nach Köln."
+      },
+      {
+        "id": 13,
+        "type": "noun",
+        "article": "die",
+        "word": "Klassenfahrt",
+        "plural": "-en",
+        "meaning": "班级旅行",
+        "example": "Wir machen eine einwöchige Klassenfahrt nach Hamburg."
+      },
+      {
+        "id": 14,
+        "type": "noun",
+        "article": "das",
+        "word": "Schulessen",
+        "plural": "-",
+        "meaning": "学校的饭菜",
+        "example": "Das Schulessen war immer schrecklich!"
+      },
+      {
+        "id": 15,
+        "type": "expression",
+        "word": "zu zweit",
+        "meaning": "两人，两个人",
+        "example": "Macht die Aufgabe bitte zu zweit."
+      },
+      {
+        "id": 16,
+        "type": "noun",
+        "article": "die",
+        "word": "Sportart",
+        "plural": "-en",
+        "meaning": "体育运动项目",
+        "example": "Sie würde gerne eine extreme Sportart ausprobieren."
+      }
+    ]
+  }
+}
